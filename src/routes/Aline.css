@@ -16,7 +16,7 @@
 
 
 .black-bg{
-    background-color: #2e2e2e;
+    background-color: #201E1F;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -87,6 +87,17 @@
     text-align: center;
     color: #FFFFFF;
     padding-bottom: 15px;
+}
+
+.text-journey{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
 }
 
 a {
