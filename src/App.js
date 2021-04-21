@@ -1,22 +1,13 @@
-import React from 'react'
-import './App.css';
-import ReactPlayer from 'react-player/lazy'
+import React from 'react';
+import {HashRouter, Route} from 'react-router-dom';
+import Home from './routes/Home';
+import Aline from './routes/Aline';
 
-
-function App() {
-  return (
-    <div className="App">
-      <div>
-        <div className='player-wrapper'>
-        <ReactPlayer className='react-player'
-          url='https://www.dailymotion.com/video/x80dy7b' 
-          loop='true' playing='true' muted = 'true'
-          width='100%' height='100%'
-        />
-      </div>
-      </div>
-    </div>
-  );
+function App(){
+  return <HashRouter>
+    <Route path='/' exact={true} component= {Home} />
+    <Route path='/aline' component= {Aline} />
+  </HashRouter>
 }
 
 export default App;
