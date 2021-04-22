@@ -134,7 +134,7 @@ function Aline() {
             </div>
             <div className='container' style={{marginTop:270,  marginBottom : 0}}>
                 <div className='text-subtitle-white'>Personal Value Index (PVI)</div>
-                <div className='text-body' style={{color : 'white', marginBottom: 90}}>Referring to MSCI ratings, we created value index system with 6 main criteria. The personal value index adjusts the investment portfolio an evaluate consumptions. <a href="https://naver.com" target='_blank' rel="noopener noreferrer" style={{color : 'white'}}>Learn more</a> </div>
+                <div className='text-body' style={{color : 'white', marginBottom: 90}}>Referring to MSCI ratings, we created value index system with 6 main criteria. The personal value index adjusts the investment portfolio an evaluate consumptions. <a href= {process.env.PUBLIC_URL + '/assets/aline/pvi-process.png'} target='_blank' rel="noopener noreferrer" style={{color : 'white'}}>Learn more</a> </div>
                 <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
                     <Grid item xs ={6} sm={2}>
                         <div className='text-pvi' style={{marginBottom:12}}>Initial Survey</div>
