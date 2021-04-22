@@ -191,7 +191,19 @@ function Aline() {
             <div className='container' style={{marginTop:280}}>
                 <Grid container spacing={3} direction='row'>
                     <Grid item xs = {12} sm = {6}>
-                        <div className='text-output'>express<br/>learn<br/>something</div>
+                        <div className='text-output'>Express<br/>Learn<br/>and Align</div>
+                    </Grid>
+                </Grid>
+            </div>
+
+            <div className='container' style={{marginTop:280}} >
+                <Grid container spacing={4} direction='row' justify="center" alignItems="center">
+                    <Grid item xs = {12} sm = {8}>
+                        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/Alarm_Consumption.gif'} alt="alarm and consumption"/>
+                    </Grid>
+                    <Grid item xs = {12} sm = {4}>
+                            <div class='text-subtitle-white'>ALIGN</div>
+                            <div class='text-body'style={{color : 'white'}}>When you pay with an app card, Aline visualize and demonstrate the value the company that users paid is aiming for.  Aline sends a warning alarm when users spend against their own values.<br/><br/>Aline also analyzes consumption history to show what value users spent on. Based on this, users can change their spending lives.</div>
                     </Grid>
                 </Grid>
             </div>
