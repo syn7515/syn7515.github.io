@@ -51,7 +51,28 @@ function Aline() {
             <div className='text-subtitle'>Problem</div>
             <div className='text-body'>As interest in the environment and society grows, interest in sustainable investment is growing accordingly. However, it is difficult to practice sustainable investment through current financial products.</div>
         </div>
-        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/problem.png'} alt="problems"/>
+        <div className ='gray-bg'>
+            <div className ='container' style={{marginTop: 0}}>
+                <Grid container spacing={2} direction='row' justify="center" alignItems="flex-start" style={{paddingBottom : 10, paddingTop: 10}}>
+                    <Grid item xs ={6} sm={3}>
+                        <div className='text-problem' style={{marginBottom : 24}}>Growing Needs of Investment for Better World</div>
+                        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/problem1.png'} alt="problem 1"/>
+                    </Grid>
+                    <Grid item xs ={6} sm={3}>
+                        <div className='text-problem' style={{marginBottom : 24}}>Growing Awareness on Sustainable Investing</div>
+                        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/problem2.png'} alt="problem 2"/>
+                    </Grid>
+                    <Grid item xs ={6} sm={3}>
+                        <div className='text-problem' style={{marginBottom : 24}}>Investor’s Tendency to Invest in thier Own Interests</div>
+                        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/problem3.png'} alt="problem 3"/>
+                    </Grid>
+                    <Grid item xs ={6} sm={3}>
+                        <div className='text-problem' style={{marginBottom : 24}}>Investment Beyond Numbers</div>
+                        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/problem4.png'} alt="problem 4"/>
+                    </Grid>
+                </Grid>
+            </div>
+        </div>
         <div className='container' style={{marginTop: 220,  marginBottom : 80}}>
             <div className='text-subtitle'>Research</div>
             <div className='text-body'>We conducted a survey to find out about Millennial's interest in sustainable growth and in-depth thoughts. In addition, we conduncted focus group interview with a group of five Millennials to complete the persona and derive the painpoint.</div>
@@ -113,8 +134,66 @@ function Aline() {
             </div>
             <div className='container' style={{marginTop:270,  marginBottom : 0}}>
                 <div className='text-subtitle-white'>Personal Value Index (PVI)</div>
-                <div className='text-body' style={{color : 'white'}}>Referring to MSCI ratings, we created value index system with 6 main criteria. The personal value index adjusts the investment portfolio an evaluate consumptions. <a href="https://naver.com" target='_blank' rel="noopener noreferrer" style={{color : 'white'}}>Learn more</a> </div>
-                <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/pvi.png'} alt="personal value index diagram" style={{marginTop:90}} />
+                <div className='text-body' style={{color : 'white', marginBottom: 90}}>Referring to MSCI ratings, we created value index system with 6 main criteria. The personal value index adjusts the investment portfolio an evaluate consumptions. <a href="https://naver.com" target='_blank' rel="noopener noreferrer" style={{color : 'white'}}>Learn more</a> </div>
+                <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
+                    <Grid item xs ={6} sm={2}>
+                        <div className='text-pvi' style={{marginBottom:12}}>Initial Survey</div>
+                        <img className="master-image" style={{marginBottom:12}} src={process.env.PUBLIC_URL + '/assets/aline/pvi-1.png'} alt="pvi 1"/>
+                    </Grid>
+                    <Grid item xs ={6} sm={2}>
+                        <div className='text-pvi' style={{marginBottom:12}}>Value Update</div>
+                        <img className="master-image" style={{marginBottom:12}} src={process.env.PUBLIC_URL + '/assets/aline/pvi-2.png'} alt="pvi 2"/>
+                    </Grid>
+                    <Grid item xs ={12} sm={4}>
+                        <Grid container spacing={1} direction='column' justify="center" alignItems="center">
+                            <Grid item >
+                                <div className='text-pvi' style={{marginBottom:24}}>Personal Value Index</div>
+                                <img className="pvi-image" src={process.env.PUBLIC_URL + '/assets/aline/pvi-3.png'} alt="pvi 3"/>
+                                <div className='text-pvi' style={{ marginTop : 12}}>↓</div>
+                            </Grid>
+                            <Grid item >
+                                <div className='text-pvi' style={{marginBottom:12}}>User Interface</div>
+                                <img className="pvi2-image" src={process.env.PUBLIC_URL + '/assets/aline/pvi-4.png'} alt="pvi 4"/>
+                            </Grid>
+                            <Grid item >
+                                <div className='text-pvi-2' style={{marginBottom:12}}>Personal Value Index is created and updated throughout using service. <br/><br/>Each color is referred from the images below. </div>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </Grid> 
+                <Grid container spacing={1} direction='row' justify="center" alignItems="flex-start">
+                    <Grid item xs ={4} sm={4} lg={2}>
+                        <div className='text-pvi-3' >Climate Change</div>
+                        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/pvi-5-1.png'} alt="climate change"/>
+                    </Grid>
+                    <Grid item xs ={4} sm={4} lg={2}>
+                        <div className='text-pvi-3'>Labor Welfare</div>
+                        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/pvi-5-2.png'} alt="Labor Welfare"/>
+                    </Grid>
+                    <Grid item xs ={4} sm={4} lg={2}>
+                        <div className='text-pvi-3'>Resource Mangement</div>
+                        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/pvi-5-3.png'} alt="Resource Mangement"/>
+                    </Grid>
+                    <Grid item xs ={4} sm={4} lg={2}>
+                        <div className='text-pvi-3'>Pollution and waste</div>
+                        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/pvi-5-4.png'} alt="Pollution and waste"/>
+                    </Grid>
+                    <Grid item xs ={4} sm={4} lg={2}>
+                        <div className='text-pvi-3'>Product Responsibility</div>
+                        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/pvi-5-5.png'} alt="Product Responsibility"/>
+                    </Grid>
+                    <Grid item xs ={4} sm={4} lg={2}>
+                        <div className='text-pvi-3'>Corporate Ethics</div>
+                        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/pvi-5-6.png'} alt="Corporate Ethics"/>
+]                    </Grid>
+                </Grid>           
+            </div>
+            <div className='container' style={{marginTop:280}}>
+                <Grid container spacing={3} direction='row'>
+                    <Grid item xs = {12} sm = {6}>
+                        <div className='text-output'>express<br/>learn<br/>something</div>
+                    </Grid>
+                </Grid>
             </div>
         </div>
     </div>);

@@ -7,6 +7,15 @@
     width: 100%;
 }
 
+.pvi-image{
+    max-width: 240px;
+}
+
+.pvi2-image{
+    max-width: 190px;
+    margin-bottom: 12px;
+}
+
 .container{
     width: 80%;
     height: 70%;
@@ -19,6 +28,10 @@
     background-color: #201E1F;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.gray-bg{
+    background-color: #EDEDED;
 }
 
 .root {
@@ -98,6 +111,57 @@
     text-align: center;
     color: #FFFFFF;
     margin-top: 15px;
+}
+
+.text-problem{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    min-height: 57px;
+}
+
+.text-pvi{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text-pvi-2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 122%;
+    color: #FFFFFF;
+    max-width: 260px;
+}
+
+.text-pvi-3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
+    min-height: 30px;
+}
+
+.text-output{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 121.5%;
+    color: #FFFFFF;
 }
 
 a {
