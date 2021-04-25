@@ -189,19 +189,36 @@ function Aline() {
                 </Grid>           
             </div>
             <div className='container' style={{marginTop:280}}>
-                <Grid container spacing={3} direction='row'>
-                    <Grid item xs = {12} sm = {6}>
+                <Grid container spacing={3} direction='row' alignment='flex-end' justify='space-between'>
+                    <Grid item sm = {12} md = {5}>
                         <div className='text-output'>Express<br/>Learn<br/>and Align</div>
                     </Grid>
+                    <Grid item sm={12} md={6} alignment='flexend' style={{marginTop : 100}}>
+                        <Grid container spacing={0} direction='row'>
+                            <Grid item sm={12} md={3}><div className='text-subtitle-white'>LEARN</div></Grid>
+                            <Grid item sm={12} md={9}><div className='text-body' style={{color: 'white', marginTop: 0}}>A ring-shaped interface represents colors that correspond to the value that the portfolio focuses on.<br/><br/>In addition, while traditional investment services only provide financial information, Aline shows ESG information for companies currently investing in.</div></Grid>
+                        </Grid>
+                    </Grid>
+                </Grid>
+                <img className="center" style={{marginTop: 70}} src={process.env.PUBLIC_URL + '/assets/aline/learn.png'} alt="app screen and element"/>
+            </div>
+
+            <div className='container' style={{marginTop:280}}>
+                <Grid container spacing={2} direction='row' alignItems='center' >
+                    <Grid container sm={12} md={4} direction='column' alignment='flex-start'>
+                        <Grid item ><div className='text-subtitle-white'>EXPRESS</div></Grid>
+                        <Grid item ><div className='text-body' style={{color: 'white'}}>A ring-shaped interface represents colors that correspond to the value that the portfolio focuses on.<br/><br/>In addition, while traditional investment services only provide financial information, Aline shows ESG information for companies currently investing in.</div></Grid>
+                    </Grid>
+                    <Grid item sm={12} md={4}><img className="news" style={{margin: 50}} src={process.env.PUBLIC_URL + '/assets/aline/dailynews.gif'} alt="Daily investment news update"/></Grid>
                 </Grid>
             </div>
 
             <div className='container' style={{marginTop:280}} >
                 <Grid container spacing={4} direction='row' justify="center" alignItems="center">
-                    <Grid item xs = {12} sm = {8}>
+                    <Grid item sm = {12} md = {8}>
                         <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/Alarm_Consumption.gif'} alt="alarm and consumption"/>
                     </Grid>
-                    <Grid item xs = {12} sm = {4}>
+                    <Grid item sm = {12} md = {4}>
                             <div class='text-subtitle-white'>ALIGN</div>
                             <div class='text-body'style={{color : 'white'}}>When you pay with an app card, Aline visualize and demonstrate the value the company that users paid is aiming for.  Aline sends a warning alarm when users spend against their own values.<br/><br/>Aline also analyzes consumption history to show what value users spent on. Based on this, users can change their spending lives.</div>
                     </Grid>
