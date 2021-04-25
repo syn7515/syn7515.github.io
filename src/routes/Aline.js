@@ -98,7 +98,7 @@ function Aline() {
         <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/wire-frame.png'} alt="wire-frame"/>
 
         <div className='black-bg' style={{marginTop: 180}}>
-            <div className='background' style={{ backgroundImage: `url(${background})`, marginTop:150}}>
+            <div className='background' style={{ backgroundImage: `url(${background})`, marginTop:200}}>
                 <div className='container' style={{marginTop:0,  marginBottom : 70}}>
                     <div className='text-phrase' style={{marginBottom : 30}}>We align investment and consumption with your value</div>
                     <div className='text-phrase-explanation' style={{marginBottom : 75}}>Beyond profit-making, Aline delivers value and the impact of money. By gathering the data from the initial survey and regular value updates, the index is weighted according to the user’s value. Based on index, the investment portfolio will be adjusted and consumption againtst the value will be ararmed.</div>
@@ -132,7 +132,7 @@ function Aline() {
                 </Grid>
                 </Grid>
             </div>
-            <div className='container' style={{marginTop:270,  marginBottom : 0}}>
+            <div className='container' style={{marginTop:300,  marginBottom : 0}}>
                 <div className='text-subtitle-white'>Personal Value Index (PVI)</div>
                 <div className='text-body' style={{color : 'white', marginBottom: 90}}>Referring to MSCI ratings, we created value index system with 6 main criteria. The personal value index adjusts the investment portfolio an evaluate consumptions. <a href= {process.env.PUBLIC_URL + '/assets/aline/pvi-process.png'} target='_blank' rel="noopener noreferrer" style={{color : 'white'}}>Learn more</a> </div>
                 <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
@@ -188,7 +188,7 @@ function Aline() {
 ]                    </Grid>
                 </Grid>           
             </div>
-            <div className='container' style={{marginTop:280}}>
+            <div className='container' style={{marginTop:300}}>
                 <Grid container spacing={3} direction='row' alignment='flex-end' justify='space-between'>
                     <Grid item sm = {12} md = {5}>
                         <div className='text-output'>Express<br/>Learn<br/>and Align</div>
@@ -224,6 +224,12 @@ function Aline() {
                     </Grid>
                 </Grid>
             </div>
+                <div className='container' style={{marginTop:300,  marginBottom : 50}}>
+                    <div className='text-phrase' style={{marginBottom : 30}}>User’s finance will align you, companies, and the society</div>
+                    <div className='text-phrase-explanation' style={{marginBottom : 50}}>Aline is the first financial service in Korea which provides personalized finance in accordance with users’ personal values, delivering ESG information in a more user-friendly language. By helping users to maintain their values while they invest and consume, it motivates people to have higher standards for companies in terms of sustainability, and thereby providing market entries and capital to companies with innovative ideas. Aline aims to make virtuous cycle of making our society more sustainable.</div>
+                </div>
+                <img className="impact" style={{ marginBottom : 100}} src={process.env.PUBLIC_URL + '/assets/aline/impact.png'} alt="impact diagram"/>
+
         </div>
     </div>);
 }

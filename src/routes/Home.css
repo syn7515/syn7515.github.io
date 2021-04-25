@@ -1,36 +1,27 @@
 .Home {
-    text-align: center;
+    text-align: left;
+    width: 90%;
+    height: 80%;
+    max-width: 1600px;
+    margin: 50px auto;
   }
+
+.text-name{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  min-width: 260px;
+
+}
+
+.text-normal{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+}
   
-  .full-screen{
-    height: 100vh;
-  }
-  
-  .Home-logo {
-    height: 40vmin;
-    pointer-events: none;
-  }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .Home-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
-  
-  .Home-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
-  .Home-link {
-    color: #61dafb;
-  }
   
   .player-wrapper {
     position: relative;
@@ -42,13 +33,15 @@
     top: 0;
     left: 0;
   }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+
+  .paragraph{
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
   
+.link{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  }
