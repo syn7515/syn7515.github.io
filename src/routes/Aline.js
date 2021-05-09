@@ -52,22 +52,22 @@ function Aline() {
             <div className='text-body'>As interest in the environment and society grows, interest in sustainable investment is growing accordingly. However, it is difficult to practice sustainable investment through current financial products.</div>
         </div>
         <div className ='gray-bg'>
-            <div className ='container' style={{marginTop: 0}}>
-                <Grid container spacing={2} direction='row' justify="center" alignItems="flex-start" style={{paddingBottom : 10, paddingTop: 10}}>
+            <div className ='container' style={{marginTop: 0, paddingTop: 50, paddingBottom: 50}}>
+                <Grid container spacing={2} direction='row' justify="center" alignItems="flex-start" >
                     <Grid item xs ={6} sm={3}>
-                        <div className='text-problem' style={{marginBottom : 24}}>Growing Needs of Investment for Better World</div>
+                        <div className='text-problem' style={{marginBottom : 10}}>Growing Needs of Investment for Better World</div>
                         <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/problem1.png'} alt="problem 1"/>
                     </Grid>
                     <Grid item xs ={6} sm={3}>
-                        <div className='text-problem' style={{marginBottom : 24}}>Growing Awareness on Sustainable Investing</div>
+                        <div className='text-problem' style={{marginBottom : 10}}>Growing Awareness on Sustainable Investing</div>
                         <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/problem2.png'} alt="problem 2"/>
                     </Grid>
                     <Grid item xs ={6} sm={3}>
-                        <div className='text-problem' style={{marginBottom : 24}}>Investor’s Tendency to Invest in thier Own Interests</div>
+                        <div className='text-problem' style={{marginBottom : 10}}>Investor’s Tendency to Invest in thier Own Interests</div>
                         <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/problem3.png'} alt="problem 3"/>
                     </Grid>
                     <Grid item xs ={6} sm={3}>
-                        <div className='text-problem' style={{marginBottom : 24}}>Investment Beyond Numbers</div>
+                        <div className='text-problem' style={{marginBottom : 10}}>Investment Beyond Numbers</div>
                         <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/problem4.png'} alt="problem 4"/>
                     </Grid>
                 </Grid>
@@ -94,8 +94,9 @@ function Aline() {
         <div className='container' style={{marginTop: 210,  marginBottom : 80}}>
             <div className='text-subtitle'>Wire Frame</div>
             <div className='text-body'>To avoid complicated impressions, important information was placed at the center of each tap and details were placed on swiped cards.</div>
+            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/wire.png'} style={{marginTop : 70}} alt="wire-frame"/>
         </div>
-        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/wire-frame.png'} alt="wire-frame"/>
+       
 
         <div className='black-bg' style={{marginTop: 180}}>
             <div className='background' style={{ backgroundImage: `url(${background})`, marginTop:200}}>
@@ -191,7 +192,7 @@ function Aline() {
             <div className='container' style={{marginTop:300}}>
                 <Grid container spacing={3} direction='row' alignment='flex-end' justify='space-between'>
                     <Grid item sm = {12} md = {5}>
-                        <div className='text-output'>Express<br/>Learn<br/>and Align</div>
+                        <div className='text-output'>Learn<br/>Express<br/>and Align</div>
                     </Grid>
                     <Grid item sm={12} md={6} alignment='flexend' style={{marginTop : 100}}>
                         <Grid container spacing={0} direction='row'>
@@ -225,7 +226,7 @@ function Aline() {
                 </Grid>
             </div>
                 <div className='container' style={{marginTop:300,  marginBottom : 50}}>
-                    <div className='text-phrase' style={{marginBottom : 30}}>User’s finance will align you, companies, and the society</div>
+                    <div className='text-phrase-gradient' style={{marginBottom : 30}}>User’s finance will align you, companies, and the society</div>
                     <div className='text-phrase-explanation' style={{marginBottom : 50}}>Aline is the first financial service in Korea which provides personalized finance in accordance with users’ personal values, delivering ESG information in a more user-friendly language. By helping users to maintain their values while they invest and consume, it motivates people to have higher standards for companies in terms of sustainability, and thereby providing market entries and capital to companies with innovative ideas. Aline aims to make virtuous cycle of making our society more sustainable.</div>
                 </div>
                 <img className="impact" style={{ marginBottom : 100}} src={process.env.PUBLIC_URL + '/assets/aline/impact.png'} alt="impact diagram"/>

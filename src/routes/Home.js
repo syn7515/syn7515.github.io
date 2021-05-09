@@ -64,8 +64,8 @@ React.useEffect(() => {
           </Grid>
         </Grid>
         <Grid sm={12} md={1} container direction='column'>
-          <Grid item><div><a href=''>CV</a></div></Grid>
-          <Grid item><div><a href=''>Linkedin</a></div></Grid>
+          <Grid item><div><a href='https://naver.com'>CV</a></div></Grid>
+          <Grid item><div><a href='https:/linkedin.com'>Linkedin</a></div></Grid>
         </Grid>
       </Grid>
     </div>

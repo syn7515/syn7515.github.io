@@ -94,14 +94,14 @@
 .text-subtitle{
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 21px;
+    line-height: 25px;
 }
 
 .text-subtitle-white{
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 21px;
     color : #FFFFFF;
 }
@@ -113,8 +113,35 @@
     font-size: 36px;
     line-height: 54px; 
     text-align: center;
-    color: #FFFFFF;
-    
+    color: #FFFFFF; 
+}
+
+.text-phrase-gradient{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px; 
+    text-align: center;
+    background-color: #ffffff;
+    background-image: linear-gradient(45deg, #ed5b51,#ed5b51, #0c5ba6, #28b4e9, #1eaa7e, #fcb95c, #f0beb5,#f0beb5);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.text-phrase-gradient{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px; 
+    text-align: center;
+    background-color: #ffffff;
+    background-image: linear-gradient(45deg, #ed5b51,#ed5b51, #0c5ba6, #28b4e9, #1eaa7e, #fcb95c, #f0beb5,#f0beb5);
+    background-image: conic-gradient(45deg, #ed5b51,#ed5b51, #0c5ba6, #28b4e9, #1eaa7e, #fcb95c, #f0beb5,#f0beb5);
 }
 
 .text-phrase-explanation{
