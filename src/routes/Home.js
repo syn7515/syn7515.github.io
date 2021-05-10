@@ -49,7 +49,7 @@ React.useEffect(() => {
                 <Grid container direction='column'>
                   <Link className='link' to='/aline'>Loopin</Link>
                   <Link className='link' to='/'>Scent</Link>
-                  <Link className='link' to='/'>something</Link>
+                  <Link className='link' to='/'>Stick-it</Link>
                 </Grid>
               </Grid>
             </Grid>

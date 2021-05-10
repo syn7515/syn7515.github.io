@@ -25,7 +25,7 @@ function Aline() {
                 </Grid>
                 <Grid item xs ={6} sm={3}>
                     <div className='text-subtitle'>Contribution</div>
-                    <div className='text-body'>User Research<br/>GUI Design<br/>Video Editing</div>
+                    <div className='text-body'>Team Project (30%)<br/>User Research<br/>UI Design</div>
                 </Grid>
                 <Grid item xs ={6} sm={3}>
                     <div className='text-subtitle'>Award</div>
