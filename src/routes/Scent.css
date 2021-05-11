@@ -1,0 +1,217 @@
+.Scent{
+    width: 100%;
+    text-align: left;
+}
+
+
+.master-image{
+    width: 100%;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 830px;
+    width: 100%;
+
+}
+
+.news{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    width: 100%;
+}
+
+.impact{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    width: 100%;
+}
+
+.pvi-image{
+    max-width: 240px;
+}
+
+.pvi2-image{
+    max-width: 190px;
+    margin-bottom: 12px;
+}
+
+.container{
+    width: 90%;
+    height: 70%;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+
+.black-bg{
+    background-color: #201E1F;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.gray-bg{
+    background-color: #EDEDED;
+}
+
+.root {
+    display: flex;
+    offset: 60;
+    max-width: 1440;
+    grid-template-columns: 1fr;
+}
+
+.text-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+
+
+.text-explanation{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 150%;
+}
+
+.text-body{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 20px;
+}
+
+.text-subtitle{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.text-subtitle-white{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 21px;
+    color : #FFFFFF;
+}
+
+.text-phrase{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px; 
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+
+
+
+.text-phrase-explanation{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+
+.text-journey{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.text-problem{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    min-height: 57px;
+}
+
+.text-pvi{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text-pvi-2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 122%;
+    color: #FFFFFF;
+    max-width: 260px;
+}
+
+.text-pvi-3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
+    min-height: 30px;
+}
+
+.text-output{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 121.5%;
+    color: #FFFFFF;
+}
+
+a {
+    color:black;
+  }
+
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+    width: 80%;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+  
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+.background{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
