@@ -24,26 +24,24 @@ function Home()  {
                 <Divider classes={{root : classes.divider}} orientation="vertical" flexItem='true' style={{marginRight:"-1px"}}/>
                 <Grid item className='grid-item' xs={12} sm={4}>
                         <div className='text-category'>Sooyeon Park</div>
-                        <div className='text-main' >I am a senior student studying <a href='https://id.kaist.ac.kr'> Industrial Design</a> at KAIST, also interested in architecture and programming.</div>
+                        <div className='text-main' >I am a senior student studying <a href='https://id.kaist.ac.kr' target="_blank" rel="noopener noreferrer"> Industrial Design</a> at KAIST, also interested in architecture and programming.</div>
                 </Grid>
                 <Divider classes={{root : classes.divider}} orientation="vertical" flexItem='true' style={{marginRight:"-1px"}}/>
                 <Grid item className='grid-item' xs={12} sm={4}>
                     <div className='text-category'>Project</div>
                     <Grid container direction='row'>
                         <Grid item xs={6}>
-                            <Grid container direction='column'>
-                            <Link className='link' to='/aline'>Aline</Link>
-                            <Link className='link' to='/'>Hugo</Link>
-                            <Link className='link' to='/'>Flot</Link>
-                            <Link className='link' to='/'>Voix</Link>
-                            </Grid>
+                            
+                            <Link className='link' to='/aline'>Aline</Link><br/>
+                            <Link className='link' to='/' style={{color: 'gray'}}>Hugo</Link><br/>
+                            <Link className='link' to='/' style={{color: 'gray'}}>Flot</Link><br/>
+                            <Link className='link' to='/' style={{color: 'gray'}}>Voix</Link>
+                            
                         </Grid>
                         <Grid item xs={6}>
-                            <Grid container direction='column'>
-                            <Link className='link' to='/'>Loopin</Link>
-                            <Link className='link' to='/scent'>Scent</Link>
-                            <Link className='link' to='/'>Stick-it</Link>
-                            </Grid>
+                            <Link className='link' to='/' style={{color: 'gray'}}>Loopin</Link><br/>
+                            <Link className='link' to='/scent'>Scent</Link><br/>
+                            <Link className='link' to='/' style={{color: 'gray'}}>Stick-it</Link>
                         </Grid>
                     </Grid>
                 </Grid>
