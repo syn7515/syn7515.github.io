@@ -15,7 +15,7 @@ function Aline() {
         <div className= 'container'>
             <div className='text-title'>Aline</div>
             <div className='text-explanation'>ESG Roobo-adviser service</div>
-            <p className = 'text-body'><br/>Aline is a ESG Rovo-advisor based financial service focusing on individual’s governing value. In addition to earning profit through investment, users can help chaning the world positively by supporting corporates that are in align with their value.  </p>
+            <div className = 'text-body'><br/>Aline is a ESG Rovo-advisor based financial service focusing on individual’s governing value. In addition to earning profit through investment, users can help chaning the world positively by supporting corporates that are in align with their value.  </div>
         </div>
         <div className='container' style={{marginTop:180}}>
             <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
