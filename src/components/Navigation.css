@@ -2,8 +2,8 @@
     position: fixed;
     width: 100%;
     max-width: 1080px;
-    top: 20px;
-    right: 20px;
+    top: 0px;
+    right:5px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -16,9 +16,9 @@
     font-size: 16px;
     text-align: center;
     font-weight: 600;
-    margin: 10px
+    margin: 8px
   }
  
   .nav a:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 15px;
   }
