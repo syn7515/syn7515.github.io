@@ -8,6 +8,7 @@ function Scent() {
 
     return (
     <div className="Scent">
+        <div style={{height: 54}}></div>
         <img className="master-image" src={process.env.PUBLIC_URL + '/assets/scent/master.png'} alt="master of scent"/>
         <div className= 'container'>
             <div className='text-title'>Scent</div>

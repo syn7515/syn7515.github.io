@@ -11,6 +11,7 @@ function Aline() {
 
     return (
     <div className="Aline">
+        <div style={{height: 54}}></div>
         <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/master.png'} alt="master of aline"/>
         <div className= 'container'>
             <div className='text-title'>Aline</div>
@@ -210,7 +211,7 @@ function Aline() {
                         <Grid item ><div className='text-subtitle-white'>EXPRESS</div></Grid>
                         <Grid item ><div className='text-body' style={{color: 'white'}}>A ring-shaped interface represents colors that correspond to the value that the portfolio focuses on.<br/><br/>In addition, while traditional investment services only provide financial information, Aline shows ESG information for companies currently investing in.</div></Grid>
                     </Grid>
-                    <Grid item sm={12} md={4}><img className="news" style={{margin: 50}} src={process.env.PUBLIC_URL + '/assets/aline/dailynews.gif'} alt="Daily investment news update"/></Grid>
+                    <Grid item sm={12} md={4}><img className="news" src={process.env.PUBLIC_URL + '/assets/aline/dailynews.gif'} alt="Daily investment news update"/></Grid>
                 </Grid>
             </div>
 
