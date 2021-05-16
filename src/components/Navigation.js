@@ -6,8 +6,6 @@ import "./Navigation.css";
 
 function Navigation(){
     let location =useLocation();
-    console.log(location.pathname);
-
     return (
     <div className="nav">
         {location.pathname === '/' ? null : <Link to='/'>Home</Link>}

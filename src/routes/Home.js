@@ -4,6 +4,7 @@ import Divider from '@material-ui/core/Divider';
 import './Home.css';
 import { Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core';
+import Copyright from '../components/Copyright';
 
 
 
@@ -46,7 +47,7 @@ function Home()  {
                     </Grid>
                 </Grid>
                 <Divider classes={{root : classes.divider}} orientation="vertical" flexItem='true' style={{marginRight:"-1px"}}/>
-                <Grid item className='grid-item' xs={12} sm={4}>
+                <Grid item className='grid-item' xs={12} sm={4} style={{marginBottom : 50}}>
                     <div className='text-category'>Experience</div>
                     <Grid container direction='column' spacing={3}>
                         <Grid item><div className='text-main'>Internship at  UX lab <br/>2020.09 - 2020.10<br/>Research Assistant</div></Grid>
@@ -57,7 +58,7 @@ function Home()  {
                 <Divider classes={{root : classes.divider}} orientation="vertical" flexItem='true' style={{marginRight:"-1px"}}/>
                 
             </Grid>
-            
+            <Copyright/>
         </div>
     );
 
