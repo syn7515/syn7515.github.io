@@ -19,8 +19,10 @@ function Home()  {
 
     const classes = useStyles();
 
+
     return(
-        <div className="Home" style={{marginTop: 0, marginBottom: 0}}>
+        <div className="Home" >
+            <div className="wrapper" style={{marginTop: 0, marginBottom: 0}}>
             <Grid container className='grid-container' direction='row' justify='space-between' alignItems='flex-start'>
                 <Divider classes={{root : classes.divider}} orientation="vertical" flexItem='true' style={{marginRight:"-1px"}}/>
                 <Grid item className='grid-item' xs={12} sm={4}>
@@ -59,6 +61,7 @@ function Home()  {
                 
             </Grid>
             <Copyright/>
+            </div>
         </div>
     );
 
