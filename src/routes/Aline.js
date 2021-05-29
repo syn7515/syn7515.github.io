@@ -54,7 +54,7 @@ function Aline() {
         </div>
         <div className ='gray-bg'>
             <div className ='container' style={{marginTop: 0, paddingTop: 50, paddingBottom: 50}}>
-                <Grid container spacing={2} direction='row' justify="center" alignItems="flex-start" >
+                <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start" >
                     <Grid item xs ={6} sm={3}>
                         <div className='text-problem' style={{marginBottom : 10}}>Growing Needs of Investment for Better World</div>
                         <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/problem1.png'} alt="problem 1"/>
@@ -108,27 +108,27 @@ function Aline() {
             </div>
             <div className='container'>
                 <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
-                <Grid item xs ={6} sm={4} lg={2}>
+                <Grid item xs ={5} sm={4} lg={2}>
                     <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/journey1.png'} alt="user journey 1"/>
                     <div className='text-journey'>Start Aline</div>
                 </Grid>
-                <Grid item xs ={6} sm={4} lg={2}>
+                <Grid item xs ={5} sm={4} lg={2}>
                     <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/journey2.png'} alt="user journey 2"/>
                     <div className='text-journey'>Set Personal values</div>
                 </Grid>
-                <Grid item xs ={6} sm={4} lg={2}>
+                <Grid item xs ={5} sm={4} lg={2}>
                     <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/journey3.png'} alt="user journey 3"/>
                     <div className='text-journey'>Start Investment based on personal values</div>
                 </Grid>
-                <Grid item xs ={6} sm={4} lg={2}>
+                <Grid item xs ={5} sm={4} lg={2}>
                     <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/journey4.png'} alt="user journey 4"/>
                     <div className='text-journey'>Check the financial and social impact</div>
                 </Grid>
-                <Grid item xs ={6} sm={4} lg={2}>
+                <Grid item xs ={5} sm={4} lg={2}>
                     <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/journey5.png'} alt="user journey 5"/>
                     <div className='text-journey'>Update the portfolio thorugh value update</div>
                 </Grid>
-                <Grid item xs ={6} sm={4} lg={2}>
+                <Grid item xs ={5} sm={4} lg={2}>
                     <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/journey6.png'} alt="user journey 6"/>
                     <div className='text-journey'>Check company’s value during payment</div>
                 </Grid>
@@ -138,11 +138,11 @@ function Aline() {
                 <div className='text-subtitle-white'>Personal Value Index (PVI)</div>
                 <div className='text-body' style={{color : 'white', marginBottom: 90}}>Referring to MSCI ratings, we created value index system with 6 main criteria. The personal value index adjusts the investment portfolio an evaluate consumptions. <a href= {process.env.PUBLIC_URL + '/assets/aline/pvi-process.png'} target='_blank' rel="noopener noreferrer" style={{color : 'white'}}>Learn more</a> </div>
                 <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
-                    <Grid item xs ={6} sm={2}>
+                    <Grid item xs ={5} sm={2}>
                         <div className='text-pvi' style={{marginBottom:12}}>Initial Survey</div>
                         <img className="master-image" style={{marginBottom:12}} src={process.env.PUBLIC_URL + '/assets/aline/pvi-1.png'} alt="pvi 1"/>
                     </Grid>
-                    <Grid item xs ={6} sm={2}>
+                    <Grid item xs ={5} sm={2}>
                         <div className='text-pvi' style={{marginBottom:12}}>Value Update</div>
                         <img className="master-image" style={{marginBottom:12}} src={process.env.PUBLIC_URL + '/assets/aline/pvi-2.png'} alt="pvi 2"/>
                     </Grid>
@@ -158,7 +158,7 @@ function Aline() {
                                 <img className="pvi2-image" src={process.env.PUBLIC_URL + '/assets/aline/pvi-4.png'} alt="pvi 4"/>
                             </Grid>
                             <Grid item >
-                                <div className='text-pvi-2' style={{marginBottom:12}}>Personal Value Index is created and updated throughout using service. <br/><br/>Each color is referred from the images below. </div>
+                                <div className='text-pvi-2' style={{marginBottom:25}}>Personal Value Index is created and updated throughout using service. <br/><br/>Each color is referred from the images below. </div>
                             </Grid>
                         </Grid>
                     </Grid>
@@ -206,12 +206,12 @@ function Aline() {
             </div>
 
             <div className='container' style={{marginTop:280}}>
-                <Grid container spacing={2} direction='row' alignItems='center' >
+                <Grid container spacing={4} direction='row' alignItems='center' >
                     <Grid container sm={12} md={4} direction='column' alignment='flex-start'>
                         <Grid item ><div className='text-subtitle-white'>EXPRESS</div></Grid>
                         <Grid item ><div className='text-body' style={{color: 'white'}}>A ring-shaped interface represents colors that correspond to the value that the portfolio focuses on.<br/><br/>In addition, while traditional investment services only provide financial information, Aline shows ESG information for companies currently investing in.</div></Grid>
                     </Grid>
-                    <Grid item sm={12} md={4}><img className="news" src={process.env.PUBLIC_URL + '/assets/aline/dailynews.gif'} alt="Daily investment news update"/></Grid>
+                    <Grid item sm={12} md={8}><img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/dailynews.gif'} alt="Daily investment news update"/></Grid>
                 </Grid>
             </div>
 

@@ -17,15 +17,21 @@ function Scent() {
         </div>
         <div className='container' style={{marginTop:180}}>
             <Grid container spacing={3} direction='row' justify="flex-start" alignItems="flex-start">
-                <Grid item xs ={6} sm={4}>
+                <Grid item xs ={6} sm={3}>
                     <div className='text-subtitle'>Output</div>
                     <div className='text-body'>Furniture Design<br/>Branding</div>
                 </Grid>
-                <Grid item xs ={6} sm={4}>
+                <Grid item xs ={6} sm={3}>
                     <div className='text-subtitle'>Contribution</div>
                     <div className='text-body'>Personal Project(100%)</div>
                 </Grid>
-                <Grid item xs ={6} sm={4}>
+                <Grid item xs ={6} sm={3}>
+                    <div className='text-subtitle'>Patent</div>
+                    <div className='text-body'>
+                        <a href="https://doi.org/10.8080/1020190028367?urlappend=en" target="_blank" rel="noopener noreferrer">Korea Patent 10-2256746</a>
+                    </div>
+                </Grid>
+                <Grid item xs ={6} sm={3}>
                     <div className='text-subtitle'>Duration</div>
                     <div className='text-body'>2 months (2018.10 - 2018.12)</div>
                 </Grid>

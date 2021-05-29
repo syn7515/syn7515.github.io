@@ -1,12 +1,9 @@
 .Scent{
     width: 100%;
     text-align: left;
-    
+    background-color: white;
 }
 
-.master-image{
-    width: 100%;
-}
 
 .center{
     display: block;
@@ -16,61 +13,11 @@
     width: 100%;
 }
 
-
-.container{
-    width: 90%;
-    height: 70%;
-    max-width: 1200px;
-    margin: 100px auto;
-}
-
-
-.black-bg{
-    background-color: #201E1F;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.gray-bg{
-    background-color: #EDEDED;
-}
-
 .root {
     display: flex;
     offset: 60;
     max-width: 1440;
     grid-template-columns: 1fr;
-}
-
-.text-title{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
-}
-
-
-
-.text-explanation{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 150%;
-}
-
-.text-body{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 150%;
-    margin-top: 20px;
-}
-
-.text-subtitle{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 21px;
-    line-height: 25px;
 }
 
 

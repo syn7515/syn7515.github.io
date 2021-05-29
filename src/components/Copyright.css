@@ -7,5 +7,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
+    color: #fff;
+    mix-blend-mode: difference;
   }
  

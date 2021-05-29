@@ -8,17 +8,20 @@
     flex-direction: row;
     justify-content: flex-end;
     padding: 10px 20px;
+    mix-blend-mode: difference;
+    color: #fff;
   }
  
   .nav a {
     text-decoration: none;
-    color: #000000;
     font-size: 16px;
     text-align: center;
     font-weight: 600;
-    margin: 8px
+    margin: 8px;
   }
  
   .nav a:not(:last-child) {
     margin-right: 15px;
+    color: #ffffff;
+    mix-blend-mode: difference;
   }
