@@ -34,12 +34,12 @@
 .grid-item{
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
 .text-category{
 font-family: monument-extended;
-font-weight: bold;
+font-weight: regular;
 font-size: 18px;
 line-height: 21px;
 letter-spacing: -0.11em;

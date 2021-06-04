@@ -29,9 +29,7 @@ body {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 .player-wrapper {
   position: relative;
@@ -44,11 +42,4 @@ body {
   left: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

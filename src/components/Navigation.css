@@ -10,6 +10,7 @@
     padding: 10px 20px;
     mix-blend-mode: difference;
     color: #fff;
+    z-index: 2;
   }
  
   .nav a {

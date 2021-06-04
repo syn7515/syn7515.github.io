@@ -31,7 +31,7 @@ function Home()  {
             <Grid container className='grid-container' direction='row' justify='space-between' alignItems='flex-start'>
                 <Divider classes={{root : classes.divider}} orientation="vertical" flexItem='true' style={{marginLeft:"-1px"}}/>
                 <Grid item className='grid-item' xs={12} sm={4}>
-                        <div className='text-category'>SOOYEON PARK</div>
+                        <div style={{marginBottom: 25}}><Link className='text-category' to='/about'>SOOYEON PARK</Link></div>
                         <div className='text-main' >I am a senior student studying <a href='https://id.kaist.ac.kr' target="_blank" rel="noopener noreferrer" className='a_diff'> Industrial Design at KAIST</a>, interested in architecture and programming.</div>
                 </Grid>
                 <Divider classes={{root : classes.divider}} orientation="vertical" flexItem='true' style={{marginRight:"-1px"}}/>
