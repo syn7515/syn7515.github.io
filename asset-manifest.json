@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.88b45600.chunk.css",
-    "main.js": "/static/js/main.13b03358.chunk.js",
-    "main.js.map": "/static/js/main.13b03358.chunk.js.map",
+    "main.js": "/static/js/main.65963226.chunk.js",
+    "main.js.map": "/static/js/main.65963226.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8efba465.js",
     "runtime-main.js.map": "/static/js/runtime-main.8efba465.js.map",
     "static/js/2.2ac4c5b2.chunk.js": "/static/js/2.2ac4c5b2.chunk.js",
@@ -13,13 +13,18 @@
     "static/css/main.88b45600.chunk.css.map": "/static/css/main.88b45600.chunk.css.map",
     "static/js/2.2ac4c5b2.chunk.js.LICENSE.txt": "/static/js/2.2ac4c5b2.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/static/media/MonumentExtended-Regular.bb4d7a40.woff2",
+    "static/media/aline.52e01bd1.png": "/static/media/aline.52e01bd1.png",
+    "static/media/flot.00530f57.png": "/static/media/flot.00530f57.png",
+    "static/media/hugo.1b000c0d.png": "/static/media/hugo.1b000c0d.png",
     "static/media/scent.bbe533ab.png": "/static/media/scent.bbe533ab.png",
-    "static/media/stick-it.9fe7c94d.png": "/static/media/stick-it.9fe7c94d.png"
+    "static/media/stick-it.6a0f8805.png": "/static/media/stick-it.6a0f8805.png",
+    "static/media/video.6df1f43e.png": "/static/media/video.6df1f43e.png",
+    "static/media/vstage.11730173.png": "/static/media/vstage.11730173.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8efba465.js",
     "static/js/2.2ac4c5b2.chunk.js",
     "static/css/main.88b45600.chunk.css",
-    "static/js/main.13b03358.chunk.js"
+    "static/js/main.65963226.chunk.js"
   ]
 }
