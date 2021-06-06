@@ -11,6 +11,8 @@ import aline from '../img/aline.png'
 import vstage from '../img/vstage.png'
 import hugo from '../img/hugo.png'
 import flot from '../img/flot.png'
+import video from '../img/video.png'
+
 
 
 
@@ -51,20 +53,25 @@ function Home()  {
                                 onMouseLeave={() => setBgImg(null)}>Hugo</Link><br/>
                             <Link className='link' to='/' style={{color: 'gray'}}
                                 onMouseEnter={() => setBgImg(flot)}
-                                onMouseLeave={() => setBgImg(null)}>Flot</Link><br/>
-                            <Link className='link' to='/' style={{color: 'gray'}}
-                                onMouseEnter={() => setBgImg(vstage)}
-                                onMouseLeave={() => setBgImg(null)}>V stage</Link>
+                                onMouseLeave={() => setBgImg(null)}>Flot</Link><br/><br/>
+                            
                             
                         </Grid>
                         <Grid item xs={6}>
-                            <Link className='link' to='/' style={{color: 'gray'}}>Loopin</Link><br/>
                             <Link className='link' to='/scent'
                                 onMouseEnter={() => setBgImg(scent)}
                                 onMouseLeave={() => setBgImg(null)}>Scent</Link><br/>
                             <Link className='link' to='/' style={{color: 'gray'}} 
                                 onMouseEnter={() => setBgImg(stickit)}
-                                onMouseLeave={() => setBgImg(null)}> Stick-it </Link>
+                                onMouseLeave={() => setBgImg(null)}> Stick-it </Link><br/>
+                            <Link className='link' to='/' style={{color: 'gray'}}
+                                onMouseEnter={() => setBgImg(vstage)}
+                                onMouseLeave={() => setBgImg(null)}>V stage</Link>
+                        </Grid>
+                        <Grid item xs={6}>
+                            <Link className='link' to='/' style={{color: 'gray', marginTop: 50}}
+                            onMouseEnter={() => setBgImg(video)}
+                            onMouseLeave={() => setBgImg(null)}>videos</Link>
                         </Grid>
                     </Grid>
                 </Grid>
