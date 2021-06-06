@@ -7,7 +7,10 @@ import { makeStyles } from '@material-ui/core';
 import Copyright from '../components/Copyright';
 import stickit from '../img/stick-it.png';
 import scent from '../img/scent.png'
-
+import aline from '../img/aline.png'
+import vstage from '../img/vstage.png'
+import hugo from '../img/hugo.png'
+import flot from '../img/flot.png'
 
 
 
@@ -40,10 +43,18 @@ function Home()  {
                     <Grid container direction='row'>
                         <Grid item xs={6}>
                             
-                            <Link className='link' to='/aline'>Aline</Link><br/>
-                            <Link className='link' to='/' style={{color: 'gray'}}>Hugo</Link><br/>
-                            <Link className='link' to='/' style={{color: 'gray'}}>Flot</Link><br/>
-                            <Link className='link' to='/' style={{color: 'gray'}}>Voix</Link>
+                            <Link className='link' to='/aline'
+                                onMouseEnter={() => setBgImg(aline)}
+                                onMouseLeave={() => setBgImg(null)}>Aline</Link><br/>
+                            <Link className='link' to='/' style={{color: 'gray'}}
+                                onMouseEnter={() => setBgImg(hugo)}
+                                onMouseLeave={() => setBgImg(null)}>Hugo</Link><br/>
+                            <Link className='link' to='/' style={{color: 'gray'}}
+                                onMouseEnter={() => setBgImg(flot)}
+                                onMouseLeave={() => setBgImg(null)}>Flot</Link><br/>
+                            <Link className='link' to='/' style={{color: 'gray'}}
+                                onMouseEnter={() => setBgImg(vstage)}
+                                onMouseLeave={() => setBgImg(null)}>V stage</Link>
                             
                         </Grid>
                         <Grid item xs={6}>

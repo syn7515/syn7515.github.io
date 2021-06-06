@@ -34,7 +34,7 @@ function About() {
                     
                 </Grid>
                 <div className='react-player-wrapper' >
-                    <ReactPlayer className='react-player'  url='https://vimeo.com/532847556' playing= {true} width='100%' height='100%'/>
+                    <ReactPlayer className='react-player'  url='https://vimeo.com/559020507' playing= {true} width='100%' height='100%'/>
                 </div>    
             </div>
         </div>
