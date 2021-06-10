@@ -15,7 +15,6 @@ function Flot() {
 
     return (
     <div className="Flot">
-        <div style={{height: 54}}></div>
         <img className="master-image" src={process.env.PUBLIC_URL + '/assets/flot/master.png'} alt="master of flot"/>
         <div className= 'container'>
             <div className='text-title'>Flot</div>

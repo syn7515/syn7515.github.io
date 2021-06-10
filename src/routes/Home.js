@@ -61,7 +61,7 @@ function Home()  {
                             <Link className='link' to='/scent'
                                 onMouseEnter={() => setBgImg(scent)}
                                 onMouseLeave={() => setBgImg(null)}>Scent</Link><br/>
-                            <Link className='link' to='/' style={{color: 'gray'}} 
+                            <Link className='link' to='/stick-it' 
                                 onMouseEnter={() => setBgImg(stickit)}
                                 onMouseLeave={() => setBgImg(null)}> Stick-it </Link><br/>
                             <Link className='link' to='/' style={{color: 'gray'}}

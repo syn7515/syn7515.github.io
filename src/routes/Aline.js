@@ -11,7 +11,6 @@ function Aline() {
 
     return (
     <div className="Aline">
-        <div style={{height: 54}}></div>
         <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/master.png'} alt="master of aline"/>
         <div className= 'container'>
             <div className='text-title'>Aline</div>
