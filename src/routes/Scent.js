@@ -49,21 +49,21 @@ function Scent() {
             <div className='text-body'>Perfume layering is a popular trend that can express individuality and a means of relieving stress through olfactory stimulation.  I borrowed idea of perfume layering to design chairs that can be used alone and by many people.</div>
             <img className='master-image' style={{marginTop: 40}} src={process.env.PUBLIC_URL + '/assets/scent/inspiration.gif'} alt="inspiration process"/>
         </div>
-        <div className='container' style={{marginTop: 300}}>
+        <div className='container' style={{marginTop: 250}}>
             <div className='text-subtitle'>Combination</div>
             <div className='text-body'>Each stool borrowed a metaphorical concept from fragrance note. Scent can be zigzagged together to create various forms. The idea of combining stools comes from layered perfume.</div>
             <img className='master-image' style={{marginTop: 55}} src={process.env.PUBLIC_URL + '/assets/scent/combination.png'} alt="stool combination variations"/>
             <img className='master-image' style={{marginTop: 100}} src={process.env.PUBLIC_URL + '/assets/scent/combination2.jpg'} alt="combined stool"/>
             <img className='master-image' style={{marginTop: 20}} src={process.env.PUBLIC_URL + '/assets/scent/top-view.jpg'} alt="combined stool top view"/>
         </div>
-        <div className='container' style={{marginTop: 300}}>
+        <div className='container' style={{marginTop: 250}}>
             <img className='master-image' src={process.env.PUBLIC_URL + '/assets/scent/instruction.png'} alt="instruction paper of scent"/>
             <Grid container direction='row' style={{marginTop: 75}} spacing={2}>
                 <Grid item xs={12} sm={6}><img className='master-image' src={process.env.PUBLIC_URL + '/assets/scent/process1.jpg'} alt="scent applying process1"/></Grid>
                 <Grid item xs={12} sm={6}><img className='master-image' src={process.env.PUBLIC_URL + '/assets/scent/process2.jpg'} alt="scent applying process2"/></Grid>
             </Grid>
         </div>
-        <div className='container' style={{marginTop: 300}}>
+        <div className='container' style={{marginTop: 250}}>
             <img className='master-image' src={process.env.PUBLIC_URL + '/assets/scent/part.png'} alt="aspects of scent"/>
         </div>
 

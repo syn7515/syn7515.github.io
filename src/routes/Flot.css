@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Nexa Bold"; 
+    src: url("//db.onlinewebfonts.com/t/c9f309b3d47969ecac64a77a6c672594.eot"); 
+    src: url("//db.onlinewebfonts.com/t/c9f309b3d47969ecac64a77a6c672594.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c9f309b3d47969ecac64a77a6c672594.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c9f309b3d47969ecac64a77a6c672594.woff") format("woff"), url("//db.onlinewebfonts.com/t/c9f309b3d47969ecac64a77a6c672594.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c9f309b3d47969ecac64a77a6c672594.svg#Nexa Bold") format("svg"); }
+
+
+.Flot{
+    width: 100%;
+    text-align: left;
+    background-color: white;
+}
+
+.text-user-scenario{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+
+.text-story{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 140%;
+}
+
+
+
+
+
+.gray-bg-flot{
+    background-color: #F2F2F2;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+
+.output-name{
+    font-family: 'Nexa Bold';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 140%;
+}
+
+.text-branding{
+    font-family: 'Nexa Bold';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+hr {
+    display: block;
+    height: 1.5px;
+    border: 0;
+    border-top: 1.5px solid #000;
+    padding: 0;
+}
+
