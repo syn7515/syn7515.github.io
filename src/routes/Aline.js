@@ -19,21 +19,21 @@ function Aline() {
         </div>
         <div className='container' style={{marginTop:180}}>
             <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
-                <Grid item xs ={6} sm={3}>
+                <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Output</div>
                     <div className='text-body'>Service Design <br/>Mobile application</div>
                 </Grid>
-                <Grid item xs ={6} sm={3}>
+                <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Contribution</div>
                     <div className='text-body'>Team Project (30%)<br/>User Research<br/>UI Design</div>
                 </Grid>
-                <Grid item xs ={6} sm={3}>
+                <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Award</div>
                     <div className='text-body'>
                         <a href="https://ifworlddesignguide.com/search?q=nh%2Binvestment&search=nh%20investment#/pages/page/entry/310898-aline" target="_blank" rel="noopener noreferrer">IF Gold Award 2021</a><br/>
                         <a href="https://ifworlddesignguide.com/search?q=nh%2Binvestment&search=nh%20investment#/pages/page/entry/312630-aline" target="_blank" rel="noopener noreferrer">IF Award 2021</a></div>
                 </Grid>
-                <Grid item xs ={6} sm={3}>
+                <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Duration</div>
                     <div className='text-body'>4 months (2020.03 - 2020.06)</div>
                 </Grid>
@@ -47,7 +47,7 @@ function Aline() {
         <div className='containter'>
             <span>.</span>
         </div>
-        <div className='container' style={{marginBottom : 36}}>
+        <div className='container' style={{ marginTop: 300, marginBottom : 36}}>
             <div className='text-subtitle'>Problem</div>
             <div className='text-body'>As interest in the environment and society grows, interest in sustainable investment is growing accordingly. However, it is difficult to practice sustainable investment through current financial products.</div>
         </div>
@@ -73,32 +73,33 @@ function Aline() {
                 </Grid>
             </div>
         </div>
-        <div className='container' style={{marginTop: 220,  marginBottom : 80}}>
+        <div className='container' style={{marginTop: 250,  marginBottom : 80}}>
             <div className='text-subtitle'>Research</div>
             <div className='text-body'>We conducted a survey to find out about Millennial's interest in sustainable growth and in-depth thoughts. In addition, we conduncted focus group interview with a group of five Millennials to complete the persona and derive the painpoint.</div>
         </div>
-        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/research.png'} alt="research"/>
+        <div className='container' style={{marginTop: 80, maxWidth: 1440}}>
+            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/research.png'} alt="research"/>
+        </div>
 
-        <div className='black-bg' style={{marginTop: 180}}>
+        <div className='black-bg' style={{marginTop: 250}}>
             <div className='container' style={{marginTop:0,  marginBottom : 0}}>
                 <div className='text-subtitle-white'style={{marginBottom : 40}}>Solution</div>
                 <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/solution.png'} alt="solution"/>
             </div>
-            
         </div>
 
-        <div className='container'style={{marginTop: 150}}>
+        <div className='container'style={{marginTop: 250}}>
             <div className='text-subtitle' style={{marginBottom: 60}}>Flow Chart</div>
             <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/flow-chart.png'} alt="flow chart"/>
         </div>
-        <div className='container' style={{marginTop: 210,  marginBottom : 80}}>
+        <div className='container' style={{marginTop: 250,  marginBottom : 80}}>
             <div className='text-subtitle'>Wire Frame</div>
             <div className='text-body'>To avoid complicated impressions, important information was placed at the center of each tap and details were placed on swiped cards.</div>
             <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/wire.png'} style={{marginTop : 70}} alt="wire-frame"/>
         </div>
        
 
-        <div className='black-bg' style={{marginTop: 180}}>
+        <div className='black-bg' style={{marginTop: 250}}>
             <div className='background' style={{ backgroundImage: `url(${background})`, marginTop:200}}>
                 <div className='container' style={{marginTop:0,  marginBottom : 70}}>
                     <div className='text-phrase' style={{marginBottom : 30}}>We align investment and consumption with your value</div>
@@ -196,7 +197,7 @@ function Aline() {
                     </Grid>
                     <Grid item sm={12} md={6} alignment='flexend' style={{marginTop : 100}}>
                         <Grid container spacing={0} direction='row'>
-                            <Grid item sm={12} md={3}><div className='text-subtitle-white'>LEARN</div></Grid>
+                            <Grid item sm={12} md={3}><div className='text-subtitle-white' style={{marginBottom: 20}}>LEARN</div></Grid>
                             <Grid item sm={12} md={9}><div className='text-body' style={{color: 'white', marginTop: 0}}>A ring-shaped interface represents colors that correspond to the value that the portfolio focuses on.<br/><br/>In addition, while traditional investment services only provide financial information, Aline shows ESG information for companies currently investing in.</div></Grid>
                         </Grid>
                     </Grid>

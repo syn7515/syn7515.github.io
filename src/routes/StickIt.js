@@ -14,15 +14,15 @@ function StickIt() {
         </div>
         <div className='container' style={{marginTop:180}}>
             <Grid container spacing={3} direction='row' justify="flex-start" alignItems="flex-start">
-                <Grid item xs ={6} sm={4}>
+                <Grid item xs ={6} sm={4} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Output</div>
                     <div className='text-body'>Graphic Design</div>
                 </Grid>
-                <Grid item xs ={6} sm={4}>
+                <Grid item xs ={6} sm={4} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Contribution</div>
                     <div className='text-body'>Personal Project(100%)</div>
                 </Grid>
-                <Grid item xs ={6} sm={4}>
+                <Grid item xs ={6} sm={4} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Duration</div>
                     <div className='text-body'>2 weekss (2021.01)</div>
                 </Grid>

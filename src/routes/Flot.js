@@ -23,15 +23,15 @@ function Flot() {
         </div>
         <div className='container' style={{marginTop:180}}>
             <Grid container spacing={3} direction='row' justify="flex-start" alignItems="flex-start">
-                <Grid item xs ={6} sm={4}>
+                <Grid item xs ={6} sm={4} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Output</div>
                     <div className='text-body'>UI/UX Design<br/>Branding</div>
                 </Grid>
-                <Grid item xs ={6} sm={4}>
+                <Grid item xs ={6} sm={4} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Contribution</div>
                     <div className='text-body'>Team Project(30%)<br/>Service Design<br/>UI Design<br/>Branding</div>
                 </Grid>
-                <Grid item xs ={6} sm={4}>
+                <Grid item xs ={6} sm={4} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Duration</div>
                     <div className='text-body'>4 months (2020.07 - 2020.11)</div>
                 </Grid>
@@ -46,18 +46,51 @@ function Flot() {
         
         <div className='container' style={{marginTop:300}}>
             <div className='text-subtitle'>Background</div>
-            <img className='master-image' style={{marginTop: 50}} src={process.env.PUBLIC_URL + '/assets/flot/background.png'} alt="background explanation"/>
+            <Grid container style={{marginTop: 50}} spacing={6} direction='row' justify="flex-start" alignItems="flex-start">
+                <Grid item xs ={12} sm={12} style={{paddingTop: 0, paddingBottom: 0}}>
+                    <hr style={{marginBottom: 27}}/>
+                    <div className='text-background-regular'>The recent expansion of telecommuting has shifted the conference environment from offline to online.</div>
+                    <div className='text-background-bold'>However, there is no online meeting service carefully considering the context of the online conference situation.</div>
+                    <hr style={{marginTop: 27}}/>
+                </Grid>
+                <Grid item xs ={12} sm={4} style={{marginBottom: 10}}>
+                    <div className='text-background-sub'>BACKGROUD</div>
+                    <div className='text-background-bold-body' style={{marginBottom: 15}}>Expansion of Working from Home</div>
+                    <div className='text-background-body' style={{minHeight: 57}}>Recently, due to the outbreak of Covid-19 and changes in the company's labor policy, more companies are encouraging people to work from home.</div>
+                    <img className='master-image' style={{marginTop: 45}} src={process.env.PUBLIC_URL + '/assets/flot/background-1.png'} alt="reason of telecommuting"/>
+                </Grid>
+                <Grid item xs ={12} sm={4} style={{marginBottom: 10}}>
+                    <div className='text-background-sub'>PHENOMENON</div>
+                    <div className='text-background-bold-body' style={{marginBottom: 15}}>Growth of Online Meeting</div>
+                    <div className='text-background-body' style={{minHeight: 57}}>As telecommuting expands, the usage of video conferencing functions such as video calls and screen sharing is also rapidly increasing.</div>
+                    <img className='master-image' style={{marginTop: 45}} src={process.env.PUBLIC_URL + '/assets/flot/background-2.png'} alt="increase use of online meeting"/>
+                </Grid>
+                <Grid item xs ={12} sm={4} style={{marginBottom: 10}}>
+                    <div className='text-background-sub'>CONSEQUENCE</div>
+                    <div className='text-background-bold-body' style={{marginBottom: 15}}>Needs for better Online Meeting</div>
+                    <div className='text-background-body' style={{minHeight: 57}}>However, existing services are just on the level of moving the environment of meetings from offline to online.</div>
+                    <img className='master-image' style={{marginTop: 45}} src={process.env.PUBLIC_URL + '/assets/flot/background-3.png'} alt="comparing existing online meeting services"/>
+                </Grid>
+                <Grid item xs ={12} sm={12} style={{paddingTop: 0}}>
+                    <hr/>
+                </Grid>
+            </Grid>
         </div>
         
         
-        <div className='container' style={{marginTop: 250}}>
+        <div className='container' style={{marginTop: 250, marginBottom: 65}}>
             <div className='text-subtitle'>Problem</div>
             <div className='text-body'>We conducted Focus Group Interview (FGI) to investigate users’ needs and painpoint in using current online meeting service.</div>
-            <img className='master-image' style={{marginTop: 55}} src={process.env.PUBLIC_URL + '/assets/flot/problem.png'} alt="problem analysis"/>
+            <img className='master-image' style={{marginTop: 55}} src={process.env.PUBLIC_URL + '/assets/flot/problem-1.png'} alt="problem analysis"/>
         </div>
-        <div className='container' style={{marginTop: 250}}>
+        <div className='container' style={{maxWidth: 782, marginBottom: 65}}>
+            <img className='master-image'  src={process.env.PUBLIC_URL + '/assets/flot/problem-2.png'} alt="problem analysis"/>
+        </div>
+        <div className='container' style={{marginTop: 250, marginBottom: 0}}>
             <div className='text-subtitle'>Solution</div>
-            <img className='master-image' style={{marginTop: 55}} src={process.env.PUBLIC_URL + '/assets/flot/solution.png'} alt="key feature"/>
+        </div>
+        <div className='container' style={{maxWidth: 816, marginTop: 55}}>
+            <img className='master-image'  src={process.env.PUBLIC_URL + '/assets/flot/solution.png'} alt="key feature"/>
         </div>
         <div className='container' style={{marginTop: 250}}>
             <div className='text-subtitle'>User Scenario</div>
@@ -109,7 +142,7 @@ function Flot() {
             <div className='container' style={{paddingTop: 100}}>
                 <div className='output-name'>Meeting experience <br/>as smooth as on-site meetings</div>
             </div>
-            <div className='container' style={{marginTop: 100, maxWidth: 1500}}>
+            <div className='container' style={{marginTop: 100, maxWidth: 1510}}>
                 <img className='master-image'  src={process.env.PUBLIC_URL + '/assets/flot/output-1.png'} alt="service features"/>
             </div>
             <div className='container' style={{marginTop: 250}}>

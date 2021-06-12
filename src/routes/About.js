@@ -23,13 +23,13 @@ function About() {
     return (
         <div className='About'>
             <div className='wrapper-about' style={{marginTop: 0, marginBottom: 0}}>
-                <Grid container className='grid-about' direction='row' justify='space-between' alignItems='flex-start'>
+                <Grid container className='grid-container' direction='row' justify='space-between' alignItems='flex-start'>
                     <Divider classes={{root : classes.divider}} orientation="vertical" flexItem='true' style={{marginLeft:"-1px"}}/>
-                    
+                    <Grid item className='grid-item' xs={12} sm={4} />
                     <Divider classes={{root : classes.divider}} orientation="vertical" flexItem='true' style={{marginRight:"-1px"}}/>
-                    
+                    <Grid item className='grid-item' xs={12} sm={4} />
                     <Divider classes={{root : classes.divider}} orientation="vertical" flexItem='true' style={{marginRight:"-1px"}}/>
-                    
+                    <Grid item className='grid-item' xs={12} sm={4} />
                     <Divider classes={{root : classes.divider}} orientation="vertical" flexItem='true' style={{marginRight:"-1px"}}/>
                     
                 </Grid>
