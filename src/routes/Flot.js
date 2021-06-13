@@ -151,9 +151,9 @@ function Flot() {
             <div className='container' style={{marginTop: 100, maxWidth: 1170}}>
                 <img className='master-image'  src={process.env.PUBLIC_URL + '/assets/flot/output-2.png'} alt="service features"/>
             </div>
-            <div className='container' style={{marginTop:250, marginBottom: 0 ,paddingBottom: 250}}>
+            <div className='container' style={{marginTop:250, marginBottom: 0, paddingBottom: 10 }}>
                 <div className='text-subtitle'>Branding</div>
-                <Grid container spacing={6} style={{marginTop: 25}} direction='row' justify="flex-start" alignItems="flex-start">
+                <Grid container spacing={6} style={{marginTop: 25, paddingBottom: 250}} direction='row' justify="flex-start" alignItems="flex-start">
                     <Grid item xs={12} sm ={6} >
                         <hr/>
                         <div className='text-branding'>NAMING</div>
@@ -203,6 +203,7 @@ function Flot() {
                         <div className='text-story'>To give a soft and modern impression, icons were designed around strokes with rounded edges, and some small areas were used with faces to enhance visibility.</div>
                     </Grid>
                 </Grid>
+                <div className='copy-project'>Copyright 2021. Sooyeon Park all rights reserved.</div>
             </div>
         </div>
 

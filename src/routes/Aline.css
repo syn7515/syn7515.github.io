@@ -47,7 +47,7 @@
 .black-bg{
     background-color: #201E1F;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
 }
 
 .gray-bg{
@@ -233,4 +233,15 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+.copy-project{
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #fff;
+    mix-blend-mode: difference;
+    margin-bottom: 10px;
 }

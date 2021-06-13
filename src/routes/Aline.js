@@ -230,8 +230,9 @@ function Aline() {
                     <div className='text-phrase-gradient' style={{marginBottom : 30}}>User’s finance will align you, companies, and the society</div>
                     <div className='text-phrase-explanation' style={{marginBottom : 50}}>Aline is the first financial service in Korea which provides personalized finance in accordance with users’ personal values, delivering ESG information in a more user-friendly language. By helping users to maintain their values while they invest and consume, it motivates people to have higher standards for companies in terms of sustainability, and thereby providing market entries and capital to companies with innovative ideas. Aline aims to make virtuous cycle of making our society more sustainable.</div>
                 </div>
-                <img className="impact" style={{ marginBottom : 100}} src={process.env.PUBLIC_URL + '/assets/aline/impact.png'} alt="impact diagram"/>
+                <img className="impact" style={{ marginBottom : 250}} src={process.env.PUBLIC_URL + '/assets/aline/impact.png'} alt="impact diagram"/>
 
+            <div className='copy-project'>Copyright 2021. Sooyeon Park all rights reserved.</div>
         </div>
     </div>);
 }

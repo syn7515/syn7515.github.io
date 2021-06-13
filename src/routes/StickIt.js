@@ -79,7 +79,8 @@ function StickIt() {
         
 
 
-        
+        <div className='copy-project'>Copyright 2021. Sooyeon Park all rights reserved.</div>
+
     </div>);
 }
 
