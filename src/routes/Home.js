@@ -48,7 +48,7 @@ function Home()  {
                             <Link className='link' to='/aline'
                                 onMouseEnter={() => setBgImg(aline)}
                                 onMouseLeave={() => setBgImg(null)}>Aline</Link><br/>
-                            <Link className='link' to='/' style={{color: 'gray'}}
+                            <Link className='link' to='/hugo' 
                                 onMouseEnter={() => setBgImg(hugo)}
                                 onMouseLeave={() => setBgImg(null)}>Hugo</Link><br/>
                             <Link className='link' to='/flot' 

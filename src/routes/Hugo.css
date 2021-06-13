@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Campton';
+    src: url("../fonts/Campton-Medium.otf") format("opentype");
+}
+
+
+.Hugo{
+    width: 100%;
+    background-color: white;
+}
+
+.text-desk{
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+
+.text-branding-hugo{
+    font-family: Campton;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 129.5%;
+}
