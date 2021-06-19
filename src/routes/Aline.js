@@ -15,7 +15,7 @@ function Aline() {
         <div className= 'container'>
             <div className='text-title'>Aline</div>
             <div className='text-explanation'>ESG Roobo-adviser service</div>
-            <div className = 'text-body'><br/>Aline is a ESG Rovo-advisor based financial service focusing on individual’s governing value. In addition to earning profit through investment, users can help chaning the world positively by supporting corporates that are in align with their value.  </div>
+            <div className = 'text-body'><br/>Aline is a ESG Rovo-advisor based financial service focusing on individual’s governing value. In addition to earning profit through investment, users can help changing the world positively by supporting corporates that are in align with their value.  </div>
         </div>
         <div className='container' style={{marginTop:180}}>
             <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
@@ -81,7 +81,7 @@ function Aline() {
             <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/research.png'} alt="research"/>
         </div>
 
-        <div className='black-bg' style={{marginTop: 250}}>
+        <div className='black-bg' style={{marginTop: 250, paddingTop: 50, paddingBottom: 50}}>
             <div className='container' style={{marginTop:0,  marginBottom : 0}}>
                 <div className='text-subtitle-white'style={{marginBottom : 40}}>Solution</div>
                 <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/solution.png'} alt="solution"/>

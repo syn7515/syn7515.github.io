@@ -1,6 +1,13 @@
 @font-face {
     font-family: 'Campton';
     src: url("../fonts/Campton-Medium.otf") format("opentype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url("../fonts/CamptonSemiBold.woff") format("woff");
+    font-weight: bold;
 }
 
 
@@ -24,4 +31,23 @@
     font-weight: normal;
     font-size: 30px;
     line-height: 129.5%;
+}
+
+.text-opportunity{
+    font-family: 'Campton';
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    width: 100%
+}
+
+
+.text-opportunity-2{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    width: 100%;
+    margin-top: 12px;
 }

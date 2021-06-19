@@ -79,7 +79,24 @@ function Hugo() {
         <div className='container' style={{marginTop: 250, marginBottom: 65}}>
             <div className='text-subtitle'>Design Opportunity</div>
             <div className='text-body'>Through the process of affinity diagramming, we found the design opportunity consists of ‘Target, Problem and How’.</div>
-            <img className='master-image' style={{marginTop: 55}} src={process.env.PUBLIC_URL + '/assets/hugo/opportunity.png'} alt="affinity diagram"/>
+            <Grid container spacing={6} style={{marginTop: 20}} direction='row'   justify="space-evenly" alignItems="flex-start">
+                <Grid item xs={8} sm={3} style={{marginBottom: 20}}>
+                    <img className='master-image'  src={process.env.PUBLIC_URL + '/assets/hugo/opportunity-1.png'} alt="affinity diagram for target"/>
+                    <div className='text-opportunity'>Target</div>
+                    <div className='text-opportunity-2'>Foreign Millennials<br/><br/>Communicate with social media platform</div>
+                </Grid>
+                <Grid item xs={12} sm  style={{marginBottom: 20}}>
+                    <img className='master-image'  src={process.env.PUBLIC_URL + '/assets/hugo/opportunity-2.png'} alt="affinity diagram for problem"/>
+                    <div className='text-opportunity'>Problem</div>
+                    <div className='text-opportunity-2'>Foreigners feel marginalized when talking about regional news with local friends.</div>
+
+                </Grid>
+                <Grid item xs={12} sm style={{marginBottom: 20}}>
+                    <img className='master-image'  src={process.env.PUBLIC_URL + '/assets/hugo/opportunity-2.png'} alt="affinity diagram for problem"/>
+                    <div className='text-opportunity'>How</div>
+                    <div className='text-opportunity-2'>Foreigners usually get news from their daily conversations and want to participate in them, but the low accessibility of translated news hinders participation.</div>
+                </Grid>
+            </Grid>
         </div>
         
 
