@@ -5,13 +5,11 @@ import './Home.css';
 import { Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core';
 import Copyright from '../components/Copyright';
-import stickit from '../img/stick-it.png';
-import scent from '../img/scent.png'
-import aline from '../img/aline.png'
-import vstage from '../img/vstage.png'
-import hugo from '../img/hugo.png'
-import flot from '../img/flot.png'
-import video from '../img/video.png'
+import stickit from '../img/stick-it.jpg';
+import scent from '../img/scent.jpg'
+import aline from '../img/aline.jpg'
+import hugo from '../img/hugo.jpg'
+import flot from '../img/flot.jpg'
 
 
 
@@ -64,14 +62,7 @@ function Home()  {
                             <Link className='link' to='/stick-it' 
                                 onMouseEnter={() => setBgImg(stickit)}
                                 onMouseLeave={() => setBgImg(null)}> Stick-it </Link><br/>
-                            <Link className='link' to='/' style={{color: 'gray'}}
-                                onMouseEnter={() => setBgImg(vstage)}
-                                onMouseLeave={() => setBgImg(null)}>V stage</Link>
-                        </Grid>
-                        <Grid item xs={6}>
-                            <Link className='link' to='/' style={{color: 'gray', marginTop: 50}}
-                            onMouseEnter={() => setBgImg(video)}
-                            onMouseLeave={() => setBgImg(null)}>videos</Link>
+                            <Link className='link' to='/' style={{color: 'gray'}}>Loopin</Link>
                         </Grid>
                     </Grid>
                 </Grid>
