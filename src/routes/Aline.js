@@ -14,8 +14,8 @@ function Aline() {
         <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/master.png'} alt="master of aline"/>
         <div className= 'container'>
             <div className='text-title'>Aline</div>
-            <div className='text-explanation'>ESG Roobo-adviser service</div>
-            <div className = 'text-body'><br/>Aline is a ESG Rovo-advisor based financial service focusing on individual’s governing value. In addition to earning profit through investment, users can help changing the world positively by supporting corporates that are in align with their value.  </div>
+            <div className='text-explanation'>ESG Robo-adviser service</div>
+            <div className = 'text-body'><br/>Aline is a ESG Robo-advisor based financial service focusing on individual’s governing value. In addition to earning profit through investment, users can help changing the world positively by supporting corporates that are in align with their value.  </div>
         </div>
         <div className='container' style={{marginTop:180}}>
             <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
