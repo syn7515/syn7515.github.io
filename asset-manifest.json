@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e0895ce.chunk.css",
-    "main.js": "/static/js/main.d00587ce.chunk.js",
-    "main.js.map": "/static/js/main.d00587ce.chunk.js.map",
+    "main.css": "/static/css/main.dd0252ee.chunk.css",
+    "main.js": "/static/js/main.d62bdce5.chunk.js",
+    "main.js.map": "/static/js/main.d62bdce5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.61154367.js",
     "runtime-main.js.map": "/static/js/runtime-main.61154367.js.map",
-    "static/js/2.3a2c260c.chunk.js": "/static/js/2.3a2c260c.chunk.js",
-    "static/js/2.3a2c260c.chunk.js.map": "/static/js/2.3a2c260c.chunk.js.map",
+    "static/js/2.22a42827.chunk.js": "/static/js/2.22a42827.chunk.js",
+    "static/js/2.22a42827.chunk.js.map": "/static/js/2.22a42827.chunk.js.map",
     "static/js/3.8c4c7cb8.chunk.js": "/static/js/3.8c4c7cb8.chunk.js",
     "static/js/3.8c4c7cb8.chunk.js.map": "/static/js/3.8c4c7cb8.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.9e0895ce.chunk.css.map": "/static/css/main.9e0895ce.chunk.css.map",
-    "static/js/2.3a2c260c.chunk.js.LICENSE.txt": "/static/js/2.3a2c260c.chunk.js.LICENSE.txt",
+    "static/css/main.dd0252ee.chunk.css.map": "/static/css/main.dd0252ee.chunk.css.map",
+    "static/js/2.22a42827.chunk.js.LICENSE.txt": "/static/js/2.22a42827.chunk.js.LICENSE.txt",
+    "static/media/CV.2491f05a.pdf": "/static/media/CV.2491f05a.pdf",
     "static/media/Hugo.css": "/static/media/CamptonSemiBold.91dd62c2.woff",
     "static/media/Home.css": "/static/media/MonumentExtended-Regular.bb4d7a40.woff2",
     "static/media/aline.7b12e648.jpg": "/static/media/aline.7b12e648.jpg",
@@ -22,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.61154367.js",
-    "static/js/2.3a2c260c.chunk.js",
-    "static/css/main.9e0895ce.chunk.css",
-    "static/js/main.d00587ce.chunk.js"
+    "static/js/2.22a42827.chunk.js",
+    "static/css/main.dd0252ee.chunk.css",
+    "static/js/main.d62bdce5.chunk.js"
   ]
 }
