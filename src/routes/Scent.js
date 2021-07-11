@@ -38,7 +38,7 @@ function Scent() {
         </div>
 
         <div className='container' style={{marginTop:180}}>
-            <img className='master-image'src={process.env.PUBLIC_URL + '/assets/scent/fullshot.png'} alt="fullshot of scent"/>
+            <img className='master-image'src={process.env.PUBLIC_URL + '/assets/scent/fullshot.jpg'} alt="fullshot of scent"/>
         </div>
 
         

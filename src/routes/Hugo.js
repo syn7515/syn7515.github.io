@@ -92,7 +92,7 @@ function Hugo() {
 
                 </Grid>
                 <Grid item xs={12} sm style={{marginBottom: 20}}>
-                    <img className='master-image'  src={process.env.PUBLIC_URL + '/assets/hugo/opportunity-2.png'} alt="affinity diagram for problem"/>
+                    <img className='master-image'  src={process.env.PUBLIC_URL + '/assets/hugo/opportunity-3.png'} alt="affinity diagram for problem"/>
                     <div className='text-opportunity'>How</div>
                     <div className='text-opportunity-2'>Foreigners usually get news from their daily conversations and want to participate in them, but the low accessibility of translated news hinders participation.</div>
                 </Grid>

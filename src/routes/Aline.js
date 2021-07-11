@@ -11,7 +11,7 @@ function Aline() {
 
     return (
     <div className="Aline">
-        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/master.png'} alt="master of aline"/>
+        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/master.jpg'} alt="master of aline"/>
         <div className= 'container'>
             <div className='text-title'>Aline</div>
             <div className='text-explanation'>ESG Robo-adviser service</div>
@@ -21,17 +21,17 @@ function Aline() {
             <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
                 <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Output</div>
-                    <div className='text-body'>Service Design <br/>Mobile application</div>
+                    <div className='text-body'>Service Design<br/>Mobile application</div>
                 </Grid>
                 <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Contribution</div>
-                    <div className='text-body'>Team Project (30%)<br/>User Research<br/>UI Design</div>
+                    <div className='text-body'>Team Project (30%)<br/>User Research<br/>UI Design<br/>Motion Design</div>
                 </Grid>
                 <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Award</div>
                     <div className='text-body'>
-                        <a href="https://ifworlddesignguide.com/search?q=nh%2Binvestment&search=nh%20investment#/pages/page/entry/310898-aline" target="_blank" rel="noopener noreferrer">IF Gold Award 2021</a><br/>
-                        <a href="https://ifworlddesignguide.com/search?q=nh%2Binvestment&search=nh%20investment#/pages/page/entry/312630-aline" target="_blank" rel="noopener noreferrer">IF Award 2021</a></div>
+                        <a href="https://ifworlddesignguide.com/search?q=nh%2Binvestment&search=nh%20investment#/pages/page/entry/310898-aline" target="_blank" rel="noopener noreferrer">iF Gold 2021 - Service Design</a><br/>
+                        <a href="https://ifworlddesignguide.com/search?q=nh%2Binvestment&search=nh%20investment#/pages/page/entry/312630-aline" target="_blank" rel="noopener noreferrer">iF Winner 2021 - UI Design</a></div>
                 </Grid>
                 <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Duration</div>

@@ -24,7 +24,7 @@ function StickIt() {
                 </Grid>
                 <Grid item xs ={6} sm={4} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Duration</div>
-                    <div className='text-body'>2 weekss (2021.01)</div>
+                    <div className='text-body'>2 weeks (2021.01)</div>
                 </Grid>
             </Grid>
         </div>
@@ -40,7 +40,7 @@ function StickIt() {
             <div className='text-body'>People often attach stickers to their laptops for aesthetics or individuality expression. Stick-it was inspired from the idea that stickers can serve a more useful function if it provides information that is either frequently looked, or only meaningful in a physical form.</div>
         </div>
         <div className='container' style={{marginTop: 60, maxWidth: 905}} >
-            <img className='master-image'  src={process.env.PUBLIC_URL + '/assets/stickit/idea.png'} alt="inspiration"/>
+            <img className='master-image'  src={process.env.PUBLIC_URL + '/assets/stickit/idea.jpg'} alt="inspiration"/>
         </div>
 
 

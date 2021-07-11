@@ -50,7 +50,7 @@ function Flot() {
                 <Grid item xs ={12} sm={12} style={{paddingTop: 0, paddingBottom: 0}}>
                     <hr style={{marginBottom: 27}}/>
                     <div className='text-background-regular'>The recent expansion of telecommuting has shifted the conference environment from offline to online.</div>
-                    <div className='text-background-bold'>However, there is no online meeting service carefully considering the context of the online conference situation.</div>
+                    <div className='text-background-bold'>However, there is no online meeting service carefully considering the context of the online collaboration situation.</div>
                     <hr style={{marginTop: 27}}/>
                 </Grid>
                 <Grid item xs ={12} sm={4} style={{marginBottom: 10}}>
@@ -60,13 +60,13 @@ function Flot() {
                     <img className='master-image' style={{marginTop: 45}} src={process.env.PUBLIC_URL + '/assets/flot/background-1.png'} alt="reason of telecommuting"/>
                 </Grid>
                 <Grid item xs ={12} sm={4} style={{marginBottom: 10}}>
-                    <div className='text-background-sub'>PHENOMENON</div>
+                    <div className='text-background-sub'>TREND</div>
                     <div className='text-background-bold-body' style={{marginBottom: 15}}>Growth of Online Meeting</div>
                     <div className='text-background-body' style={{minHeight: 57}}>As telecommuting expands, the usage of video conferencing functions such as video calls and screen sharing is also rapidly increasing.</div>
                     <img className='master-image' style={{marginTop: 45}} src={process.env.PUBLIC_URL + '/assets/flot/background-2.png'} alt="increase use of online meeting"/>
                 </Grid>
                 <Grid item xs ={12} sm={4} style={{marginBottom: 10}}>
-                    <div className='text-background-sub'>CONSEQUENCE</div>
+                    <div className='text-background-sub'>NEEDS</div>
                     <div className='text-background-bold-body' style={{marginBottom: 15}}>Needs for better Online Meeting</div>
                     <div className='text-background-body' style={{minHeight: 57}}>However, existing services are just on the level of moving the environment of meetings from offline to online.</div>
                     <img className='master-image' style={{marginTop: 45}} src={process.env.PUBLIC_URL + '/assets/flot/background-3.png'} alt="comparing existing online meeting services"/>
@@ -160,7 +160,7 @@ function Flot() {
                         <div className='container' style={{maxWidth: 360, marginTop: 15, marginBottom: 25}}>
                             <img className='master-image'  src={process.env.PUBLIC_URL + '/assets/flot/flot_naming.gif'} alt="naming motion graphic"/>
                         </div>
-                        <div className='text-story'>Flot: flow with plot - it means that it aims for a flexible collaboration process based on a clear context.</div>
+                        <div className='text-story'>Flot: flow with plot - meaning that it aims for a flexible collaboration process based on a clear context.</div>
                     </Grid>
                     <Grid item xs={12} sm ={6}>
                         <hr/>
