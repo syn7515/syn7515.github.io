@@ -66,7 +66,7 @@ function Scent() {
             <img className='master-image' src={process.env.PUBLIC_URL + '/assets/scent/part.png'} alt="aspects of scent"/>
         </div>
 
-        <img className='master-image' style={{marginTop: 200, marginBottom: 200}} src={process.env.PUBLIC_URL + '/assets/scent/master-2.jpg'} alt="master shot"/>
+        <img className='master-image' style={{marginTop: 200, marginBottom: 200}} src={process.env.PUBLIC_URL + '/assets/scent/master-3.jpg'} alt="master shot"/>
         
 
 
