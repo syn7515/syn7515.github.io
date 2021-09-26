@@ -2,6 +2,8 @@ import React from 'react'
 import Grid from '@material-ui/core/Grid';
 import './Home.css';
 import { Link } from 'react-router-dom';
+import Resume from '../document/Resume.pdf';
+
 
 
 
@@ -12,12 +14,13 @@ import { Link } from 'react-router-dom';
 function Home()  {
 
 
+
     return(
         <div className="Home" >
             <div className='wrapper-1'>
                 <Grid container className='grid-container' spacing={4} direction='row' justify='flex-start' alignItems='flex-start'>
                     <Grid item xs={12} sm={6}>
-                        <div className='text-name'>sooyeon park</div>
+                    <Link to='/about'><div className='text-name-sooyeon'>sooyeon park</div></Link>
                     </Grid>
                     <Grid item xs={12} sm={6}>
                         <div className='text-name'>UX design based<br/>Product planner</div>
@@ -25,7 +28,7 @@ function Home()  {
                 </Grid>
 
                 <Grid container className='grid-container'  spacing={4} rowSpacing={15} direction='row' justify='flex-start' alignItems='flex-start' style={{marginTop: 50, marginBottom: 180}}>
-                    <Grid item xs={12} sm={6}>
+                    <Grid  item  xs={12} sm={6}>
                         <Link to='/aline' className='link-item'>
                         <div>
                             <p className='text-item-name'>aline</p>
@@ -38,7 +41,7 @@ function Home()  {
                         <Link to='/flot' className='link-item'>
                         <div>
                             <p className='text-item-name'>flot</p>
-                            <p className='text-item-name-sub'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Online meeting service service, 2020</p>
+                            <p className='text-item-name-sub'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Online meeting service, 2020</p>
                             <img className="master-image" src={process.env.PUBLIC_URL + '/assets/flot/flot-master.jpg'} alt="master of flot" style={{marginTop: 14}}/>
                         </div>
                         </Link>
@@ -71,7 +74,13 @@ function Home()  {
                         </Link>
                     </Grid>        
                 </Grid>
+
+                <div className='hyper-links' >
+                    <a href='https://www.linkedin.com/in/%EC%88%98%EC%97%B0-%EB%B0%95-495934193/' target="_blank" rel="noopener noreferrer">LINKEDIN</a>
+                    <a href = {Resume} target = "_blank" rel="noopener noreferrer" style={{marginLeft: 20}}>RESUME</a>
+                </div>
                 <div className='copy-project'>Copyright 2021. Sooyeon Park all rights reserved.</div>
+                
             </div>
         </div>
     );

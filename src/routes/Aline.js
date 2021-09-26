@@ -32,7 +32,7 @@ function Aline() {
                 </Grid>
                 <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Contribution</div>
-                    <div className='text-body'>Team Project (30%)<br/>User Research<br/>UI Design<br/>Motion Design</div>
+                    <div className='text-body'>Team Project (30%)<br/>User Research<br/>System Design<br/>UI Design<br/>Motion Design</div>
                 </Grid>
                 <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Award</div>

@@ -6,13 +6,20 @@ function StickIt() {
 
     return (
     <div className="StickIt">
-        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/stickit/master.png'} alt="master of stick-it"/>
+
         <div className= 'container'>
-            <div className='text-title'>Stick-it</div>
-            <div className='text-explanation'>sticker set for designer</div>
-            <p className = 'text-body'><br/>Stick-it is an adhesive toolkit for designers. It consists of modular stickers for three different purposes; measurement, guidance, and informativeness. Designers can make up their own sticker set according to their needs.</p>
+            <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
+                <Grid item xs ={12} sm={6} style={{marginBottom: 30}}>
+                    <div className='text-title'>Stick-it</div>
+                    <div className='text-explanation'>sticker set for designer</div>
+                </Grid>
+                <Grid item xs ={12} sm={6} style={{marginBottom: 30}}>
+                    <div className = 'text-body'style={{marginTop: 0}}>Stick-it is an adhesive toolkit for designers. It consists of modular stickers for three different purposes; measurement, guidance, and informativeness. Designers can make up their own sticker set according to their needs.</div>
+                </Grid>
+            </Grid>
         </div>
-        <div className='container' style={{marginTop:180}}>
+
+        <div className='container' style={{marginTop:100}}>
             <Grid container spacing={3} direction='row' justify="flex-start" alignItems="flex-start">
                 <Grid item xs ={6} sm={4} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Output</div>
@@ -29,7 +36,11 @@ function StickIt() {
             </Grid>
         </div>
 
-        <div className='container' style={{marginTop:180}}>
+        <div className= 'container' style={{marginTop:150}}>
+            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/stickit/master.png'} alt="master of stick-it"/>
+        </div>
+
+        <div className='container' style={{marginTop:150}}>
             <img className='master-image'src={process.env.PUBLIC_URL + '/assets/stickit/overview.png'} alt="overview of stickit"/>
         </div>
 

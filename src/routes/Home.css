@@ -1,10 +1,4 @@
 @font-face {
-  font-family: "monument-extended";
-  src: url("../fonts/MonumentExtended-Regular.woff2") format('woff2');
-  font-weight: regular;
-}
-
-@font-face {
   font-family: "GT-America";
   src: url("../fonts/GT-America-Regular.otf") format('opentype');
   font-weight: regular;
@@ -23,10 +17,7 @@
 
 }
 
-.divider{
-  color: #fff;
-  mix-blend-mode: difference;
-}
+
 
 .grid-container{
   padding-left: 40px;
@@ -35,32 +26,8 @@
 }
 
 
-.grid-item{
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 120px;
-}
 
-.text-category{
-font-family: monument-extended;
-font-weight: regular;
-font-size: 18px;
-line-height: 21px;
-letter-spacing: -0.11em;
-min-width: 260px;
-margin-bottom: 25px;
-color: #fff;
-mix-blend-mode: difference;
-}
 
-.text-main{
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 150%;
-color: #fff;
-mix-blend-mode: difference;
-}
 
 
 .link{
@@ -72,17 +39,41 @@ color: #fff;
 mix-blend-mode: difference;
 }
 
-.a_diff{
-  color: #fff;
-  mix-blend-mode: difference;
-}
 
 .text-name{
-  font-family: GT-America;
+font-family: GT-America;
 font-style: regular;
 font-size: 28px;
-line-height: 150%;
+line-height: 130%;
 text-transform: uppercase;
+}
+
+
+
+.text-name-sooyeon{
+font-family: GT-America;
+font-style: regular;
+font-size: 28px;
+line-height: 130%;
+text-transform: uppercase;
+display: inline-block;
+padding-bottom: 0.25rem; 
+position: relative;
+}
+
+.text-name-sooyeon::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.25s ease-out;
+}
+
+.text-name-sooyeon:hover::before {
+  width: 100%;
 }
 
 .text-item-name{
@@ -91,7 +82,24 @@ font-style: regular;
 font-size: 20px;
 line-height: 24px;
 text-transform: uppercase;
-display: inline;
+display: inline-block;
+padding-bottom: 0.25rem; 
+position: relative;
+}
+
+.text-item-name::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.25s ease-out;
+}
+
+.text-item-name:hover::before {
+  width: 100%;
 }
 
 .text-item-name-sub{
@@ -100,15 +108,36 @@ display: inline;
   font-size: 16px;
   line-height: 150%;
   display: inline;
+  
   }
 
 .link-item{
   text-decoration: none;
 }
 
-.link-item:hover{
-  color: "#000000";
-  text-decoration: "underline #000000"
+
+
+
+.hyper-links{
+  font-family: GT-America;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  color: #000;
+  margin-bottom: 20px;
+  
 }
 
+
+.copy-project{
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #fff;
+  mix-blend-mode: difference;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
 

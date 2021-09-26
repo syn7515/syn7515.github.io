@@ -10,12 +10,12 @@ import StickIt from './routes/StickIt';
 import ScrollToTop from './components/ScrollToTop';
 import Navigation from './components/Navigation';
 
-
 function App(){
 
 
   return <HashRouter>
     <ScrollToTop />
+    <Navigation/>
     <Route path='/' exact={true} component= {Home} />
     <Route path='/about' component= {About} />
     <Route path='/aline' component= {Aline} />
