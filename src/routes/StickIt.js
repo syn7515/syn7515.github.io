@@ -10,7 +10,7 @@ function StickIt() {
         <div className= 'container'>
             <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
                 <Grid item xs ={12} sm={6} style={{marginBottom: 30}}>
-                    <div className='text-title'>Stick-it</div>
+                    <div className='text-title'>Deliverable</div>
                     <div className='text-explanation'>sticker set for designer</div>
                 </Grid>
                 <Grid item xs ={12} sm={6} style={{marginBottom: 30}}>

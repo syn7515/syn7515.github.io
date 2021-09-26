@@ -39,6 +39,7 @@ function Aline() {
                     <div className='text-body'>
                         <a href="https://ifworlddesignguide.com/search?q=nh%2Binvestment&search=nh%20investment#/pages/page/entry/310898-aline" target="_blank" rel="noopener noreferrer">iF Gold 2021 - Service Design</a><br/>
                         <a href="https://ifworlddesignguide.com/search?q=nh%2Binvestment&search=nh%20investment#/pages/page/entry/312630-aline" target="_blank" rel="noopener noreferrer">iF Winner 2021 - UI Design</a></div>
+                        <div style={{marginTop: 5}}>Red Dot 2021 Winner - App</div>
                 </Grid>
                 <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Duration</div>
@@ -94,6 +95,8 @@ function Aline() {
             </div>
         </div>
 
+
+
         <div className='container'style={{marginTop: 250}}>
             <div className='text-subtitle' style={{marginBottom: 60}}>Flow Chart</div>
             <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/flow-chart.png'} alt="flow chart"/>
@@ -143,7 +146,7 @@ function Aline() {
             <div className='container' style={{marginTop:300,  marginBottom : 0}}>
                 <div className='text-subtitle-white'>Personal Value Index (PVI)</div>
                 <div className='text-body' style={{color : 'white', marginBottom: 90}}>Referring to MSCI ratings, we created value index system with 6 main criteria. The personal value index adjusts the investment portfolio an evaluate consumptions. <a href= {process.env.PUBLIC_URL + '/assets/aline/pvi-process.png'} target='_blank' rel="noopener noreferrer" style={{color : 'white'}}>Learn more</a> </div>
-                <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
+                <Grid container spacing={3} direction='row' justifyContent="center" alignItems="flex-start">
                     <Grid item xs ={5} sm={2}>
                         <div className='text-pvi' style={{marginBottom:12}}>Initial Survey</div>
                         <img className="master-image" style={{marginBottom:12}} src={process.env.PUBLIC_URL + '/assets/aline/pvi-1.png'} alt="pvi 1"/>
