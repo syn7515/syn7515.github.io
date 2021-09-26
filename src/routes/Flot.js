@@ -15,13 +15,19 @@ function Flot() {
 
     return (
     <div className="Flot">
-        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/flot/master.png'} alt="master of flot"/>
         <div className= 'container'>
-            <div className='text-title'>Flot</div>
-            <div className='text-explanation'>online meeting service</div>
-            <p className = 'text-body'><br/>Online meeting became general communication tool in work place. Flot combines and packages essential technology for conducting meeting smoothly.  It focuses on making online meetings as efficient as offline meetings, centering taking meeting minute technology.</p>
+            <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
+                <Grid item xs ={12} sm={6} style={{marginBottom: 30}}>
+                    <div className='text-title'>Flot</div>
+                    <div className='text-explanation'>online meeting service</div>
+                </Grid>
+                <Grid item xs ={12} sm={6} style={{marginBottom: 30}}>
+                    <div className = 'text-body'style={{marginTop: 0}}>Online meeting became general communication tool in work place. Flot combines and packages essential technology for conducting meeting smoothly.  It focuses on making online meetings as efficient as offline meetings, centering taking meeting minute technology.</div>
+                </Grid>
+            </Grid>
         </div>
-        <div className='container' style={{marginTop:180}}>
+
+        <div className='container' style={{marginTop:100}}>
             <Grid container spacing={3} direction='row' justify="flex-start" alignItems="flex-start">
                 <Grid item xs ={6} sm={4} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Output</div>
@@ -38,8 +44,12 @@ function Flot() {
             </Grid>
         </div>
 
-        <div className='container' style={{marginTop:180}}>
-            <img className='master-image'src={process.env.PUBLIC_URL + '/assets/flot/overview.png'} alt="overview of flot"/>
+        <div className='container' style={{marginTop:150}}>
+            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/flot/master.png'} alt="master of flot"/>
+        </div>
+
+        <div className='container' style={{marginTop:150}}>
+            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/flot/overview.png'} alt="master of flot"/>
         </div>
 
         

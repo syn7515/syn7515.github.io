@@ -17,19 +17,25 @@ function Hugo() {
 
     return (
     <div className="Hugo">
-        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/hugo/master.png'} alt="master of hugo"/>
+
         <div className= 'container'>
-            <div className='text-title'>Hugo</div>
-            <div className='text-explanation'>communication accelerating conversational agent for people from a foreign culture</div>
-            <p className = 'text-body'><br/>Hugo is an Al speaker and application that enable users to have deeper-quality conversations through a news-sharing experience. It works as a ‘Communication Accelerator’ to whom only superficial dialog took place in between.</p>
+            <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
+                <Grid item xs ={12} sm={6} style={{marginBottom: 30}}>
+                    <div className='text-title'>Hugo</div>
+                    <div className='text-explanation'>communication accelerating conversational agent<br/>for people from a foreign culture</div>
+                </Grid>
+                <Grid item xs ={12} sm={6} style={{marginBottom: 30}}>
+                    <div className = 'text-body'style={{marginTop: 0}}>Hugo is an Al speaker and application that enable users to have deeper-quality conversations through a news-sharing experience. It works as a ‘Communication Accelerator’ to whom only superficial dialog took place in between.</div>
+                </Grid>
+            </Grid>
         </div>
 
 
 
-        <div className='container' style={{marginTop:180}}>
+        <div className='container' style={{marginTop:100}}>
             <Grid container spacing={3} direction='row' justify="flex-start" alignItems="flex-start">
                 <Grid item xs ={6} sm={4} style={{marginBottom: 30}}>
-                    <div className='text-subtitle'>Output</div>
+                    <div className='text-subtitle'>Deliverable</div>
                     <div className='text-body'>UI/UX Design<br/>Product Design<br/>Branding</div>
                 </Grid>
                 <Grid item xs ={6} sm={4} style={{marginBottom: 30}}>
@@ -43,12 +49,8 @@ function Hugo() {
             </Grid>
         </div>
 
-
-
-        <div className='containter'>
-            <div className='player-wrapper' >
-                <ReactPlayer className='react-player' url='https://vimeo.com/559621239' playing= {false} width='100%' height='100%'/>
-            </div>    
+        <div className= 'container' style={{marginTop:150}}>
+            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/hugo/master.png'} alt="master of hugo"/>
         </div>
 
         
@@ -156,26 +158,31 @@ function Hugo() {
         </div>
 
 
-            <div className='container' style={{marginTop:250, marginBottom: 0 ,paddingBottom: 250}}>
-                <div className='text-subtitle'>Branding</div>
-                <div className='text-branding-hugo' style={{marginTop:50}} >Communication accelerator<br/>for people in different cultural background</div>
-                <Grid container spacing={3} style={{marginTop: 25}} direction='row' justify="flex-start" alignItems="flex-start">
-                    <Grid item xs={12} sm ={4} >
-                        <img className='master-image'  src={process.env.PUBLIC_URL + '/assets/hugo/branding-1.png'} alt="naming of hugo"/>
-                    </Grid>
-                    <Grid item xs={12} sm ={4} >
-                        <img className='master-image'  src={process.env.PUBLIC_URL + '/assets/hugo/branding-2.png'} alt="logo of hugo"/>
-                    </Grid>
-                    <Grid item xs={12} sm ={4} >
-                        <img className='master-image'  src={process.env.PUBLIC_URL + '/assets/hugo/branding-3.png'} alt="color of hugo"/>
-                    </Grid>
+        <div className='container' style={{marginTop:250, marginBottom: 0 ,paddingBottom: 250}}>
+            <div className='text-subtitle'>Branding</div>
+            <div className='text-branding-hugo' style={{marginTop:50}} >Communication accelerator<br/>for people in different cultural background</div>
+            <Grid container spacing={3} style={{marginTop: 25}} direction='row' justify="flex-start" alignItems="flex-start">
+                <Grid item xs={12} sm ={4} >
+                    <img className='master-image'  src={process.env.PUBLIC_URL + '/assets/hugo/branding-1.png'} alt="naming of hugo"/>
                 </Grid>
-            </div>
+                <Grid item xs={12} sm ={4} >
+                    <img className='master-image'  src={process.env.PUBLIC_URL + '/assets/hugo/branding-2.png'} alt="logo of hugo"/>
+                </Grid>
+                <Grid item xs={12} sm ={4} >
+                    <img className='master-image'  src={process.env.PUBLIC_URL + '/assets/hugo/branding-3.png'} alt="color of hugo"/>                
+                </Grid>
+            </Grid>
+        </div>
 
 
         
+        <div className='containter'>
+            <div className='player-wrapper' >
+                <ReactPlayer className='react-player' url='https://vimeo.com/559621239' playing= {false} width='100%' height='100%'/>
+            </div>    
+        </div>
        
-            <div className='copy-project'>Copyright 2021. Sooyeon Park all rights reserved.</div>
+        <div className='copy-project'>Copyright 2021. Sooyeon Park all rights reserved.</div>
 
         
     </div>);

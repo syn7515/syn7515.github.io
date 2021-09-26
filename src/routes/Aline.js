@@ -11,16 +11,23 @@ function Aline() {
 
     return (
     <div className="Aline">
-        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/master.jpg'} alt="master of aline"/>
         <div className= 'container'>
-            <div className='text-title'>Aline</div>
-            <div className='text-explanation'>ESG Robo-adviser service</div>
-            <div className = 'text-body'><br/>Aline is a ESG Robo-advisor based financial service focusing on individual’s governing value. In addition to earning profit through investment, users can help changing the world positively by supporting corporates that are in align with their value.  </div>
+            <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
+                <Grid item xs ={12} sm={6} style={{marginBottom: 30}}>
+                    <div className='text-title'>Aline</div>
+                    <div className='text-explanation'>ESG Robo-adviser service</div>
+                </Grid>
+                <Grid item xs ={12} sm={6} style={{marginBottom: 30}}>
+                    <div className = 'text-body'style={{marginTop: 0}}>Aline is a Robo-advisor based <u>ESG (Environmental, Social and coporate Governance) financial service focusing on individual’s governing value</u>. In addition to earning profit through investment, users can help changing the world positively by supporting corporates that are in align with their value.</div>
+                </Grid>
+            </Grid>
         </div>
-        <div className='container' style={{marginTop:180}}>
+
+
+        <div className='container' style={{marginTop:100}}>
             <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
                 <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
-                    <div className='text-subtitle'>Output</div>
+                    <div className='text-subtitle'>Deliverable</div>
                     <div className='text-body'>Service Design<br/>Mobile application</div>
                 </Grid>
                 <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
@@ -39,14 +46,13 @@ function Aline() {
                 </Grid>
             </Grid>
         </div>
-        <div className='containter'>
-            <div className='player-wrapper' >
-                <ReactPlayer className='react-player' url='https://vimeo.com/539719839' playing= {false} width='100%' height='100%'/>
-            </div>    
+
+        <div className= 'container' style={{marginTop:150}}>
+            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/master.jpg'} alt="master of aline"/>
         </div>
-        <div className='containter'>
-            <span>.</span>
-        </div>
+
+        
+        
         <div className='container' style={{ marginTop: 300, marginBottom : 36}}>
             <div className='text-subtitle'>Problem</div>
             <div className='text-body'>As interest in the environment and society grows, interest in sustainable investment is growing accordingly. However, it is difficult to practice sustainable investment through current financial products.</div>
@@ -226,11 +232,18 @@ function Aline() {
                     </Grid>
                 </Grid>
             </div>
-                <div className='container' style={{marginTop:300,  marginBottom : 50}}>
-                    <div className='text-phrase-gradient' style={{marginBottom : 30}}>User’s finance will align you, companies, and the society</div>
-                    <div className='text-phrase-explanation' style={{marginBottom : 50}}>Aline is the first financial service in Korea which provides personalized finance in accordance with users’ personal values, delivering ESG information in a more user-friendly language. By helping users to maintain their values while they invest and consume, it motivates people to have higher standards for companies in terms of sustainability, and thereby providing market entries and capital to companies with innovative ideas. Aline aims to make virtuous cycle of making our society more sustainable.</div>
-                </div>
-                <img className="impact" style={{ marginBottom : 250}} src={process.env.PUBLIC_URL + '/assets/aline/impact.png'} alt="impact diagram"/>
+
+            <div className='container' style={{marginTop:300,  marginBottom : 50}}>
+                <div className='text-phrase-gradient' style={{marginBottom : 30}}>User’s finance will align you, companies, and the society</div>
+                <div className='text-phrase-explanation' style={{marginBottom : 50}}>Aline is the first financial service in Korea which provides personalized finance in accordance with users’ personal values, delivering ESG information in a more user-friendly language. By helping users to maintain their values while they invest and consume, it motivates people to have higher standards for companies in terms of sustainability, and thereby providing market entries and capital to companies with innovative ideas. Aline aims to make virtuous cycle of making our society more sustainable.</div>
+            </div>
+            <img className="impact" style={{ marginBottom : 250}} src={process.env.PUBLIC_URL + '/assets/aline/impact.png'} alt="impact diagram"/>
+
+            <div className='containter'>
+                <div className='player-wrapper' >
+                    <ReactPlayer className='react-player' url='https://vimeo.com/539719839' playing= {false} width='100%' height='100%'/>
+                </div>    
+            </div>
 
             <div className='copy-project'>Copyright 2021. Sooyeon Park all rights reserved.</div>
         </div>

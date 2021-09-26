@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "GT-America";
+    src: url("../fonts/GT-America-Regular.otf") format('opentype');
+    font-weight: regular;
+}
+
 .Aline{
     width: 100%;
     text-align: left;
@@ -62,10 +68,13 @@
 }
 
 .text-title{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
+    font-family: GT-America;
+    font-style: regular;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+
 }
 
 
@@ -121,9 +130,9 @@
     background-image: linear-gradient(45deg, #ed5b51,#ed5b51, #0c5ba6, #28b4e9, #1eaa7e, #fcb95c, #f0beb5,#f0beb5);
     background-size: 100%;
     -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+
+    
 }
 
 .text-phrase-gradient{

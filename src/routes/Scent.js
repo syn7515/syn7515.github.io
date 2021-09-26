@@ -8,13 +8,20 @@ function Scent() {
 
     return (
     <div className="Scent">
-        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/scent/master.png'} alt="master of scent"/>
+
         <div className= 'container'>
-            <div className='text-title'>Scent</div>
-            <div className='text-explanation'>stool inspired by scent</div>
-            <p className = 'text-body'><br/>Scent is a stool inspired by perfume layering. People can enjoy the aroma by putting aroma sheet into the slit at the bottom of stool. Also, multiple stools can be combined to create user’s own scent.</p>
+            <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
+                <Grid item xs ={12} sm={6} style={{marginBottom: 30}}>
+                    <div className='text-title'>Scent</div>
+                    <div className='text-explanation'>stool inspired by scent</div>
+                </Grid>
+                <Grid item xs ={12} sm={6} style={{marginBottom: 30}}>
+                    <div className = 'text-body'style={{marginTop: 0}}>Scent is a stool inspired by perfume layering. People can enjoy the aroma by putting aroma sheet into the slit at the bottom of stool. Also, multiple stools can be combined to create user’s own scent.</div>
+                </Grid>
+            </Grid>
         </div>
-        <div className='container' style={{marginTop:180}}>
+
+        <div className='container' style={{marginTop:100}}>
             <Grid container spacing={3} direction='row' justify="flex-start" alignItems="flex-start">
                 <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Output</div>
@@ -35,6 +42,10 @@ function Scent() {
                     <div className='text-body'>2 months (2018.10 - 2018.12)</div>
                 </Grid>
             </Grid>
+        </div>
+
+        <div className= 'container' style={{marginTop:100}}>
+            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/scent/master.png'} alt="master of scent"/>
         </div>
 
         <div className='container' style={{marginTop:180}}>

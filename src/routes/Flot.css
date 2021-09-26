@@ -1,4 +1,10 @@
 @font-face {
+    font-family: "GT-America";
+    src: url("../fonts/GT-America-Regular.otf") format('opentype');
+    font-weight: regular;
+  }
+
+@font-face {
     font-family: "Nexa Bold"; 
     src: url("//db.onlinewebfonts.com/t/c9f309b3d47969ecac64a77a6c672594.eot"); 
     src: url("//db.onlinewebfonts.com/t/c9f309b3d47969ecac64a77a6c672594.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c9f309b3d47969ecac64a77a6c672594.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c9f309b3d47969ecac64a77a6c672594.woff") format("woff"), url("//db.onlinewebfonts.com/t/c9f309b3d47969ecac64a77a6c672594.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c9f309b3d47969ecac64a77a6c672594.svg#Nexa Bold") format("svg"); }
