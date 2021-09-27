@@ -49,14 +49,14 @@ function Aline() {
         </div>
 
         <div className= 'container' style={{marginTop:150}}>
-            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/master.jpg'} alt="master of aline"/>
+            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/master.png'} alt="master of aline"/>
         </div>
 
         
         
         <div className='container' style={{ marginTop: 300, marginBottom : 36}}>
             <div className='text-subtitle'>Problem</div>
-            <div className='text-body'>As interest in the environment and society grows, interest in sustainable investment is growing accordingly. However, it is difficult to practice sustainable investment through current financial products.</div>
+            <div className='text-body'>As interest in the environment and society grows, interest in sustainable investment is growing accordingly. However, it is <u>difficult to practice sustainable investment</u> through current financial products.</div>
         </div>
         <div className ='gray-bg'>
             <div className ='container' style={{marginTop: 0, paddingTop: 50, paddingBottom: 50}}>
@@ -82,7 +82,7 @@ function Aline() {
         </div>
         <div className='container' style={{marginTop: 250,  marginBottom : 80}}>
             <div className='text-subtitle'>Research</div>
-            <div className='text-body'>We conducted a survey to find out about Millennial's interest in sustainable growth and in-depth thoughts. In addition, we conduncted focus group interview with a group of five Millennials to complete the persona and derive the painpoint.</div>
+            <div className='text-body'>We conducted a survey to find out about <u>Millennial's interest in sustainable growth and in-depth thoughts</u>. In addition, we conduncted focus group interview with a group of five Millennials to complete the persona and derive the painpoint.</div>
         </div>
         <div className='container' style={{marginTop: 80, maxWidth: 1440}}>
             <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/research.png'} alt="research"/>
@@ -95,7 +95,10 @@ function Aline() {
             </div>
         </div>
 
-
+        <div className='container' style={{marginTop: 250}}>
+            <div className='text-subtitle' style={{marginBottom: 60}}>Service Blueprint</div>
+            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/blueprint.png'} alt="blueprint"/>
+        </div>
 
         <div className='container'style={{marginTop: 250}}>
             <div className='text-subtitle' style={{marginBottom: 60}}>Flow Chart</div>
@@ -116,7 +119,7 @@ function Aline() {
                 </div>
             </div>
             <div className='container'>
-                <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
+                <Grid container spacing={3} direction='row' justifyContent="center" alignItems="flex-start">
                 <Grid item xs ={5} sm={4} lg={2}>
                     <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/journey1.png'} alt="user journey 1"/>
                     <div className='text-journey'>Start Aline</div>

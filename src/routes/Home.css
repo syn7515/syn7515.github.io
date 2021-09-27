@@ -59,6 +59,7 @@ text-transform: uppercase;
 display: inline-block;
 padding-bottom: 0.25rem; 
 position: relative;
+
 }
 
 .text-name-sooyeon::before {
@@ -85,6 +86,7 @@ text-transform: uppercase;
 display: inline-block;
 padding-bottom: 0.25rem; 
 position: relative;
+
 }
 
 .text-item-name::before {

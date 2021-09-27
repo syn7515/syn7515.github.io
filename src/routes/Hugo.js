@@ -81,7 +81,7 @@ function Hugo() {
         <div className='container' style={{marginTop: 250, marginBottom: 65}}>
             <div className='text-subtitle'>Design Opportunity</div>
             <div className='text-body'>Through the process of affinity diagramming, we found the design opportunity consists of ‘Target, Problem and How’.</div>
-            <Grid container spacing={6} style={{marginTop: 20}} direction='row'   justify="space-evenly" alignItems="flex-start">
+            <Grid container spacing={6} style={{marginTop: 20}} direction='row'   justifyContent="space-evenly" alignItems="flex-start">
                 <Grid item xs={8} sm={3} style={{marginBottom: 20}}>
                     <img className='master-image'  src={process.env.PUBLIC_URL + '/assets/hugo/opportunity-1.png'} alt="affinity diagram for target"/>
                     <div className='text-opportunity'>Target</div>
