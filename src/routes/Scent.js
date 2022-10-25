@@ -8,8 +8,11 @@ function Scent() {
 
     return (
     <div className="Scent">
+        <div className  = 'container' style={{marginTop:0, paddingTop:40}}>
+            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/scent/master.png'} alt="master of scent"/>
+        </div>
 
-        <div className= 'container'>
+        <div className= 'container-shrinked-2'>
             <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
                 <Grid item xs ={12} sm={6} style={{marginBottom: 30}}>
                     <div className='text-title'>Scent</div>
@@ -21,7 +24,7 @@ function Scent() {
             </Grid>
         </div>
 
-        <div className='container' style={{marginTop:100}}>
+        <div className='container-shrinked-2' style={{marginTop:100}}>
             <Grid container spacing={3} direction='row' justify="flex-start" alignItems="flex-start">
                 <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Deliverable</div>
@@ -29,7 +32,7 @@ function Scent() {
                 </Grid>
                 <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Contribution</div>
-                    <div className='text-body'>Personal Project(100%)</div>
+                    <div className='text-body'>Personal Project (100%)</div>
                 </Grid>
                 <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Patent</div>
@@ -44,17 +47,13 @@ function Scent() {
             </Grid>
         </div>
 
-        <div className= 'container' style={{marginTop:100}}>
-            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/scent/master.png'} alt="master of scent"/>
-        </div>
+        
 
-        <div className='container' style={{marginTop:180}}>
-            <img className='master-image'src={process.env.PUBLIC_URL + '/assets/scent/fullshot.jpg'} alt="fullshot of scent"/>
-        </div>
+        
 
         
         
-        <div className='container' style={{marginTop:300}}>
+        <div className='container' style={{marginTop:200}}>
             <div className='text-subtitle'>Inspiration</div>
             <div className='text-body'>Perfume layering is a popular trend that can express individuality and a means of relieving stress through olfactory stimulation.  I borrowed idea of perfume layering to design chairs that can be used alone and by many people.</div>
             <img className='master-image' style={{marginTop: 40}} src={process.env.PUBLIC_URL + '/assets/scent/inspiration.gif'} alt="inspiration process"/>
@@ -63,7 +62,8 @@ function Scent() {
             <div className='text-subtitle'>Combination</div>
             <div className='text-body'>Each stool borrowed a metaphorical concept from fragrance note. Scent can be zigzagged together to create various forms. The idea of combining stools comes from layered perfume.</div>
             <img className='master-image' style={{marginTop: 55}} src={process.env.PUBLIC_URL + '/assets/scent/combination.png'} alt="stool combination variations"/>
-            <img className='master-image' style={{marginTop: 100}} src={process.env.PUBLIC_URL + '/assets/scent/combination2.jpg'} alt="combined stool"/>
+            <img className='master-image' style={{marginTop: 100}} src={process.env.PUBLIC_URL + '/assets/scent/fullshot.jpg'} alt="fullshot of scent"/>
+            <img className='master-image' style={{marginTop: 20}} src={process.env.PUBLIC_URL + '/assets/scent/combination2.jpg'} alt="combined stool"/>
             <img className='master-image' style={{marginTop: 20}} src={process.env.PUBLIC_URL + '/assets/scent/top-view.jpg'} alt="combined stool top view"/>
         </div>
         <div className='container' style={{marginTop: 250}}>

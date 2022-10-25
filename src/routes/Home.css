@@ -14,6 +14,7 @@
   margin-top: 20px;
   align-items: center;
   display: block;
+  background-color: #fff;
 
 }
 
@@ -45,37 +46,44 @@ font-family: GT-America;
 font-style: regular;
 font-size: 28px;
 line-height: 130%;
-text-transform: uppercase;
-}
-
-
-
-.text-name-sooyeon{
-font-family: GT-America;
-font-style: regular;
-font-size: 28px;
-line-height: 130%;
-text-transform: uppercase;
-display: inline-block;
-padding-bottom: 0.25rem; 
-position: relative;
 
 }
 
-.text-name-sooyeon::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 2px;
-  background-color: #000;
-  transition: width 0.25s ease-out;
-}
 
-.text-name-sooyeon:hover::before {
-  width: 100%;
-}
+
+
+
+
+
+
+.text-name-portfolio{
+  font-family: GT-America;
+  font-style: regular;
+  font-size: 28px;
+  line-height: 130%;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 0.25rem; 
+  position: relative;
+  
+  }
+  
+  .text-name-portfolio::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    transition: width 0.25s ease-out;
+  }
+  
+  .text-name-portfolio:hover::before {
+    width: 100%;
+  }
 
 .text-item-name{
 font-family: GT-America;
@@ -107,10 +115,9 @@ position: relative;
 .text-item-name-sub{
   font-family: GT-America;
   font-style: regular;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 150%;
   display: inline;
-  
   }
 
 .link-item{
@@ -142,4 +149,6 @@ position: relative;
   margin-bottom: 40px;
   text-transform: uppercase;
 }
+
+
 

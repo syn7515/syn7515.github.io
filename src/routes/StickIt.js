@@ -6,8 +6,10 @@ function StickIt() {
 
     return (
     <div className="StickIt">
-
-        <div className= 'container'>
+        <div className  = 'container' style={{marginTop:0, paddingTop:40}}>
+            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/stickit/master.png'} alt="master of stick-it"/>
+        </div>
+        <div className= 'container-shrinked-2'>
             <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
                 <Grid item xs ={12} sm={6} style={{marginBottom: 30}}>
                     <div className='text-title'>stick-it</div>
@@ -19,7 +21,7 @@ function StickIt() {
             </Grid>
         </div>
 
-        <div className='container' style={{marginTop:100}}>
+        <div className='container-shrinked-2' style={{marginTop:100}}>
             <Grid container spacing={3} direction='row' justify="flex-start" alignItems="flex-start">
                 <Grid item xs ={6} sm={4} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Deliverable</div>
@@ -36,17 +38,9 @@ function StickIt() {
             </Grid>
         </div>
 
-        <div className= 'container' style={{marginTop:150}}>
-            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/stickit/master.png'} alt="master of stick-it"/>
-        </div>
-
-        <div className='container' style={{marginTop:150}}>
-            <img className='master-image'src={process.env.PUBLIC_URL + '/assets/stickit/overview.png'} alt="overview of stickit"/>
-        </div>
-
         
         
-        <div className='container' style={{marginTop:300, marginBottom: 0}}>
+        <div className='container' style={{marginTop:200, marginBottom: 0}}>
             <div className='text-subtitle'>Idea</div>
             <div className='text-body'>People often attach stickers to their laptops for aesthetics or individuality expression. Stick-it was inspired from the idea that stickers can serve a more useful function if it provides information that is either frequently looked, or only meaningful in a physical form.</div>
         </div>
@@ -86,6 +80,7 @@ function StickIt() {
             <img className='master-image' style={{marginTop: 10}} src={process.env.PUBLIC_URL + '/assets/stickit/output-1.png'} alt="stick-it for graphic designer"/>
             <div className='text-body' style={{marginTop: 85}}>2.  UI / UX  Designer : Artboard size + Shortcut + pt size + Angle + Ruler (mm)</div>
             <img className='master-image' style={{marginTop: 10}} src={process.env.PUBLIC_URL + '/assets/stickit/output-2.png'} alt="stick-it for UI/UX designer"/>
+            <img className='master-image'style={{marginTop: 75}} src={process.env.PUBLIC_URL + '/assets/stickit/overview.png'} alt="overview of stickit"/>
         </div>
         
 

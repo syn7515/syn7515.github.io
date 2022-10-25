@@ -4,21 +4,16 @@ import Grid from '@material-ui/core/Grid';
 import ReactPlayer from 'react-player/vimeo'
 
 
-
-
-
-
-
-
 function Hugo() {
-
-
-
 
     return (
     <div className="Hugo">
 
-        <div className= 'container'>
+        <div className  = 'container' style={{marginTop:0, paddingTop:40}}>
+            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/hugo/master.png'} alt="master of hugo"/>
+        </div>
+
+        <div className= 'container-shrinked-2'>
             <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start">
                 <Grid item xs ={12} sm={6} style={{marginBottom: 30}}>
                     <div className='text-title'>Hugo</div>
@@ -32,7 +27,7 @@ function Hugo() {
 
 
 
-        <div className='container' style={{marginTop:100}}>
+        <div className='container-shrinked-2' style={{marginTop:100}}>
             <Grid container spacing={3} direction='row' justify="flex-start" alignItems="flex-start">
                 <Grid item xs ={6} sm={4} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Deliverable</div>
@@ -49,14 +44,9 @@ function Hugo() {
             </Grid>
         </div>
 
-        <div className= 'container' style={{marginTop:150}}>
-            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/hugo/master.png'} alt="master of hugo"/>
-        </div>
 
         
-
-        
-        <div className='container' style={{marginTop:300, marginBottom:55}}>
+        <div className='container' style={{marginTop:200, marginBottom:55}}>
             <div className='text-subtitle'>Desk Research</div>
             <div className='text-body'>This project started to explore and solve ‘Imbalance of Information’. Based on this big subject, researched to find opportunity we might help solve.</div>
         </div>

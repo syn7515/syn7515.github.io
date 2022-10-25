@@ -2,11 +2,9 @@
     position: fixed;
     width: 100%;
     top: 0px;
-    left:5px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding: 10px 20px;
     color: #ffffff;
     mix-blend-mode: difference;
     z-index: 9999 !important;  
@@ -20,5 +18,93 @@
     margin: 8px;
     color: #ffffff;
   }
+
+
+  .text-name-sooyeon{
+    font-family: GT-America;
+    font-style: regular;
+    font-size: 24px;
+    padding-left: 40px;
+    padding-top: 27px;
+    line-height: 150%;
+    display: inline-block;
+    padding-bottom: 0.25rem; 
+    position: relative;
+    color: #ffffff;
+    flex-grow: 1;
+
+    }
+
+  .text-name-sooyeon::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: width 0.25s ease-out;
+  }
+    
+  .text-name-sooyeon:hover::before {
+    width: 100%;
+  }
+
+
  
+
+
+.text-name-tap{
+  font-family: GT-America;
+  font-style: regular;
+  font-size: 20px;
+  line-height: 150%;
+  display: inline-block;
+  padding-bottom: 0.25rem; 
+  position: relative;
+  
+}
+
+
+.text-name-tap-underline{
+  font-family: GT-America;
+  font-style: regular;
+  font-size: 20px;
+  line-height: 150%;
+  display: inline-block;
+  padding-bottom: 0.6rem; 
+  position: relative;
+  
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.1rem;
+}
  
+.topnav{
+  
+  display: flex;
+  flex-direction: row;
+  width: 100%
+}
+
+.taps{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-grow: 9;
+  padding-right: 50px;
+}
+
+
+.taps a{
+  font-family: GT-America;
+  font-style: regular;
+  font-size: 20px;
+  padding-top: 30px;
+  line-height: 150%;
+  display: inline-block;
+  padding-bottom: 0.25rem; 
+  position: relative;
+  padding-right: 20px;
+}
+
+      
