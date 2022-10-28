@@ -31,21 +31,21 @@ function Home()  {
                         </div>
                         </Link>
                     </Grid>
+                    <Grid  item  xs={12} sm={6}>
+                        {/* <Link to='/aline' className='link-item'>*/}
+                        <div>
+                            <p className='text-item-name'>ringle</p>
+                            <p className='text-item-name-sub' >&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;UX Research Internship, 2022 (Comming Soom)</p>
+                            <img className="master-image"  src={process.env.PUBLIC_URL + '/assets/ringle/ringle-master.jpg'} alt="master of ringle" />
+                        </div>
+                        {/*</Link>*/}
+                     </Grid>
                     <Grid item xs={12} sm={6}>
                         <Link to='/flot' className='link-item'>
                         <div>
                             <p className='text-item-name'>flot</p>
                             <p className='text-item-name-sub'>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Online meeting service, 2020</p>
                             <img className="master-image" src={process.env.PUBLIC_URL + '/assets/flot/flot-master.jpg'} alt="master of flot" />
-                        </div>
-                        </Link>
-                    </Grid>
-                    <Grid item xs={12} sm={6}>
-                        <Link to='/scent' className='link-item'>
-                        <div>
-                            <p className='text-item-name'>scent</p>
-                            <p className='text-item-name-sub'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Furniture, 2018</p>
-                            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/scent/scent-master.jpg'} alt="master of scent" />
                         </div>
                         </Link>
                     </Grid>
@@ -66,7 +66,16 @@ function Home()  {
                             <img className="master-image" src={process.env.PUBLIC_URL + '/assets/stickit/stick-it-master.jpg'} alt="master of stick-it" />
                         </div>
                         </Link>
-                    </Grid>        
+                    </Grid> 
+                    <Grid item xs={12} sm={6}>
+                        <Link to='/scent' className='link-item'>
+                        <div>
+                            <p className='text-item-name'>scent</p>
+                            <p className='text-item-name-sub'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Furniture, 2018</p>
+                            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/scent/scent-master.jpg'} alt="master of scent" />
+                        </div>
+                        </Link>
+                    </Grid>       
                 </Grid>
 
                 <div className='hyper-links' >
