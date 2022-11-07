@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c0707ce.chunk.css",
+    "main.css": "/static/css/main.b3b2bd21.chunk.css",
     "main.js": "/static/js/main.2188e142.chunk.js",
     "main.js.map": "/static/js/main.2188e142.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.14ee7864.js",
@@ -10,7 +10,7 @@
     "static/js/3.d7c65e75.chunk.js": "/static/js/3.d7c65e75.chunk.js",
     "static/js/3.d7c65e75.chunk.js.map": "/static/js/3.d7c65e75.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8c0707ce.chunk.css.map": "/static/css/main.8c0707ce.chunk.css.map",
+    "static/css/main.b3b2bd21.chunk.css.map": "/static/css/main.b3b2bd21.chunk.css.map",
     "static/js/2.38483180.chunk.js.LICENSE.txt": "/static/js/2.38483180.chunk.js.LICENSE.txt",
     "static/media/Hugo.css": "/static/media/CamptonSemiBold.91dd62c2.woff",
     "static/media/Flot.css": "/static/media/GT-America-Regular.5b77085e.otf",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.14ee7864.js",
     "static/js/2.38483180.chunk.js",
-    "static/css/main.8c0707ce.chunk.css",
+    "static/css/main.b3b2bd21.chunk.css",
     "static/js/main.2188e142.chunk.js"
   ]
 }
