@@ -11,22 +11,12 @@
 .wrapper-1{
   text-align: left;
   width: 100%;
-  margin-top: 20px;
+  padding-top: 20px;
   align-items: center;
   display: block;
   background-color: #fff;
 
 }
-
-
-
-.grid-container{
-  padding-left: 40px;
-  padding-right: 40px;
-  
-}
-
-
 
 
 
@@ -41,14 +31,40 @@ mix-blend-mode: difference;
 }
 
 
-.text-name{
-font-family: GT-America;
-font-style: regular;
-font-size: 28px;
-line-height: 130%;
+@media screen and (min-width: 600px) {
+  .text-name{
+    font-family: GT-America;
+    font-style: regular;
+    font-size: 28px;
+    line-height: 130%;
+    }
 
+  .grid-container{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0px;
+    display: flex;      
+    width: 100%;
+    margin-bottom: 150px;
+  }
 }
 
+@media screen and (max-width: 599px) {
+  .text-name{
+    font-family: GT-America;
+    font-style: regular;
+    font-size: 22px;
+    line-height: 130%;
+    }
+    .grid-container{
+      padding-left: 3%;
+      padding-right: 3%;
+      padding-top: 0px;
+      display: flex;      
+      width: 100%;
+      margin-bottom: 70px;
+    }
+}
 
 
 
@@ -92,8 +108,8 @@ font-size: 20px;
 line-height: 24px;
 text-transform: uppercase;
 display: inline-block;
-padding-bottom: 0.25rem; 
 position: relative;
+margin-bottom: 15px;
 
 }
 

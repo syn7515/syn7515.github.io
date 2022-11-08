@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import { Grid } from '@material-ui/core';
-import Resume from '../document/Resume.pdf';
+import Resume from '../document/Resume.v5.pdf';
 //import ReactPlayer from 'react-player/vimeo'
 
 
@@ -27,7 +27,7 @@ function About() {
                         <div className='text-self-intro'>I am a strategic, enthusiastic and well-rounded product designer with UX research and industrial design background.</div>
                         <div className='text-self-intro'>I like to experiment and learn about new technologies in my spare time. I've recently experimented with a variety of technologies, including React.js (which I used to create this portfolio! ), Arduino, 3D printing, Diagflow, basic machine learning coding with Google Colab, and 3D printing. These experiences help me to communicate with engineers and to assess a product's feasibility.</div>
                         <div className='text-self-intro'>I am also an avid fan of Dieter Ram’s design. I often make vintage Braun product illustrations.</div>
-                        <a className='text-intro-link' href='https://www.linkedin.com/in/sooyeon-park-495934193/' target="_blank" rel="noopener noreferrer">Linkedin↗</a>
+                        <a className='text-intro-link' href='https://linkedin.com/in/sooyeonp' target="_blank" rel="noopener noreferrer">Linkedin↗</a>
                         <a className='text-intro-link' href = {Resume} target = "_blank" rel="noopener noreferrer">Resume↗</a>
                     </Grid>
                 </Grid>

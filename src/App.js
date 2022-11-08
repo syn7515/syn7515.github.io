@@ -9,6 +9,7 @@ import Hugo from './routes/Hugo';
 import StickIt from './routes/StickIt';
 import ScrollToTop from './components/ScrollToTop';
 import Navigation from './components/Navigation';
+import Ringle from './routes/Ringle'
 
 function App(){
 
@@ -19,6 +20,7 @@ function App(){
     <Route path='/' exact={true} component= {Home} />
     <Route path='/about' component= {About} />
     <Route path='/aline' component= {Aline} />
+    <Route path='/ringle' component= {Ringle} />
     <Route path='/scent' component= {Scent} />
     <Route path='/flot'  component= {Flot} />
     <Route path='/hugo'  component= {Hugo} />

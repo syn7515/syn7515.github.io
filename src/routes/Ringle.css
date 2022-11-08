@@ -1,3 +1,109 @@
-.Ringle{
+@font-face {
+    font-family: "Neue Hass Grotesk";
+    src: url("../fonts/NeueHaasDisplay-Roman.ttf") format('opentype');
+    font-weight: roman;
+}
+
+
+
+.Ringle {
+    width: 100%;
+    text-align: left;
     background-color: white;
+}
+
+
+._styles-module__blurClass__3GnVl {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .5
+}
+
+
+
+._37_FJ {
+    z-index: 1;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    border-radius: 5px;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    background-color: #fff;
+    color: #000
+
+}
+
+
+
+._37_FJ>div {
+    padding: 10px;
+}
+
+._ovIFV {
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    
+}
+
+._1YwH3 {
+    align-self: flex-end;
+    letter-spacing: -.015em;
+   
+    
+}
+
+
+.text-subtitle-ringle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4427B7;
+}
+
+.black-purp{
+    background-color: #826FDC;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.text-phrase-ringle{
+    font-family: Neue Hass Grotesk;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 140%;
+    color: #000000; 
+    letter-spacing: 0.02em;
+}
+
+.text-caption{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    text-align: center;
+}
+
+.text-tips{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+u{
+    border-bottom: 1px solid;
+    padding-bottom: .1em;
+    text-decoration: none;
 }
