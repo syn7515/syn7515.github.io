@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Sooyeon Park's Porfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was for the Sooyeon Park's UX portfolio.
+You can check the result [here](https://syn7515.github.io)
 
 ## Available Scripts
 
@@ -53,18 +54,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/c
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
