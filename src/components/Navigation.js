@@ -29,7 +29,7 @@ function Navigation(){
                 </div>
                 </div>
             </div> 
-            : <Link to='/' style={{paddingLeft:20}}>&#8592;</Link>}
+            : <Link to='/' className='arrow' style={{paddingLeft:20}}>&#8592;</Link>}
     </div>);
 }
 
