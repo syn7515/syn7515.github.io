@@ -70,8 +70,15 @@ function Aline() {
             </Grid>
         </div>
         
+        <div className='black-bg' style={{marginTop: 150}}>
+                <div className='container-shrinked' style={{marginTop:0, marginBottom:0}}>
+                    <div className='text-subtitle'style={{marginBottom : 20, color:'white', textAlign:'center'}}>Project Overview</div>
+                    <div className='text-phrase-white-2' style={{lineHeight : 1.3, textAlign:'center', marginBottom : 40}}>How might we support Millennials to invest in what they value and care about?</div>
+                    <div className = 'text-body'style={{marginTop: 0, marginBottom :50, color:'white'}}>Aline is <u>a mobile app investing money in companies supporting users’ value</u>. It tracks users’ core values through the in-app activities and users’ data, automatically invests money, and manages the portfolio to ensure minimum profit. <u>I conducted user research with 96 respondents and designed user interfaces that addressed the design goals found in the research</u>.</div>
+                </div>
+            </div>
         
-        <div className='container-shrinked' style={{ marginTop: 200, marginBottom : 60}}>
+        <div className='container-shrinked' style={{ marginTop: 150, marginBottom : 60}}>
             <div className='text-subtitle'style={{marginBottom : 10}}>Problem</div>
             <div className='text-phrase' >People need a different motive to invest.</div>
             <div className='text-body'>Increasing numbers of investors want their money to help make the world a better place, and the market for sustainable investment is growing constantly. However, despite thier potential, financial services have been confined to profit-making, delibering financial information only in terms of numbers.</div>
