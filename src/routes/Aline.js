@@ -81,7 +81,7 @@ function Aline() {
         <div className='container-shrinked' style={{ marginTop: 150, marginBottom : 60}}>
             <div className='text-subtitle'style={{marginBottom : 10}}>Problem</div>
             <div className='text-phrase' >People need a different motive to invest.</div>
-            <div className='text-body'>Increasing numbers of investors want their money to help make the world a better place, and the market for sustainable investment is growing constantly. However, despite thier potential, financial services have been confined to profit-making, delibering financial information only in terms of numbers.</div>
+            <div className='text-body'>Increasing numbers of investors want their money to help make the world a better place, and the market for sustainable investment is growing constantly. However, despite thier potential, financial services have been confined to profit-making, delivering financial information only in terms of numbers.</div>
         </div>
         
             <div className ='container' style={{marginTop: 0, paddingTop: 30, marginBottom: 50, maxWidth: 1280}}>
@@ -248,7 +248,7 @@ function Aline() {
             <div className='container-shrinked' style={{marginTop:100, marginBottom : 0}}>
                 <div className='text-subtitle-white'style={{marginBottom: 10}}>Design Solution: Personal Value Index (PVI)</div>
                 <div className='text-phrase' style={{ textAlign: 'left', lineHeight: 1.3, color:'white'}}>Personal ESG value Index translates users' values into finance.</div>
-                <div className='text-body' style={{color : 'white', marginBottom: 60}}>The Personal Value Index (PVI) was created based on the ESG evaluation of MSCI, a reliable institution that issues the global capital index quaterly. Vased on this index, the most suitable investment company for users is selected to help users realize thier vision through investment and consumption. Aline provides users with ESG information in user-friendly language.</div>
+                <div className='text-body' style={{color : 'white', marginBottom: 60}}>The Personal Value Index (PVI) was created based on the ESG evaluation of MSCI, a reliable institution that issues the global capital index quaterly. Based on this index, the most suitable investment company for users is selected to help users realize thier vision through investment and consumption. Aline provides users with ESG information in user-friendly language.</div>
             </div>
             <div className='container' style={{marginTop: 0, maxWidth: 1400}}>
                 <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/pvi.png'} alt="pvi"/>
