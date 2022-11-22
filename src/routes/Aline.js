@@ -57,7 +57,18 @@ function Aline() {
         </div>
 
         
-
+        <div className='container-shrinked' style={{marginTop: 200}}>
+            <div className='text-subtitle'style={{marginBottom : 10}}>Background</div>
+            <Grid container columnSpacing={3}>
+                <Grid item xs={12} sm={6}>
+                    <div className='text-body'>This project is a part of the <u>capstone project in my undergrad, sponsored and commissioned by one of the largest investment companies</u>, NH investment & security (NHIS).
+                    <br/><br/>One constraint given to this project was to <u>design a service that utilizes personal data for improving user experience</u>, since there was a new enactment allowing the banks and investment companies to use customers’ individual data if they agree (MyData).</div>
+                </Grid>
+                <Grid item xs={12} sm={6}>
+                    <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/background.png'}  alt="NHIS andd my data"/>
+                </Grid>
+            </Grid>
+        </div>
         
         
         <div className='container-shrinked' style={{ marginTop: 200, marginBottom : 60}}>
