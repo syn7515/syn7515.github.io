@@ -57,24 +57,19 @@ function Aline() {
         </div>
 
         
-        <div className='container-shrinked' style={{marginTop: 200}}>
-            <div className='text-subtitle'style={{marginBottom : 10}}>Background</div>
-            <Grid container columnSpacing={3}>
-                <Grid item xs={12} sm={6}>
-                    <div className='text-body'>This project is a part of the <u>capstone project in my undergrad, sponsored and commissioned by one of the largest investment companies</u>, NH investment & security (NHIS).
-                    <br/><br/>One constraint given to this project was to <u>design a service that utilizes personal data for improving user experience</u>, since there was a new enactment allowing the banks and investment companies to use customers’ individual data if they agree (MyData initiative).</div>
-                </Grid>
-                <Grid item xs={12} sm={6}>
-                    <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/background.png'}  alt="NHIS andd my data"/>
-                </Grid>
-            </Grid>
-        </div>
-        
-        <div className='black-bg' style={{marginTop: 150}}>
+        <div className='gray-bg' style={{marginTop: 150}}>
                 <div className='container-shrinked' style={{marginTop:0, marginBottom:0}}>
-                    <div className='text-subtitle'style={{marginBottom : 20, color:'white', textAlign:'center'}}>Project Overview</div>
-                    <div className='text-phrase-white-2' style={{lineHeight : 1.3, textAlign:'center', marginBottom : 40}}>How might we support Millennials to invest in what they value and care about?</div>
-                    <div className = 'text-body'style={{marginTop: 0, marginBottom :50, color:'white'}}>Aline is <u>a mobile app investing money in companies supporting users’ value</u>. It tracks users’ core values through the in-app activities and users’ data, automatically invests money, and manages the portfolio to ensure minimum profit. <u>I conducted user research with 96 respondents and designed user interfaces that addressed the design goals found in the research</u>.</div>
+                    <div className='text-subtitle'style={{marginBottom : 20, textAlign:'center'}}>Project Overview</div>
+                    <div className='text-phrase' style={{lineHeight : 1.3, textAlign:'center', marginBottom : 40}}>How might we support Millennials to invest in what they value and care about?</div>
+                    <Grid container columnSpacing={4} style={{ marginBottom :50}}>
+                        <Grid item xs={12} sm={6}>
+                            <div className='text-body'>This project is a part of the <u>capstone project in my undergrad, sponsored and commissioned by one of the largest investment companies</u>, NH investment & security (NHIS).
+                            <br/><br/>One constraint given to this project was to <u>design a service that utilizes personal data for improving user experience</u>, since there was a new enactment allowing the banks and investment companies to use customers’ individual data if they agree (MyData initiative).</div>
+                        </Grid>
+                        <Grid item xs={12} sm={6}>
+                        <div className = 'text-body'>Aline is <u>a mobile app investing money in companies supporting users’ value</u>. It tracks users’ core values through the in-app activities and users’ data, automatically invests money, and manages the portfolio to ensure minimum profit. <br/><br/><u>I conducted user research with 96 respondents and designed user interfaces that addressed the design goals found in the research</u>.</div>
+                        </Grid>
+                    </Grid>
                 </div>
             </div>
         
