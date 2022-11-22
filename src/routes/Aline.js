@@ -42,7 +42,7 @@ function Aline() {
                     <div className='text-body'>Team Project (30%)<br/>User Research<br/>System Design<br/>UI Design<br/>Motion Design</div>
                 </Grid>
                 <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
-                    <div className='text-subtitle'>Award</div>
+                    <div className='text-subtitle'>Award 🏆</div>
                     <div className='text-body'>
                         <a href="https://ifdesign.com/en/winner-ranking/project/aline/310898" target="_blank" rel="noopener noreferrer">iF Gold 2021 - Service Design</a><br/>
                         <a href="https://ifdesign.com/en/winner-ranking/project/aline/312630" target="_blank" rel="noopener noreferrer">iF Winner 2021 - UI Design</a><br/>
@@ -62,7 +62,7 @@ function Aline() {
             <Grid container columnSpacing={3}>
                 <Grid item xs={12} sm={6}>
                     <div className='text-body'>This project is a part of the <u>capstone project in my undergrad, sponsored and commissioned by one of the largest investment companies</u>, NH investment & security (NHIS).
-                    <br/><br/>One constraint given to this project was to <u>design a service that utilizes personal data for improving user experience</u>, since there was a new enactment allowing the banks and investment companies to use customers’ individual data if they agree (MyData).</div>
+                    <br/><br/>One constraint given to this project was to <u>design a service that utilizes personal data for improving user experience</u>, since there was a new enactment allowing the banks and investment companies to use customers’ individual data if they agree (MyData initiative).</div>
                 </Grid>
                 <Grid item xs={12} sm={6}>
                     <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/background.png'}  alt="NHIS andd my data"/>
@@ -231,7 +231,7 @@ function Aline() {
             <div className='text-body'>To avoid the impression that financial information is hard to understand, symbols containing summarized information were placed at the center of each tap. Detailed information is visualized on the scrollable bottom sheet.</div>
         </div>
 
-        <div className='container' style={{marginTop: 10,marginBottom : 80}}>
+        <div className='container' style={{marginTop: 10,marginBottom : 80, maxWidth: 1000}}>
             <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/wire.png'} style={{marginTop : 70}} alt="wire-frame"/>
         </div>
        
