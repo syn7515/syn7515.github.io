@@ -145,9 +145,17 @@
 .text-subtitle{
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 21px;
     color:#000000
+}
+
+.text-subtitle-orange{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 21px;
+    color:#FA7B0E
 }
 
 .text-subtitle-white{
@@ -359,3 +367,11 @@ u:hover {
     color: #ffffff;
     mix-blend-mode: difference;
   }
+
+.highlight{
+    background: #E3E3E3;
+}
+
+.highlight-orange{
+    background: #FFBA7D60;
+}

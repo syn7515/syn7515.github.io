@@ -35,16 +35,16 @@ function Ringle() {
             <div className='container-shrinked-2' stylenpm={{marginTop: 0}}>
                 <Grid container spacing={2} direction='row' justify="center" alignItems="flex-start">
                     <Grid item xs ={6} sm={4} style={{marginBottom: 30}}>
-                        <div className='text-subtitle-ringle'>Deliverable</div>
+                        <div className='text-subtitle'>Deliverable</div>
                         <div className='text-body'>Data-driven Persona<br/>Data-driven Journey map</div>
                     </Grid>
                     <Grid item xs ={6} sm={4} style={{marginBottom: 30}}>
-                        <div className='text-subtitle-ringle'>Contribution</div>
-                        <div className='text-body'>Team Project (80%)<br/><br/>Stakeholder Interview<br/>Semi-structured Interview<br/>Thematic Analysis</div>
+                        <div className='text-subtitle'>My Contribution</div>
+                        <div className='text-body'>Stakeholder Interview<br/>Semi-structured Interview<br/>Thematic Analysis</div>
                     </Grid>
                     <Grid item xs ={6} sm={4} style={{marginBottom: 30}}>
-                        <div className='text-subtitle-ringle'>Duration</div>
-                        <div className='text-body'>3 months (2022.04 - 2023.07)</div>
+                        <div className='text-subtitle'>Duration</div>
+                        <div className='text-body'>3 months (04.2022 - 07.2022)</div>
                     </Grid>
                 </Grid>
             </div>

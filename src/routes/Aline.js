@@ -25,7 +25,7 @@ function Aline() {
                     <div className='text-explanation'>ESG Robo-adviser service</div>
                 </Grid>
                 <Grid item xs ={12} sm={6} style={{marginBottom: 0}}>
-                    <div className = 'text-body'style={{marginTop: 0}}>Aline is a Robo-advisor based <u>ESG (Environmental, Social and coporate Governance) financial service focusing on individual’s governing value</u>. In addition to earning profit through investment, users can help changing the world positively by supporting corporates that are in align with their value.</div>
+                    <div className = 'text-body'style={{marginTop: 0}}>Aline is a Robo-advisor based <mark className='highlight'>ESG (Environmental, Social and coporate Governance) financial service focusing on individual’s governing value.</mark> In addition to earning profit through investment, users can help changing the world positively by supporting corporates that are in align with their value.</div>
                 </Grid>
             </Grid>
         </div>
@@ -38,45 +38,47 @@ function Aline() {
                     <div className='text-body'>Service Design<br/>Mobile application</div>
                 </Grid>
                 <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
-                    <div className='text-subtitle'>Contribution</div>
-                    <div className='text-body'>Team Project (30%)<br/>User Research<br/>System Design<br/>UI Design<br/>Motion Design</div>
+                    <div className='text-subtitle'>My Contribution</div>
+                    <div className='text-body'>User Research<br/>System Design<br/>UI Design<br/>Motion Design</div>
+                    <div className='text-subtitle'style={{marginTop: 50}}>Team members</div>
+                    <div className='text-body'>5 Desingers</div>
                 </Grid>
                 <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Award 🏆</div>
                     <div className='text-body'>
-                        <a href="https://ifdesign.com/en/winner-ranking/project/aline/310898" target="_blank" rel="noopener noreferrer">iF Gold 2021 - Service Design</a><br/>
-                        <a href="https://ifdesign.com/en/winner-ranking/project/aline/312630" target="_blank" rel="noopener noreferrer">iF Winner 2021 - UI Design</a><br/>
-                        <a href="https://www.red-dot.org/project/aline-55142" target="_blank" rel="noopener noreferrer">Red Dot 2021 Winner - App</a>
+                        <a href="https://ifdesign.com/en/winner-ranking/project/aline/310898" target="_blank" rel="noopener noreferrer">iF Gold 2021: Service Design ↗</a><br/>
+                        <a href="https://ifdesign.com/en/winner-ranking/project/aline/312630" target="_blank" rel="noopener noreferrer">iF Winner 2021: UI Design ↗</a><br/>
+                        <a href="https://www.red-dot.org/project/aline-55142" target="_blank" rel="noopener noreferrer">Red Dot 2021 Winner: App ↗</a>
                     </div>
                 </Grid>
                 <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Duration</div>
-                    <div className='text-body'>4 months (2020.03 - 2020.06)</div>
+                    <div className='text-body'>4 months (03.2020 - 06.2020)</div>
                 </Grid>
             </Grid>
         </div>
 
         
-        <div className='gray-bg' style={{marginTop: 150}}>
+        <div className='gray-bg' style={{marginTop: 100}}>
                 <div className='container-shrinked' style={{marginTop:0, marginBottom:0}}>
                     <div className='text-subtitle'style={{marginBottom : 20, textAlign:'center'}}>Project Overview</div>
                     <div className='text-phrase' style={{lineHeight : 1.3, textAlign:'center', marginBottom : 40}}>How might we support Millennials to invest in what they value and care about?</div>
                     <Grid container columnSpacing={4} style={{ marginBottom :50}}>
                         <Grid item xs={12} sm={6}>
-                            <div className='text-body'>This project is a part of the <u>capstone project in my undergrad, sponsored and commissioned by one of the largest investment companies</u>, NH investment & security (NHIS).
-                            <br/><br/>One constraint given to this project was to <u>design a service that utilizes personal data for improving user experience</u>, since there was a new enactment allowing the banks and investment companies to use customers’ individual data if they agree (MyData initiative).</div>
+                            <div className='text-body'>This project is a part of the <mark className='highlight-orange'>capstone project in my undergrad, sponsored and commissioned by one of the largest investment companies, NH investment & security (NHIS)</mark>.
+                            <br/><br/>One constraint given to this project was <mark className='highlight-orange'>to design a service that utilizes personal data for improving user experience</mark>, since there was a new enactment allowing the banks and investment companies to use customers’ individual data if they agree (MyData initiative).</div>
                         </Grid>
                         <Grid item xs={12} sm={6}>
-                        <div className = 'text-body'>Aline is <u>a mobile app investing money in companies supporting users’ value</u>. It tracks users’ core values through the in-app activities and users’ data, automatically invests money, and manages the portfolio to ensure minimum profit. <br/><br/><u>I conducted user research with 96 respondents and designed user interfaces that addressed the design goals found in the research</u>.</div>
+                        <div className = 'text-body'>Aline is <mark className='highlight-orange'>a mobile app investing money in companies supporting users’ value</mark>. It tracks users’ core values through the in-app activities and users’ data, automatically invests money, and manages the portfolio to ensure minimum profit. <br/><br/><mark className='highlight-orange'>I conducted user research with 96 respondents and designed user interfaces that addressed the design goals found in the research</mark>.</div>
                         </Grid>
                     </Grid>
                 </div>
             </div>
         
-        <div className='container-shrinked' style={{ marginTop: 150, marginBottom : 60}}>
-            <div className='text-subtitle'style={{marginBottom : 10}}>Problem</div>
+        <div className='container-shrinked' style={{ marginTop: 150, marginBottom : 40}}>
+            <div className='text-subtitle-orange'style={{marginBottom : 10}}>Problem</div>
             <div className='text-phrase' >People need a different motive to invest.</div>
-            <div className='text-body'>Increasing numbers of investors want their money to help make the world a better place, and the market for sustainable investment is growing constantly. However, despite thier potential, financial services have been confined to profit-making, delivering financial information only in terms of numbers.</div>
+            <div className='text-body'><mark className='highlight'>I conducted secondary research on the financial sector to better grasp the trends and problems on the domain.</mark> It appears that increasing numbers of investors want their money to help make the world a better place, and the market for sustainable investment is growing constantly. However, despite thier potential, financial services have been confined to profit-making, delivering financial information only in terms of numbers.</div>
         </div>
         
             <div className ='container' style={{marginTop: 0, paddingTop: 30, marginBottom: 50, maxWidth: 1280}}>
@@ -168,9 +170,9 @@ function Aline() {
             </div>
         
         <div className='container-shrinked' style={{marginTop: 200,  marginBottom : 80}}>
-            <div className='text-subtitle' style={{marginBottom : 10}}> Research</div>
+            <div className='text-subtitle-orange' style={{marginBottom : 10}}>Research</div>
             <div className='text-phrase' style={{lineHeight : 1.3}} >Millennials want to make an impact in align with their governing values as they invest.</div>
-            <div className='text-body' >We surveyed 96 Millennials to learn more about their opinions and general interests in sustainable growth and investing. Additionally, to identify the problem and build the persona of our target user, we conducted a focus group interview (FGI) with a group of 5 Millennials.</div>
+            <div className='text-body'><mark className='highlight'>We surveyed 96 Millennials to learn more about their opinions and general interests in sustainable growth and investing.</mark> Additionally, to identify the problem and build the persona of our target user, <mark className='highlight'>we conducted a focus group interview (FGI) with a group of 5 Millennials</mark>.</div>
         </div>
         <div className='container' style={{marginTop: 80, maxWidth: 1440}}>
             <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/research.png'} alt="research"/>
@@ -178,7 +180,7 @@ function Aline() {
 
         <div className='black-bg' style={{marginTop: 200, paddingTop: 50, paddingBottom: 50}}>
             <div className='container-shrinked' style={{marginTop:0,  marginBottom : 50}}>
-                <div className='text-subtitle-white'style={{marginBottom : 10}}>Design Goals</div>
+                <div className='text-subtitle-orange'style={{marginBottom : 10}}>Design Goals</div>
                 <div className='text-phrase-white-2' style={{lineHeight : 1.3}}>Maintain profitability, promote users’ value, and keep users updated with the investment.</div>
                 <div className='text-body' style={{color: 'white'}}>Based on the painpoints found during the user research, we identified three design goals that should be addressed in our ultimate solution.</div>
             </div>
@@ -204,44 +206,35 @@ function Aline() {
         </div>
 
         <div className='container-shrinked' style={{ marginTop: 200}}>
-            <div className='text-subtitle'style={{marginBottom : 10}}>Solution Brainstorming</div>
+            <div className='text-subtitle-orange'style={{marginBottom : 10}}>Solution Brainstorming</div>
             <div className='text-phrase' style={{lineHeight : 1.35}}  >Brainstorm and compare potential solutions based on the effort and impact on users.</div>
-            <div className='text-body' style={{marginBottom: 30}}>We brainstormed potential approaches to meet the design goals. Then, bearing in mind our user persona and pain points, we evaluated them by the amount of work we should invest in developing features and their impact on users.</div>
+            <div className='text-body' style={{marginBottom: 30}}><mark className='highlight'>We brainstormed potential approaches to meet the design goals.</mark> Then, bearing in mind our user persona and pain points, we evaluated them by the amount of work we should invest in developing features and their impact on users.</div>
             <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/brainstorming.png'} alt="feature prioritization chart"/>
         </div>
 
         <div className='container-shrinked' style={{ marginTop: 200}}>
-            <div className='text-subtitle'style={{marginBottom : 10}}>User Flow</div>
+            <div className='text-subtitle-orange'style={{marginBottom : 10}}>User Flow</div>
             <div className='text-phrase' style={{lineHeight : 1.35}}>Less steps to get the user to their destination immediately</div>
-            <div className='text-body' style={{marginBottom: 50}}>We mapped out key features in user flow in a way that user can get to their needs within a least amount of steps.  To assist them quickly discover the relevant information, detailed information such as portfolio information and consumption logs are displayed one depth below.</div>
-            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/flow-chart.png'} alt="flow chart"/>
-        </div>
-
-        <div className='container-shrinked' style={{marginTop: 200, marginBottom: 50}}>
-            <div className='text-subtitle' style={{marginBottom: 10}}>Service Blueprint</div>
-            <div className='text-phrase' style={{lineHeight : 1.35}} >Considering resources and the service's scope to ensure the feasibility</div>
-            <div className='text-body'>To assess the scale of the service and to resource to support it, the entire user journey and the relationship between different service components are visualized as a service blueprint. By doing this, we were able to ensure the feasibility again.</div>
-        </div>
-        <div className='container' style={{marginTop: 0, maxWidth: 1300}}>
-            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/blueprint.png'} alt="blueprint"/>
+            <div className='text-body' style={{marginBottom: 50}}><mark className='highlight'>We mapped out key features in user flow in a way that user can get to their needs within a least amount of steps.</mark> To assist them quickly discover the relevant information, detailed information such as portfolio information and consumption logs are displayed one depth below.</div>
+            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/flow-chart.gif'} alt="flow chart"/>
         </div>
 
         
         <div className='container-shrinked' style={{marginTop: 200,  marginBottom : 0}}>
-            <div className='text-subtitle'style={{marginBottom : 10}} >Wire Frame</div>
+            <div className='text-subtitle-orange'style={{marginBottom : 10}} >Wire Frame</div>
             <div className='text-phrase' style={{lineHeight : 1.3}} >Visualizing summarized financial information for intuitive interpretation</div>
             <div className='text-body'>To avoid the impression that financial information is hard to understand, symbols containing summarized information were placed at the center of each tap. Detailed information is visualized on the scrollable bottom sheet.</div>
         </div>
 
         <div className='container' style={{marginTop: 10,marginBottom : 80, maxWidth: 1000}}>
-            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/wire.png'} style={{marginTop : 70}} alt="wire-frame"/>
+            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/wire.gif'} style={{marginTop : 70}} alt="wire-frame"/>
         </div>
        
 
         <div className='black-bg' style={{marginTop: 200}}>
 
             <div className='container-shrinked' style={{marginTop:100, marginBottom : 0}}>
-                <div className='text-subtitle-white'style={{marginBottom: 10}}>Design Solution: Personal Value Index (PVI)</div>
+                <div className='text-subtitle-orange'style={{marginBottom: 10}}>Design Solution: Personal Value Index (PVI)</div>
                 <div className='text-phrase' style={{ textAlign: 'left', lineHeight: 1.3, color:'white'}}>Personal ESG value Index translates users' values into finance.</div>
                 <div className='text-body' style={{color : 'white', marginBottom: 60}}>The Personal Value Index (PVI) was created based on the ESG evaluation of MSCI, a reliable institution that issues the global capital index quaterly. Based on this index, the most suitable investment company for users is selected to help users realize thier vision through investment and consumption. Aline provides users with ESG information in user-friendly language.</div>
             </div>
@@ -314,7 +307,7 @@ function Aline() {
                     </Grid>
                     <Grid item sm={12} md={6} alignment='flexend' style={{marginTop : 100}}>
                         <Grid container spacing={0} direction='row'>
-                            <Grid item sm={12} md={3}><div className='text-subtitle-white' style={{marginBottom: 20}}>LEARN</div></Grid>
+                            <Grid item sm={12} md={2}><div className='text-subtitle-orange' style={{marginBottom: 20}}>LEARN</div></Grid>
                             <Grid item sm={12} md={9}><div className='text-body' style={{color: 'white', marginTop: 0}}>A ring-shaped interface represents colors that correspond to the value that the portfolio focuses on.<br/><br/>In addition, while traditional investment services only provide financial information, Aline shows ESG information for companies currently investing in.</div></Grid>
                         </Grid>
                     </Grid>
@@ -325,7 +318,7 @@ function Aline() {
             <div className='container' style={{marginTop:200}}>
                 <Grid container spacing={4} direction='row' alignItems='center' display="flex" justifyContent="center">
                     <Grid container sm={12} md={4} direction='column' alignment='flex-start' >
-                        <Grid item ><div className='text-subtitle-white'>EXPRESS</div></Grid>
+                        <Grid item ><div className='text-subtitle-orange'>EXPRESS</div></Grid>
                         <Grid item ><div className='text-body' style={{color: 'white'}}>Every day, Aline asks users for their thoughts on investing in a certain firm while also providing the company's  ESG data and most recent news.<br/><br/> The user's response aids in better matching the user's investment portfolio to their values.</div></Grid>
                     </Grid>
                     <Grid item sm={12} md={5}><img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/dailynews.gif'} alt="Daily investment news update"/></Grid>
@@ -338,7 +331,7 @@ function Aline() {
                         <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/Alarm_Consumption.gif'} alt="alarm and consumption"/>
                     </Grid>
                     <Grid item sm = {12} md = {4}>
-                            <div class='text-subtitle-white'>ALIGN</div>
+                            <div class='text-subtitle-orange'>ALIGN</div>
                             <div class='text-body'style={{color : 'white'}}>When you pay with an app card, Aline visualize and demonstrate the value the company that users paid is aiming for.  Aline sends a warning alarm when users spend against their own values.<br/><br/>Aline also analyzes consumption history to show what value users spent on. Based on this, users can change their spending lives.</div>
                     </Grid>
                 </Grid>
@@ -357,7 +350,7 @@ function Aline() {
             </div>
 
             <div className='container-shrinked' style={{marginTop:100}}>
-                <div className='text-subtitle-white'style={{marginBottom: 10}}>Implication</div>
+                <div className='text-subtitle-orange'style={{marginBottom: 10}}>Implication</div>
                 <div className='text-phrase' style={{ textAlign: 'left', lineHeight: 1.3, color:'white'}}>NHIS starts promoting businesses where sustainability and profitability are compatible.</div>
                 <Grid container spacing={2.5} style={{marginTop:50}}>
                     <Grid item sm={12} md={6}>
@@ -376,17 +369,17 @@ function Aline() {
             </div>
 
             <div className='container-shrinked' style={{marginTop:200, marginBottom:250}}>
-                <div className='text-subtitle-white'style={{marginBottom: 50}}>Reflection</div>
+                <div className='text-subtitle-orange'style={{marginBottom: 30}}>Reflection</div>
                 <div className='text-body' style={{color: 'white'}}>
                     <b>I learned</b>
                     <ul>
-                        <li>that <u>how valuable good teamwork is.</u> We could develop a design solution considering diverse perspectives with teammates with different strengths and thoughts. </li>
-                        <li>that <u>shorter frequent meetings were very effective in group projects.</u> t was the very first design project during the pandemic. Instead of having a long exhausting meeting as we meet in person, we set up an upcoming virtual meeting shortly after when we were stuck. It allowed us to refresh our minds and have time to reflect individually on our design process.</li>
+                        <li>that <mark className='highlight'>how valuable good teamwork is</mark>. We could develop a design solution considering diverse perspectives with teammates with different strengths and thoughts. </li>
+                        <li>that <mark className='highlight'>shorter frequent meetings were very effective in group projects</mark>. t was the very first design project during the pandemic. Instead of having a long exhausting meeting as we meet in person, we set up an upcoming virtual meeting shortly after when we were stuck. It allowed us to refresh our minds and have time to reflect individually on our design process.</li>
                     </ul>
                     <br/>
                     <b>I would change</b>
                     <ul>
-                        <li>that <u>I left some time to do user testing.</u> Although we received great feedback and comments from NHIS and juries of the iF / Red dot design award, testing the solution with the target user would help us evaluate the design options and their trade-offs during the process.</li>
+                        <li>that <mark className='highlight'> I left some time to do user testing.</mark> Although we received great feedback and comments from NHIS and juries of the iF / Red dot design award, testing the solution with the target user would help us evaluate the design options and their trade-offs during the process.</li>
                     </ul>
                 </div>
             </div>
