@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7caa4d18.chunk.css",
-    "main.js": "/static/js/main.49dc7436.chunk.js",
-    "main.js.map": "/static/js/main.49dc7436.chunk.js.map",
+    "main.js": "/static/js/main.17746752.chunk.js",
+    "main.js.map": "/static/js/main.17746752.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.14ee7864.js",
     "runtime-main.js.map": "/static/js/runtime-main.14ee7864.js.map",
     "static/js/2.0e6b4ff5.chunk.js": "/static/js/2.0e6b4ff5.chunk.js",
@@ -15,13 +15,13 @@
     "static/media/Hugo.css": "/static/media/CamptonSemiBold.91dd62c2.woff",
     "static/media/Flot.css": "/static/media/GT-America-Regular.5b77085e.otf",
     "static/media/Ringle.css": "/static/media/NeueHaasDisplay-Roman.d3b96bd5.ttf",
-    "static/media/Resume.v5.02affbcf.pdf": "/static/media/Resume.v5.02affbcf.pdf",
+    "static/media/Resume.v5.756fd7c6.pdf": "/static/media/Resume.v5.756fd7c6.pdf",
     "static/media/Aline.css": "/static/media/reddot icon.dcff1605.png"
   },
   "entrypoints": [
     "static/js/runtime-main.14ee7864.js",
     "static/js/2.0e6b4ff5.chunk.js",
     "static/css/main.7caa4d18.chunk.css",
-    "static/js/main.49dc7436.chunk.js"
+    "static/js/main.17746752.chunk.js"
   ]
 }
