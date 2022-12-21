@@ -15,6 +15,8 @@ function Home()  {
     return(
         <div className="Home" >
             <div className='wrapper-1'>
+      
+      
                 <Grid container className='grid-container' spacing={4} style={{paddingTop: 120}} direction='row' justify='flex-start' alignItems='flex-start'>
                     <Grid item xs={12}>
                         <div className='text-name'>A product designer with a solid UX research background.<br/>Currently studying M.S. Information at the University of Michigan.<br/>Previously worked at <a href="https://www.ringleplus.com/en/student/landing/home" target="_blank" rel="noopener noreferrer">Ringle</a>.</div>
@@ -40,7 +42,16 @@ function Home()  {
                         </div>
                         </Link>
                      </Grid>
-                    <Grid item xs={12} sm={6}>
+                     <Grid  item  xs={12} sm={6}>
+                        {/*<Link to='/ringle' className='link-item'>*/}
+                        <div>
+                            <p className='text-item-name'>medee</p>
+                            <p className='text-item-name-sub'>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Medication Adherence service, 2022&nbsp;&nbsp;(Coming Soon)</p>
+                            <img className="master-image"  style={{borderRadius: 12}} src={process.env.PUBLIC_URL + '/assets/medee/medee-master.png'} alt="master of medee" />
+                        </div>
+                        {/*</Link>*/}
+                     </Grid>
+                    {/*<Grid item xs={12} sm={6}>
                         <Link to='/flot' className='link-item'>
                         <div>
                             <p className='text-item-name'>flot</p>
@@ -75,8 +86,43 @@ function Home()  {
                             <img className="master-image" style={{borderRadius: 12}} src={process.env.PUBLIC_URL + '/assets/scent/scent-master.jpg'} alt="master of scent" />
                         </div>
                         </Link>
-                    </Grid>       
+                    </Grid>*/}       
                 </Grid>
+
+                <Grid container className='grid-container' columnSpacing={4} rowSpacing={6} style={{paddingTop: 120}} direction='row' justify='flex-start' alignItems='flex-start'>
+                    <Grid item xs={12}>
+                        <div className='text-name'>Other Fun Works</div>
+                    </Grid>
+                    <Grid item xs={12} sm={4}>
+                        {/*<Link to='/stick-it' className='link-item'>*/}
+                            <div>
+                                <p className='text-item-name'>braun</p>
+                                <p className='text-item-name-sub'>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Illustration, 2022&nbsp;&nbsp;(Coming Soon)</p>
+                                <img className="master-image"  style={{borderRadius: 12}} src={process.env.PUBLIC_URL + '/assets/braun/braun-master.png'} alt="master of braun" />
+                            </div>
+                        {/*</Link>*/}
+                    </Grid>
+                    <Grid item xs={12} sm={4}>
+                        <Link to='/stick-it' className='link-item'>
+                            <div>
+                                <p className='text-item-name'>stick-it</p>
+                                <p className='text-item-name-sub'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graphic, 2021</p>
+                                <img className="master-image"  style={{borderRadius: 12}} src={process.env.PUBLIC_URL + '/assets/stickit/stick-it-master.jpg'} alt="master of stick-it" />
+                            </div>
+                        </Link>
+                    </Grid> 
+                    <Grid item xs={12} sm={4}>
+                        <Link to='/scent' className='link-item'>
+                            <div>
+                                <p className='text-item-name'>scent</p>
+                                <p className='text-item-name-sub'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Furniture, 2018</p>
+                                <img className="master-image" style={{borderRadius: 12}} src={process.env.PUBLIC_URL + '/assets/scent/scent-master.jpg'} alt="master of scent" />
+                            </div>
+                        </Link>
+                    </Grid>     
+                </Grid>
+
+
 
                 <div className='hyper-links' >
                     <a href='https://linkedin.com/in/sooyeonp' target="_blank" rel="noopener noreferrer">LINKEDIN</a>

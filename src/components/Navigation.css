@@ -1,6 +1,7 @@
 .nav {
     position: fixed;
     width: 100%;
+    
     top: 0px;
     display: flex;
     flex-direction: row;
@@ -27,7 +28,7 @@
 
    
 
-    .grid-container{
+    .grid-container-nav{
       padding-left: 3%;
       padding-right: 3%;
       padding-top: 20px;

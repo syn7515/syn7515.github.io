@@ -65,9 +65,9 @@
 
 .text-subtitle-ringle{
     font-style: normal;
-    font-weight: 700;
-    font-size:  19px;
-    line-height: 21px;
+    font-weight: 600;
+    font-size:  21px;
+    line-height: 25px;
     color: #4427B7;
 }
 
@@ -82,7 +82,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    line-height: 140%;
+    line-height: 130%;
     color: #000000; 
     letter-spacing: 0.02em;
 }

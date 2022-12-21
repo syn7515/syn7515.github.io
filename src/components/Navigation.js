@@ -14,8 +14,8 @@ function Navigation(){
     return (
     <div className="nav">
         {location.pathname === '/' || location.pathname === '/about' ? 
-            <div className='topnav'><div className='grid-container'>
-                <Link to='/'><div className='text-name-sooyeon'>Sooyeon Park</div></Link>
+            <div className='topnav'><div className='grid-container-nav'>
+                <Link to='/'><div className='text-name-sooyeon'>Sooyeon (Sue) Park</div></Link>
                 <div className='taps'>
                     {location.pathname === '/' ?
                     <Link to='/'><div className='text-name-tap-underline'>work</div></Link> :

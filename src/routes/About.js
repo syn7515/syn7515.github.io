@@ -23,9 +23,9 @@ function About() {
                         <img className="master-image" src={process.env.PUBLIC_URL + '/assets/about/sooyeon.jpg'} alt="sooyeon smiling" />
                     </Grid>
                     <Grid item xs={12} md={7}>
-                        <div className='text-hello'>Hello, my name is Sooyeon [su-yi-un].<br/>You can call me Soo.</div>
+                        <div className='text-hello'>Hello, my name is Sooyeon [su-yi-un].<br/>You can call me Sue.</div>
                         <div className='text-self-intro'>I am a strategic, enthusiastic and well-rounded product designer with UX research and industrial design background.</div>
-                        <div className='text-self-intro'>I like to experiment and learn about new technologies in my spare time. I've recently experimented with a variety of technologies, including React.js (which I used to create this portfolio! ), Arduino, 3D printing, Diagflow, basic machine learning coding with Google Colab, and 3D printing. These experiences help me to communicate with engineers and to assess a product's feasibility.</div>
+                        <div className='text-self-intro'><mark className='highlight'>I like to experiment and learn about new technologies in my spare time.</mark> I've recently experimented with a variety of technologies, including React.js (which I used to create this portfolio! ), Arduino, 3D printing, Dialogflow, basic machine learning coding with Google Colab, and 3D printing. <mark className='highlight'>These experiences help me to communicate with engineers and to assess feasibility when designing a feature.</mark></div>
                         <div className='text-self-intro'>I am also an avid fan of Dieter Ram’s design. I often make vintage Braun product illustrations.</div>
                         <a className='text-intro-link' href='https://linkedin.com/in/sooyeonp' target="_blank" rel="noopener noreferrer">Linkedin↗</a>
                         <a className='text-intro-link' href = {Resume} target = "_blank" rel="noopener noreferrer">Resume↗</a>

@@ -22,16 +22,11 @@ function Ringle() {
                         <div className='text-explanation'>UX Research Intenship</div>
                     </Grid>
                     <Grid item xs ={12} sm={6} style={{marginBottom: 0}}>
-                        <div className = 'text-body'style={{marginTop: 0}}>Ringle is a tutoring platform connecting college students in English-speaking countries to professionals who wish to develop their English-speaking skills. During my 3-month summer internship in 2022, <u>I conducted UX research to establish a data-driven persona and journey map of current users.</u></div>
+                        <div className = 'text-body'style={{marginTop: 0}}>Ringle is a tutoring platform connecting college students in English-speaking countries to professionals who wish to develop their English-speaking skills. During my 3-month summer internship in 2022, <mark className='highlight'>I conducted UX research to establish a data-driven persona and journey map of current users.</mark></div>
                     </Grid>
                 </Grid>
             </div>
 
-            {/* <Protect blur='true' boxTitle='Request password to see the detail' sha512='EE26B0DD4AF7E749AA1A8EE3C10AE9923F618980772E473F8819A5D4940E0DB27AC185F8A0E1D5F84F88BC887FD67B143732C304CC5FA9AD8E6F57F50028A8FF' 
-                styles={{
-                    input: {  backgroundColor: 'hsla(0,0%,56.5%,.075)', borderColor: '#e6e6e6', height: '2.75em', appearance: 'none', borderRadius: '6px', border: '1px', display: 'block', outline: '0', padding: '0 1em',textDecoration: 'none' ,width: '92%' },
-                    header: { fontSize: '18px', backgroundColor: '#000', color: '#fff', padding:'10px'},
-                    button: { padding: '10px', backgroundColor: 'transparent', color: '#828282!important', boxShadow: 'inset 0 0 0 2px #e6e6e6', transition: 'background-color .2s ease-in-out,color .2s ease-in-out', borderRadius:'6px', border: '0'}}}> */}
             <div className='container-shrinked-2' stylenpm={{marginTop: 0}}>
                 <Grid container spacing={2} direction='row' justify="center" alignItems="flex-start">
                     <Grid item xs ={6} sm={4} style={{marginBottom: 30}}>
@@ -56,7 +51,7 @@ function Ringle() {
                         <img className="master-image" src={process.env.PUBLIC_URL + '/assets/ringle/background.png'} alt="master of ringle"/>
                     </Grid>
                     <Grid item xs ={12} sm={6} style={{marginBottom: 30}}>
-                        <div className = 'text-body'style={{marginTop: 0}}>Ringle is a startup with 70 workers that is rapidly expanding. For the past 7 years, the business has concentrated on improving its cash flow and core product.<br/><br/>Since the business has stabilized, they are recently shifting their focus to enhancing UX and marketing with quantitative and qualitative data.</div>
+                        <div className = 'text-body'style={{marginTop: 0}}>Ringle is a startup with 70 workers that is rapidly expanding. For the past 7 years, the business has concentrated on improving its cash flow and core product.<br/><br/>Since the business has stabilized, <mark className='highlight'>Ringle team is recently shifting its focus to enhancing UX and marketing with quantitative and qualitative data.</mark></div>
                     </Grid>
                 </Grid>
             </div>
@@ -70,26 +65,87 @@ function Ringle() {
             </div>
 
             <div className='container-shrinked' style={{ marginTop: 150}}>
-                <div className='text-subtitle-ringle'style={{marginBottom : 20}}>Process</div>
-                <div className='text-phrase-ringle'style={{marginBottom : 20}}>Used a mixed method to validate and generalize research insights.</div>
-                <div className = 'text-body'style={{marginTop: 0, marginBottom :60}}>I got the opportunity to organize and conduct the research from start when I was given this project. I used a number of research approaches to make sure the research outcome was valid.</div>
+                <div className='text-subtitle-ringle'style={{marginBottom : 15}}>Process</div>
+                <div className='text-phrase-ringle'style={{marginBottom : 60}}>Used a mixed method to validate and generalize research insights.</div>
                 <img className="master-image" src={process.env.PUBLIC_URL + '/assets/ringle/process.png'} alt="master of ringle"/>
+                
                 <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start" style={{marginTop: 20}}>
                     <Grid item xs ={12} sm={6}>
-                        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/ringle/interview-1.png'} alt="master of ringle"/>
-                        <div className = 'text-caption'style={{marginTop: 5}}>Interview with a customer<br/>preparing for grad school in the USA</div>
+                        <div className="text-body">When I was assigned this project, <mark className='highlight'>I had the chance to plan and carry out the research from the beginning.</mark> I employed mixed-method approach to ensure the validity of the research findings.<br/><br/>I recruited a college from each team to speak with in order to conduct <mark className='highlight'>stakeholder interviews</mark> and fast gain a broad understanding of Ringle's customer base. I used the <mark className='highlight'>outsourced marketing report</mark>  the company had commissioned a month earlier to obtain the client demographic information instead of doing extra surveys as I originally planned.</div>    
                     </Grid>
                     <Grid item xs ={12} sm={6} >
-                        <img className="master-image" src={process.env.PUBLIC_URL + '/assets/ringle/interview-2.png'} alt="master of ringle"/>
-                        <div className = 'text-caption'style={{marginTop: 5}}>Interview props and consent form</div>
+                        <div className="text-body">Based on the knowledge I got from stakeholder interviews  and marketing report, I <mark className='highlight'>brainstormed a number of hypothesis</mark> on customer behavioral patterns. Then, I conducted <mark className='highlight'>in-depth interviews </mark>with 11 participants to get the  qualitative data on the Ringle product usage. <br/><br/>I adopted <mark className='highlight'>thematic analysis approach</mark> to analyze 15-hour long interview data with the help of UX team colleagues. User behavioral patterns identified by the analysis were <mark className='highlight'>validated by collaborating with data scientists and consolidated as a persona and user journey map.</mark></div>    
                     </Grid>
                 </Grid>
+                
             </div>
 
+            
+            {/*<Protect blur='true' boxTitle='Request password to see the detail' sha512='EE26B0DD4AF7E749AA1A8EE3C10AE9923F618980772E473F8819A5D4940E0DB27AC185F8A0E1D5F84F88BC887FD67B143732C304CC5FA9AD8E6F57F50028A8FF' 
+                styles={{
+                    input: {  backgroundColor: 'hsla(0,0%,56.5%,.075)', borderColor: '#e6e6e6', height: '2.75em', appearance: 'none', borderRadius: '6px', border: '1px', display: 'block', outline: '0', padding: '0 1em',textDecoration: 'none' ,width: '92%' },
+                    header: { fontSize: '18px', backgroundColor: '#000', color: '#fff', padding:'10px'},
+                button: { padding: '10px', backgroundColor: 'transparent', color: '#828282!important', boxShadow: 'inset 0 0 0 2px #e6e6e6', transition: 'background-color .2s ease-in-out,color .2s ease-in-out', borderRadius:'6px', border: '0'}}}>*/}
+
+<div className='container-shrinked' style={{ marginTop: 180}}>
+                    <div className='text-subtitle-ringle'style={{marginBottom : 15}}>1. Stakeholder Interview</div>
+                    <div className='text-phrase-ringle'style={{marginBottom : 30}}>Interviewed Ringle team leaders for a rough understanding on the customer base.</div>
+                    <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start" style={{marginBottom: 30}}>
+                        <Grid item xs ={12} sm={6}>
+                            <div className="text-body">To acquire a general knowledge of the customer base, I decided to learn from members of certain Ringle teams that communicate directly with users. Therefore, <mark className='highlight'>I conducted stakeholder interviews with these team leaders and managers to learn how they classify their product's customer base and why they do so.</mark></div>    
+                        </Grid>
+                        <Grid item xs ={12} sm={6} >
+                            <div className="text-body">Additionally, I asked if they have any questions they would like to ask to customers regarding their product so that I can refer them when I create the interview protocol. The persona draft created through stakeholder interviews is shown below.</div>    
+                        </Grid>
+                    </Grid>
+                    <img className="master-image" src={process.env.PUBLIC_URL + '/assets/ringle/persona-draft.png'} alt="master of ringle"/>
+                </div>
+
+                <div className='container-shrinked' style={{ marginTop: 180}}>
+                    <div className='text-subtitle-ringle'style={{marginBottom : 15}}>2. Outsourced market researh data analysis</div>
+                    <div className='text-phrase-ringle'style={{marginBottom : 30}}>Analyzed outsourced market research data to validate the persona draft.</div>
+                    <div className="text-body" style={{marginBottom : 30}}>The company obtained the analysis report and raw data from an outsourced market research that surveyed 1000 target consumers about a variety of topics, including their demographics, motivation for speaking English, and brand awareness. <mark className='highlight'>In order to determine whether the persona draft from the stakeholder interviews is relevant enough to move forward, I examined the raw response data of the market survey.</mark></div>    
+                    <Grid container spacing={3} direction='row' justify="center" alignItems="center">
+                        <Grid item xs ={12} sm={6}>
+                            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/ringle/report-1.png'} alt="report data 1"/>
+                        </Grid>
+                        <Grid item xs ={12} sm={6} >
+                            <div className="text-body">It turns out that compared to non Ringle user Ringle user has higher willingness to pursue global career opportunity and study abroad.</div>    
+                        </Grid>
+                        <Grid item xs ={12} sm={6} >
+                            <div className="text-body">Combining demographic data and their motivation, it turns out that 28–35 aged women typically study English to improve their career opportunities, whereas 20–27 aged men study English to pursue their education abroad.</div>    
+                        </Grid>
+                        <Grid item xs ={12} sm={6}>
+                            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/ringle/report-2.png'} alt="report data 2"/>
+                        </Grid>
+                    </Grid>
+                </div>
+
+
+                <div className='container-shrinked' style={{ marginTop: 180}}>
+                    <div className='text-subtitle-ringle'style={{marginBottom : 15}}>3. In-depth Interview Preparation</div>
+                    <div className='text-phrase-ringle'style={{marginBottom : 36}}>Iterated Interview protocols through pretest interviews.</div>
+                    <div className="text-body" style={{marginBottom : 50}}>To gain a better understanding of customer behavior, I formulated research questions and created interview questions to address them. <mark className='highlight'>By practicing the interview protocol with my colleagues, I refined my questions and improved my time management skills.</mark> This allowed me to develop a more effective interview process.</div>
+                    <img className="master-image" src={process.env.PUBLIC_URL + '/assets/ringle/prep.png'} alt="interview questions"/>
+                </div>
+
+
+                <div className='container-shrinked' style={{ marginTop: 180}}>
+                    <div className='text-subtitle-ringle'style={{marginBottom : 15}}>4. Conducting Interview - Welcome Survey</div>
+                    <div className='text-phrase-ringle'style={{marginBottom : 36}}>The welcome survey helped interviewers manage time more efficiently.</div>
+                    <div className="text-body" style={{marginBottom : 30}}>After conducting pretest interviews, <mark className='highlight'>I realized that I could save time by starting the interview with a brief survey that address simple yes/no questions.</mark> This not only allowed me to spend more time on the important questions, but it also helped the customers to become more comfortable in the unfamiliar environment.</div>
+                    <img className="master-image" src={process.env.PUBLIC_URL + '/assets/ringle/welcome.png'} alt="interview questions"/>
+                </div>
+            
+            {/*</Protect>*/}
+            
+
+
+
             <div className='container-shrinked' style={{ marginTop: 150}}>
-                <div className='text-subtitle-ringle'style={{marginBottom : 20}}>Takeaway : Interview</div>
+                <div className='text-subtitle-ringle'style={{marginBottom : 15}}>Takeaway : Interview</div>
                 <div className='text-phrase-ringle'style={{marginBottom : 20}}>11 Interview tips learned thorugh interveiws</div>
-                <div className = 'text-body'style={{marginTop: 0, marginBottom :80}}>Since this was the company's first-ever UX research project, I recorded all the materials and procedures for future reference. In addition, <u>based on the errors colleagues had made when assisting interviews, I had compiled all the semi-structured interview tips for them.</u> The following list of 11 recommendations is taken from my final internship report.</div>
+                <div className = 'text-body'style={{marginTop: 0, marginBottom :80}}>Since this was the company's first-ever UX research project, I recorded all the materials and procedures for future reference. In addition, <mark className='highlight'>based on the errors colleagues had made when assisting interviews, I had compiled all the semi-structured interview tips for them.</mark> The following list of 11 recommendations is taken from my final internship report.</div>
                 <Grid container direction='column' spacing={{xs:3, sm:4, md: 6}}>
                     <Grid item style={{display:'flex', flexDirection:'row', alignItems:'flex-start'}}>
                         <img src={process.env.PUBLIC_URL + '/assets/ringle/1.png'} width="32" hight="32" alt="icon1"  />
@@ -171,11 +227,31 @@ function Ringle() {
                 </Grid>
             </div>
 
+            <div className='container-shrinked'>
+            <Grid container spacing={3} direction='row' justify="center" alignItems="flex-start" style={{marginTop: 20}}>
+                <Grid item xs ={12} sm={6}>
+                    <img className="master-image" src={process.env.PUBLIC_URL + '/assets/ringle/interview-1.png'} alt="master of ringle"/>
+                    <div className = 'text-caption'style={{marginTop: 5}}>Interview with a customer<br/>preparing for grad school in the USA</div>
+                </Grid>
+                <Grid item xs ={12} sm={6} >
+                    <img className="master-image" src={process.env.PUBLIC_URL + '/assets/ringle/interview-2.png'} alt="master of ringle"/>
+                    <div className = 'text-caption'style={{marginTop: 5}}>Interview props and consent form</div>
+                </Grid>
+            </Grid>
+            </div>
+
             <div>
                 <div className='text-phrase-ringle'style={{marginTop:150, marginBottom : 150, textAlign:'center', fontSize:'24px'}}>Please contact me for more detail :)</div>
             </div>
+
+            
+
+            
+
             <div className='copy-project'>Copyright 2022. Sooyeon Park all rights reserved.</div>
-            {/* </Protect> */}
+
+            
+
         </div>
         
     );

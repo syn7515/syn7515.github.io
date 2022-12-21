@@ -41,7 +41,7 @@ function Aline() {
                     <div className='text-subtitle'>My Contribution</div>
                     <div className='text-body'>User Research<br/>System Design<br/>UI Design<br/>Motion Design</div>
                     <div className='text-subtitle'style={{marginTop: 50}}>Team members</div>
-                    <div className='text-body'>5 Desingers</div>
+                    <div className='text-body'>5 Designers</div>
                 </Grid>
                 <Grid item xs ={6} sm={3} style={{marginBottom: 30}}>
                     <div className='text-subtitle'>Award 🏆</div>
@@ -236,7 +236,7 @@ function Aline() {
             <div className='container-shrinked' style={{marginTop:100, marginBottom : 0}}>
                 <div className='text-subtitle-orange'style={{marginBottom: 10}}>Design Solution: Personal Value Index (PVI)</div>
                 <div className='text-phrase' style={{ textAlign: 'left', lineHeight: 1.3, color:'white'}}>Personal ESG value Index translates users' values into finance.</div>
-                <div className='text-body' style={{color : 'white', marginBottom: 60}}>The Personal Value Index (PVI) was created based on the ESG evaluation of MSCI, a reliable institution that issues the global capital index quaterly. Based on this index, the most suitable investment company for users is selected to help users realize thier vision through investment and consumption. Aline provides users with ESG information in user-friendly language.</div>
+                <div className='text-body' style={{color : 'white', marginBottom: 60}}>As an ultimate solution to track individuals’ value and reflect it in their finance, we made a new index called Personal Value Index (PVI) that follows user value. The PVI's classification was built on the criteria created by MSCI, a recognized company that publishes the global capital index with ESG ratings. To assist customers in realizing their vision through investment and consumption, the best investment option is chosen for them based on this index.</div>
             </div>
             <div className='container' style={{marginTop: 0, maxWidth: 1400}}>
                 <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/pvi.png'} alt="pvi"/>

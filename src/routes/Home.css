@@ -15,7 +15,7 @@
   align-items: center;
   display: block;
   background-color: #fff;
-
+  
 }
 
 
@@ -32,6 +32,7 @@ mix-blend-mode: difference;
 
 
 @media screen and (min-width: 600px) {
+  
   .text-name{
     font-family: GT-America;
     font-style: regular;
@@ -46,6 +47,9 @@ mix-blend-mode: difference;
     display: flex;      
     width: 100%;
     margin-bottom: 150px;
+    
+    
+    
   }
 }
 
@@ -104,7 +108,7 @@ mix-blend-mode: difference;
 .text-item-name{
 font-family: GT-America;
 font-style: regular;
-font-size: 20px;
+font-size: 18px;
 line-height: 24px;
 text-transform: uppercase;
 display: inline-block;
@@ -131,7 +135,7 @@ margin-bottom: 15px;
 .text-item-name-sub{
   font-family: GT-America;
   font-style: regular;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 150%;
   display: inline;
   }
