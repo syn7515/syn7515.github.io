@@ -1,27 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.9174ed19.chunk.css",
-    "main.js": "/static/js/main.f47f5438.chunk.js",
-    "main.js.map": "/static/js/main.f47f5438.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.14ee7864.js",
-    "runtime-main.js.map": "/static/js/runtime-main.14ee7864.js.map",
-    "static/js/2.38483180.chunk.js": "/static/js/2.38483180.chunk.js",
-    "static/js/2.38483180.chunk.js.map": "/static/js/2.38483180.chunk.js.map",
-    "static/js/3.d7c65e75.chunk.js": "/static/js/3.d7c65e75.chunk.js",
-    "static/js/3.d7c65e75.chunk.js.map": "/static/js/3.d7c65e75.chunk.js.map",
+    "main.css": "/static/css/main.57ab9602.chunk.css",
+    "main.js": "/static/js/main.a88922c2.chunk.js",
+    "main.js.map": "/static/js/main.a88922c2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.18fd6376.js",
+    "runtime-main.js.map": "/static/js/runtime-main.18fd6376.js.map",
+    "static/js/2.87f01b23.chunk.js": "/static/js/2.87f01b23.chunk.js",
+    "static/js/2.87f01b23.chunk.js.map": "/static/js/2.87f01b23.chunk.js.map",
+    "static/js/3.4fac576f.chunk.js": "/static/js/3.4fac576f.chunk.js",
+    "static/js/3.4fac576f.chunk.js.map": "/static/js/3.4fac576f.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.9174ed19.chunk.css.map": "/static/css/main.9174ed19.chunk.css.map",
-    "static/js/2.38483180.chunk.js.LICENSE.txt": "/static/js/2.38483180.chunk.js.LICENSE.txt",
+    "static/css/main.57ab9602.chunk.css.map": "/static/css/main.57ab9602.chunk.css.map",
+    "static/js/2.87f01b23.chunk.js.LICENSE.txt": "/static/js/2.87f01b23.chunk.js.LICENSE.txt",
     "static/media/Hugo.css": "/static/media/CamptonSemiBold.91dd62c2.woff",
-    "static/media/Flot.css": "/static/media/GT-America-Regular.5b77085e.otf",
-    "static/media/Ringle.css": "/static/media/NeueHaasDisplay-Roman.d3b96bd5.ttf",
+    "static/media/Home.css": "/static/media/NeueHaasDisplay-Roman.d3b96bd5.ttf",
     "static/media/Resume.v5.756fd7c6.pdf": "/static/media/Resume.v5.756fd7c6.pdf",
     "static/media/Aline.css": "/static/media/reddot icon.dcff1605.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.14ee7864.js",
-    "static/js/2.38483180.chunk.js",
-    "static/css/main.9174ed19.chunk.css",
-    "static/js/main.f47f5438.chunk.js"
+    "static/js/runtime-main.18fd6376.js",
+    "static/js/2.87f01b23.chunk.js",
+    "static/css/main.57ab9602.chunk.css",
+    "static/js/main.a88922c2.chunk.js"
   ]
 }
