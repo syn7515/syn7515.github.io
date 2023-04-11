@@ -6,13 +6,11 @@ var images = document.querySelectorAll(".title-image");
 
 for (let i=0; i < items.length; i++){
 	items[i].addEventListener("mouseover", function(){
-		// console.log("over aline");
 		titles[i].classList.add("hover");
 		images[i].classList.add("hover-animation");
 	});
 	
 	items[i].addEventListener("mouseout", function(){
-		// console.log("out aline");
 		titles[i].classList.remove("hover");
 		images[i].classList.remove("hover-animation");
 	});
@@ -20,7 +18,6 @@ for (let i=0; i < items.length; i++){
 
 
 document.querySelector(".item-medee").addEventListener("mouseover", function(){
-	console.log("I'm over medee");
 	document.querySelector(".text-item-name-medee").classList.add("hover");
 	document.querySelector(".title-medee").classList.add("hover-animation");
 	document.querySelector(".bubble-1").classList.add("bubble-animation");
