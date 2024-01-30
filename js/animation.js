@@ -48,7 +48,7 @@ items[0].addEventListener("mouseout", function(){
 	document.querySelector(".static").classList.remove("invisible");
 })
 
-items[1].addEventListener("mouseover", function(){
+items[2].addEventListener("mouseover", function(){
 	document.querySelector("#l11").classList.add("l11");
 	document.querySelector("#l12").classList.add("l12");
 	document.querySelector("#l22").classList.add("l22");
@@ -58,7 +58,7 @@ items[1].addEventListener("mouseover", function(){
 	document.querySelector("#l24").classList.add("l24");
 })
 
-items[1].addEventListener("mouseout", function(){
+items[2].addEventListener("mouseout", function(){
 	document.querySelector("#l11").classList.remove("l11");
 	document.querySelector("#l12").classList.remove("l12");
 	document.querySelector("#l22").classList.remove("l22");
