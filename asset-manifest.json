@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.59dbd18d.chunk.css",
-    "main.js": "/static/js/main.2980d2a0.chunk.js",
-    "main.js.map": "/static/js/main.2980d2a0.chunk.js.map",
+    "main.css": "/static/css/main.0987af39.chunk.css",
+    "main.js": "/static/js/main.648277b2.chunk.js",
+    "main.js.map": "/static/js/main.648277b2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.18fd6376.js",
     "runtime-main.js.map": "/static/js/runtime-main.18fd6376.js.map",
     "static/js/2.93f353cf.chunk.js": "/static/js/2.93f353cf.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.4fac576f.chunk.js": "/static/js/3.4fac576f.chunk.js",
     "static/js/3.4fac576f.chunk.js.map": "/static/js/3.4fac576f.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.59dbd18d.chunk.css.map": "/static/css/main.59dbd18d.chunk.css.map",
+    "static/css/main.0987af39.chunk.css.map": "/static/css/main.0987af39.chunk.css.map",
     "static/js/2.93f353cf.chunk.js.LICENSE.txt": "/static/js/2.93f353cf.chunk.js.LICENSE.txt",
     "static/media/Hugo.css": "/static/media/CamptonSemiBold.91dd62c2.woff",
     "static/media/Home.css": "/static/media/NeueHaasDisplay-Roman.d3b96bd5.ttf",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.18fd6376.js",
     "static/js/2.93f353cf.chunk.js",
-    "static/css/main.59dbd18d.chunk.css",
-    "static/js/main.2980d2a0.chunk.js"
+    "static/css/main.0987af39.chunk.css",
+    "static/js/main.648277b2.chunk.js"
   ]
 }
