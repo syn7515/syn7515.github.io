@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5fbf21c.chunk.css",
-    "main.js": "/static/js/main.fd8fe0c6.chunk.js",
-    "main.js.map": "/static/js/main.fd8fe0c6.chunk.js.map",
+    "main.css": "/static/css/main.91945c11.chunk.css",
+    "main.js": "/static/js/main.0c6c48af.chunk.js",
+    "main.js.map": "/static/js/main.0c6c48af.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.18fd6376.js",
     "runtime-main.js.map": "/static/js/runtime-main.18fd6376.js.map",
     "static/js/2.93f353cf.chunk.js": "/static/js/2.93f353cf.chunk.js",
@@ -10,17 +10,17 @@
     "static/js/3.4fac576f.chunk.js": "/static/js/3.4fac576f.chunk.js",
     "static/js/3.4fac576f.chunk.js.map": "/static/js/3.4fac576f.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a5fbf21c.chunk.css.map": "/static/css/main.a5fbf21c.chunk.css.map",
+    "static/css/main.91945c11.chunk.css.map": "/static/css/main.91945c11.chunk.css.map",
     "static/js/2.93f353cf.chunk.js.LICENSE.txt": "/static/js/2.93f353cf.chunk.js.LICENSE.txt",
     "static/media/Hugo.css": "/static/media/CamptonSemiBold.91dd62c2.woff",
-    "static/media/Home.css": "/static/media/NeueHaasDisplay-Roman.d3b96bd5.ttf",
+    "static/media/Home.css": "/static/media/RestartSoftDemo-Regular.b7bc1019.otf",
     "static/media/Resume.435b3ac1.pdf": "/static/media/Resume.435b3ac1.pdf",
     "static/media/Aline.css": "/static/media/reddot icon.dcff1605.png"
   },
   "entrypoints": [
     "static/js/runtime-main.18fd6376.js",
     "static/js/2.93f353cf.chunk.js",
-    "static/css/main.a5fbf21c.chunk.css",
-    "static/js/main.fd8fe0c6.chunk.js"
+    "static/css/main.91945c11.chunk.css",
+    "static/js/main.0c6c48af.chunk.js"
   ]
 }
