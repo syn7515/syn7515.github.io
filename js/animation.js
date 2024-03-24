@@ -37,13 +37,13 @@ document.querySelector(".item-medee").addEventListener("mouseout", function(){
 
 })
 
-items[0].addEventListener("mouseover", function(){
+items[1].addEventListener("mouseover", function(){
 	document.querySelector(".gif").classList.add("visible");
 	document.querySelector(".static").classList.add("invisible");
 
 })
 
-items[0].addEventListener("mouseout", function(){
+items[1].addEventListener("mouseout", function(){
 	document.querySelector(".gif").classList.remove("visible");
 	document.querySelector(".static").classList.remove("invisible");
 })
