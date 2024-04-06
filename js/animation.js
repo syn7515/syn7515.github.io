@@ -1,7 +1,7 @@
 var items = document.querySelectorAll(".item");
 var titles = document.querySelectorAll(".text-item-name");
 var images = document.querySelectorAll(".title-image");
-
+var icons = document.querySelectorAll(".shadow");
 
 
 for (let i=0; i < items.length; i++){
@@ -13,6 +13,16 @@ for (let i=0; i < items.length; i++){
 	items[i].addEventListener("mouseout", function(){
 		titles[i].classList.remove("hover");
 		images[i].classList.remove("hover-animation");
+	});
+}
+
+for (let i=0; i<icons.length; i++){
+	icons[i].addEventListener("mouseover", function(){
+		icons[i].classList.add("turn");
+	});
+
+	icons[i].addEventListener("mouseout", function(){
+		icons[i].classList.remove("turn")
 	});
 }
 
