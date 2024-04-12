@@ -58,6 +58,18 @@ items[1].addEventListener("mouseout", function(){
 	document.querySelector(".static").classList.remove("invisible");
 })
 
+items[0].addEventListener("mouseover", function(){
+	document.querySelector("#a-l11").classList.add("l11");
+	document.querySelector("#a-l12").classList.add("l12");
+	document.querySelector("#a-l22").classList.add("l22");
+})
+
+items[0].addEventListener("mouseout", function(){
+	document.querySelector("#a-l11").classList.remove("l11");
+	document.querySelector("#a-l12").classList.remove("l12");
+	document.querySelector("#a-l22").classList.remove("l22");
+})
+
 items[2].addEventListener("mouseover", function(){
 	document.querySelector("#l11").classList.add("l11");
 	document.querySelector("#l12").classList.add("l12");
