@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.98e4c315.chunk.css",
-    "main.js": "/static/js/main.7b2bb447.chunk.js",
-    "main.js.map": "/static/js/main.7b2bb447.chunk.js.map",
+    "main.js": "/static/js/main.b9194dd8.chunk.js",
+    "main.js.map": "/static/js/main.b9194dd8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.22f58734.js",
     "runtime-main.js.map": "/static/js/runtime-main.22f58734.js.map",
     "static/js/2.993dbbd5.chunk.js": "/static/js/2.993dbbd5.chunk.js",
@@ -14,13 +14,13 @@
     "static/js/2.993dbbd5.chunk.js.LICENSE.txt": "/static/js/2.993dbbd5.chunk.js.LICENSE.txt",
     "static/media/Hugo.css": "/static/media/CamptonSemiBold.91dd62c2.woff",
     "static/media/Home.css": "/static/media/RestartSoftDemo-Regular.b7bc1019.otf",
-    "static/media/Resume.06617df2.pdf": "/static/media/Resume.06617df2.pdf",
+    "static/media/Resume.c2341623.pdf": "/static/media/Resume.c2341623.pdf",
     "static/media/Aline.css": "/static/media/reddot icon.dcff1605.png"
   },
   "entrypoints": [
     "static/js/runtime-main.22f58734.js",
     "static/js/2.993dbbd5.chunk.js",
     "static/css/main.98e4c315.chunk.css",
-    "static/js/main.7b2bb447.chunk.js"
+    "static/js/main.b9194dd8.chunk.js"
   ]
 }
