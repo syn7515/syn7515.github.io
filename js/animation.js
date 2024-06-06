@@ -70,22 +70,22 @@ items[0].addEventListener("mouseout", function(){
 	document.querySelector("#a-l22").classList.remove("l22");
 })
 
-items[2].addEventListener("mouseover", function(){
-	document.querySelector("#l11").classList.add("l11");
-	document.querySelector("#l12").classList.add("l12");
-	document.querySelector("#l22").classList.add("l22");
-	document.querySelector("#l13").classList.add("l13");
-	document.querySelector("#l23").classList.add("l23");
-	document.querySelector("#l14").classList.add("l14");
-	document.querySelector("#l24").classList.add("l24");
-})
+// items[3].addEventListener("mouseover", function(){
+// 	document.querySelector("#l11").classList.add("l11");
+// 	document.querySelector("#l12").classList.add("l12");
+// 	document.querySelector("#l22").classList.add("l22");
+// 	document.querySelector("#l13").classList.add("l13");
+// 	document.querySelector("#l23").classList.add("l23");
+// 	document.querySelector("#l14").classList.add("l14");
+// 	document.querySelector("#l24").classList.add("l24");
+// })
 
-items[2].addEventListener("mouseout", function(){
-	document.querySelector("#l11").classList.remove("l11");
-	document.querySelector("#l12").classList.remove("l12");
-	document.querySelector("#l22").classList.remove("l22");
-	document.querySelector("#l13").classList.remove("l13");
-	document.querySelector("#l23").classList.remove("l23");
-	document.querySelector("#l14").classList.remove("l14");
-	document.querySelector("#l24").classList.remove("l24");
-})
+// items[3].addEventListener("mouseout", function(){
+// 	document.querySelector("#l11").classList.remove("l11");
+// 	document.querySelector("#l12").classList.remove("l12");
+// 	document.querySelector("#l22").classList.remove("l22");
+// 	document.querySelector("#l13").classList.remove("l13");
+// 	document.querySelector("#l23").classList.remove("l23");
+// 	document.querySelector("#l14").classList.remove("l14");
+// 	document.querySelector("#l24").classList.remove("l24");
+// })
