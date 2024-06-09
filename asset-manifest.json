@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c6fef48.chunk.css",
-    "main.js": "/static/js/main.512d69b2.chunk.js",
-    "main.js.map": "/static/js/main.512d69b2.chunk.js.map",
-    "reactPlayerPreview.js": "/static/js/reactPlayerPreview.2be3c70e.chunk.js",
-    "reactPlayerPreview.js.map": "/static/js/reactPlayerPreview.2be3c70e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.96272a6e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.96272a6e.js.map",
-    "static/js/3.0fd51578.chunk.js": "/static/js/3.0fd51578.chunk.js",
-    "static/js/3.0fd51578.chunk.js.map": "/static/js/3.0fd51578.chunk.js.map",
-    "static/js/4.2ce460bb.chunk.js": "/static/js/4.2ce460bb.chunk.js",
-    "static/js/4.2ce460bb.chunk.js.map": "/static/js/4.2ce460bb.chunk.js.map",
+    "main.css": "/static/css/main.8dc3b62d.chunk.css",
+    "main.js": "/static/js/main.cd57df53.chunk.js",
+    "main.js.map": "/static/js/main.cd57df53.chunk.js.map",
+    "reactPlayerPreview.js": "/static/js/reactPlayerPreview.b8620714.chunk.js",
+    "reactPlayerPreview.js.map": "/static/js/reactPlayerPreview.b8620714.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0b6585aa.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0b6585aa.js.map",
+    "static/js/3.2101c3da.chunk.js": "/static/js/3.2101c3da.chunk.js",
+    "static/js/3.2101c3da.chunk.js.map": "/static/js/3.2101c3da.chunk.js.map",
+    "static/js/4.1f72df6b.chunk.js": "/static/js/4.1f72df6b.chunk.js",
+    "static/js/4.1f72df6b.chunk.js.map": "/static/js/4.1f72df6b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8c6fef48.chunk.css.map": "/static/css/main.8c6fef48.chunk.css.map",
-    "static/js/3.0fd51578.chunk.js.LICENSE.txt": "/static/js/3.0fd51578.chunk.js.LICENSE.txt",
+    "static/css/main.8dc3b62d.chunk.css.map": "/static/css/main.8dc3b62d.chunk.css.map",
+    "static/js/3.2101c3da.chunk.js.LICENSE.txt": "/static/js/3.2101c3da.chunk.js.LICENSE.txt",
     "static/media/Hugo.css": "/static/media/CamptonSemiBold.91dd62c2.woff",
     "static/media/Home.css": "/static/media/TWKLausannePan-450.48a9d46c.ttf",
     "static/media/Resume.226e1aec.pdf": "/static/media/Resume.226e1aec.pdf",
     "static/media/Aline.css": "/static/media/reddot icon.dcff1605.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.96272a6e.js",
-    "static/js/3.0fd51578.chunk.js",
-    "static/css/main.8c6fef48.chunk.css",
-    "static/js/main.512d69b2.chunk.js"
+    "static/js/runtime-main.0b6585aa.js",
+    "static/js/3.2101c3da.chunk.js",
+    "static/css/main.8dc3b62d.chunk.css",
+    "static/js/main.cd57df53.chunk.js"
   ]
 }

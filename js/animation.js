@@ -1,8 +1,37 @@
 var items = document.querySelectorAll(".item");
 var titles = document.querySelectorAll(".text-item-name");
 var images = document.querySelectorAll(".title-image");
-var icons = document.querySelectorAll(".shadow");
+var projects = document.querySelectorAll(".projectCard");
+var projectTitle = document.querySelectorAll(".project-title");
 
+var projects2 = document.querySelectorAll(".projectCard-2");
+
+for (let i=0; i < projects.length-1; i++){
+	projects[i].addEventListener("mouseover", function(){
+		projects[i].classList.add("shadow");
+		projectTitle[i].classList.add("hover");
+	});
+}
+
+for (let i=0; i < projects.length-1; i++){
+	projects[i].addEventListener("mouseout", function(){
+		projects[i].classList.remove("shadow");
+		projectTitle[i].classList.remove("hover");
+	});
+}
+
+
+for (let i=0; i < projects2.length; i++){
+	projects2[i].addEventListener("mouseover", function(){
+		projects2[i].classList.add("shadow");
+	});
+}
+
+for (let i=0; i < projects2.length; i++){
+	projects2[i].addEventListener("mouseout", function(){
+		projects2[i].classList.remove("shadow");
+	});
+}
 
 for (let i=0; i < items.length; i++){
 	items[i].addEventListener("mouseover", function(){
