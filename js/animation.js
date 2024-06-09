@@ -3,7 +3,6 @@ var titles = document.querySelectorAll(".text-item-name");
 var images = document.querySelectorAll(".title-image");
 var projects = document.querySelectorAll(".projectCard");
 var projectTitle = document.querySelectorAll(".project-title");
-
 var projects2 = document.querySelectorAll(".projectCard-2");
 
 for (let i=0; i < projects.length-1; i++){
@@ -45,59 +44,59 @@ for (let i=0; i < items.length; i++){
 	});
 }
 
-for (let i=0; i<icons.length; i++){
-	icons[i].addEventListener("mouseover", function(){
-		icons[i].classList.add("turn");
-	});
+// for (let i=0; i<icons.length; i++){
+// 	icons[i].addEventListener("mouseover", function(){
+// 		icons[i].classList.add("turn");
+// 	});
 
-	icons[i].addEventListener("mouseout", function(){
-		icons[i].classList.remove("turn")
-	});
-}
+// 	icons[i].addEventListener("mouseout", function(){
+// 		icons[i].classList.remove("turn")
+// 	});
+// }
 
 
-document.querySelector(".item-medee").addEventListener("mouseover", function(){
-	document.querySelector(".text-item-name-medee").classList.add("hover");
-	document.querySelector(".title-medee").classList.add("hover-animation");
-	document.querySelector(".bubble-1").classList.add("bubble-animation");
-	document.querySelector(".bubble-2").classList.add("bubble-animation-1s");
-	document.querySelector(".bubble-3").classList.add("bubble-animation-3s");
-	document.querySelector(".medeeUI").classList.add("vibrate");
+// document.querySelector(".item-medee").addEventListener("mouseover", function(){
+// 	document.querySelector(".text-item-name-medee").classList.add("hover");
+// 	document.querySelector(".title-medee").classList.add("hover-animation");
+// 	document.querySelector(".bubble-1").classList.add("bubble-animation");
+// 	document.querySelector(".bubble-2").classList.add("bubble-animation-1s");
+// 	document.querySelector(".bubble-3").classList.add("bubble-animation-3s");
+// 	document.querySelector(".medeeUI").classList.add("vibrate");
 
-});
+// });
 
-document.querySelector(".item-medee").addEventListener("mouseout", function(){
-	document.querySelector(".text-item-name-medee").classList.remove("hover");
-	document.querySelector(".title-medee").classList.remove("hover-animation");
-	document.querySelector(".bubble-1").classList.remove("bubble-animation");
-	document.querySelector(".bubble-2").classList.remove("bubble-animation-1s");
-	document.querySelector(".bubble-3").classList.remove("bubble-animation-3s");
-	document.querySelector(".medeeUI").classList.remove("vibrate");
+// document.querySelector(".item-medee").addEventListener("mouseout", function(){
+// 	document.querySelector(".text-item-name-medee").classList.remove("hover");
+// 	document.querySelector(".title-medee").classList.remove("hover-animation");
+// 	document.querySelector(".bubble-1").classList.remove("bubble-animation");
+// 	document.querySelector(".bubble-2").classList.remove("bubble-animation-1s");
+// 	document.querySelector(".bubble-3").classList.remove("bubble-animation-3s");
+// 	document.querySelector(".medeeUI").classList.remove("vibrate");
 
-})
+// })
 
-items[1].addEventListener("mouseover", function(){
-	document.querySelector(".gif").classList.add("visible");
-	document.querySelector(".static").classList.add("invisible");
+// items[1].addEventListener("mouseover", function(){
+// 	document.querySelector(".gif").classList.add("visible");
+// 	document.querySelector(".static").classList.add("invisible");
 
-})
+// })
 
-items[1].addEventListener("mouseout", function(){
-	document.querySelector(".gif").classList.remove("visible");
-	document.querySelector(".static").classList.remove("invisible");
-})
+// items[1].addEventListener("mouseout", function(){
+// 	document.querySelector(".gif").classList.remove("visible");
+// 	document.querySelector(".static").classList.remove("invisible");
+// })
 
-items[0].addEventListener("mouseover", function(){
-	document.querySelector("#a-l11").classList.add("l11");
-	document.querySelector("#a-l12").classList.add("l12");
-	document.querySelector("#a-l22").classList.add("l22");
-})
+// items[0].addEventListener("mouseover", function(){
+// 	document.querySelector("#a-l11").classList.add("l11");
+// 	document.querySelector("#a-l12").classList.add("l12");
+// 	document.querySelector("#a-l22").classList.add("l22");
+// })
 
-items[0].addEventListener("mouseout", function(){
-	document.querySelector("#a-l11").classList.remove("l11");
-	document.querySelector("#a-l12").classList.remove("l12");
-	document.querySelector("#a-l22").classList.remove("l22");
-})
+// items[0].addEventListener("mouseout", function(){
+// 	document.querySelector("#a-l11").classList.remove("l11");
+// 	document.querySelector("#a-l12").classList.remove("l12");
+// 	document.querySelector("#a-l22").classList.remove("l22");
+// })
 
 // items[3].addEventListener("mouseover", function(){
 // 	document.querySelector("#l11").classList.add("l11");
