@@ -32,17 +32,19 @@ for (let i=0; i < projects2.length; i++){
 	});
 }
 
-for (let i=0; i < items.length; i++){
-	items[i].addEventListener("mouseover", function(){
-		titles[i].classList.add("hover");
-		images[i].classList.add("hover-animation");
-	});
+
+
+// for (let i=0; i < items.length; i++){
+// 	items[i].addEventListener("mouseover", function(){
+// 		titles[i].classList.add("hover");
+// 		images[i].classList.add("hover-animation");
+// 	});
 	
-	items[i].addEventListener("mouseout", function(){
-		titles[i].classList.remove("hover");
-		images[i].classList.remove("hover-animation");
-	});
-}
+// 	items[i].addEventListener("mouseout", function(){
+// 		titles[i].classList.remove("hover");
+// 		images[i].classList.remove("hover-animation");
+// 	});
+// }
 
 // for (let i=0; i<icons.length; i++){
 // 	icons[i].addEventListener("mouseover", function(){
