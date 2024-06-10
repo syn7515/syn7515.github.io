@@ -7,14 +7,16 @@ var projects2 = document.querySelectorAll(".projectCard-2");
 
 for (let i=0; i < projects.length-1; i++){
 	projects[i].addEventListener("mouseover", function(){
-		projects[i].classList.add("shadow");
+		// projects[i].classList.add("shadow");
+		// projects[i].classList.add("outline");
 		projectTitle[i].classList.add("hover");
 	});
 }
 
 for (let i=0; i < projects.length-1; i++){
 	projects[i].addEventListener("mouseout", function(){
-		projects[i].classList.remove("shadow");
+		// projects[i].classList.remove("shadow");
+		// projects[i].classList.remove("outline");
 		projectTitle[i].classList.remove("hover");
 	});
 }
@@ -22,13 +24,13 @@ for (let i=0; i < projects.length-1; i++){
 
 for (let i=0; i < projects2.length; i++){
 	projects2[i].addEventListener("mouseover", function(){
-		projects2[i].classList.add("shadow");
+		// projects2[i].classList.add("shadow");
 	});
 }
 
 for (let i=0; i < projects2.length; i++){
 	projects2[i].addEventListener("mouseout", function(){
-		projects2[i].classList.remove("shadow");
+		// projects2[i].classList.remove("shadow");
 	});
 }
 
