@@ -4,12 +4,15 @@ var images = document.querySelectorAll(".title-image");
 var projects = document.querySelectorAll(".projectCard");
 var projectTitle = document.querySelectorAll(".project-title");
 var projects2 = document.querySelectorAll(".projectCard-2");
+var arrows = document.querySelectorAll(".arrow");
+var arrows2 = document.querySelectorAll(".arrow-2");
 
 for (let i=0; i < projects.length-1; i++){
 	projects[i].addEventListener("mouseover", function(){
 		// projects[i].classList.add("shadow");
 		// projects[i].classList.add("outline");
 		// projectTitle[i].classList.add("hover");
+		arrows[i].classList.add("arrow-animation");
 	});
 }
 
@@ -18,6 +21,7 @@ for (let i=0; i < projects.length-1; i++){
 		// projects[i].classList.remove("shadow");
 		// projects[i].classList.remove("outline");
 		// projectTitle[i].classList.remove("hover");
+		arrows[i].classList.remove("arrow-animation");
 	});
 }
 
@@ -25,12 +29,16 @@ for (let i=0; i < projects.length-1; i++){
 for (let i=0; i < projects2.length; i++){
 	projects2[i].addEventListener("mouseover", function(){
 		// projects2[i].classList.add("shadow");
+		arrows2[i].classList.add("arrow-animation");
+
 	});
 }
 
 for (let i=0; i < projects2.length; i++){
 	projects2[i].addEventListener("mouseout", function(){
 		// projects2[i].classList.remove("shadow");
+		arrows2[i].classList.remove("arrow-animation");
+
 	});
 }
 
