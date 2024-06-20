@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.af8eace0.chunk.css",
-    "main.js": "/static/js/main.24e49154.chunk.js",
-    "main.js.map": "/static/js/main.24e49154.chunk.js.map",
+    "main.css": "/static/css/main.c7dc9168.chunk.css",
+    "main.js": "/static/js/main.4855caba.chunk.js",
+    "main.js.map": "/static/js/main.4855caba.chunk.js.map",
     "reactPlayerPreview.js": "/static/js/reactPlayerPreview.b8620714.chunk.js",
     "reactPlayerPreview.js.map": "/static/js/reactPlayerPreview.b8620714.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0b6585aa.js",
     "runtime-main.js.map": "/static/js/runtime-main.0b6585aa.js.map",
-    "static/js/3.2101c3da.chunk.js": "/static/js/3.2101c3da.chunk.js",
-    "static/js/3.2101c3da.chunk.js.map": "/static/js/3.2101c3da.chunk.js.map",
+    "static/js/3.b6bcd693.chunk.js": "/static/js/3.b6bcd693.chunk.js",
+    "static/js/3.b6bcd693.chunk.js.map": "/static/js/3.b6bcd693.chunk.js.map",
     "static/js/4.1f72df6b.chunk.js": "/static/js/4.1f72df6b.chunk.js",
     "static/js/4.1f72df6b.chunk.js.map": "/static/js/4.1f72df6b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.af8eace0.chunk.css.map": "/static/css/main.af8eace0.chunk.css.map",
-    "static/js/3.2101c3da.chunk.js.LICENSE.txt": "/static/js/3.2101c3da.chunk.js.LICENSE.txt",
+    "static/css/main.c7dc9168.chunk.css.map": "/static/css/main.c7dc9168.chunk.css.map",
+    "static/js/3.b6bcd693.chunk.js.LICENSE.txt": "/static/js/3.b6bcd693.chunk.js.LICENSE.txt",
     "static/media/Hugo.css": "/static/media/CamptonSemiBold.91dd62c2.woff",
     "static/media/Home.css": "/static/media/TWKLausannePan-450.48a9d46c.ttf",
     "static/media/Resume.226e1aec.pdf": "/static/media/Resume.226e1aec.pdf",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0b6585aa.js",
-    "static/js/3.2101c3da.chunk.js",
-    "static/css/main.af8eace0.chunk.css",
-    "static/js/main.24e49154.chunk.js"
+    "static/js/3.b6bcd693.chunk.js",
+    "static/css/main.c7dc9168.chunk.css",
+    "static/js/main.4855caba.chunk.js"
   ]
 }
