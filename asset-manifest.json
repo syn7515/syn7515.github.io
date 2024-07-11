@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c7dc9168.chunk.css",
-    "main.js": "/static/js/main.5a517ca3.chunk.js",
-    "main.js.map": "/static/js/main.5a517ca3.chunk.js.map",
+    "main.js": "/static/js/main.a605cd11.chunk.js",
+    "main.js.map": "/static/js/main.a605cd11.chunk.js.map",
     "reactPlayerPreview.js": "/static/js/reactPlayerPreview.b8620714.chunk.js",
     "reactPlayerPreview.js.map": "/static/js/reactPlayerPreview.b8620714.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0b6585aa.js",
@@ -16,13 +16,13 @@
     "static/js/3.4139d09c.chunk.js.LICENSE.txt": "/static/js/3.4139d09c.chunk.js.LICENSE.txt",
     "static/media/Hugo.css": "/static/media/CamptonSemiBold.91dd62c2.woff",
     "static/media/Home.css": "/static/media/TWKLausannePan-450.48a9d46c.ttf",
-    "static/media/Resume.226e1aec.pdf": "/static/media/Resume.226e1aec.pdf",
+    "static/media/Resume.5f1751ab.pdf": "/static/media/Resume.5f1751ab.pdf",
     "static/media/Aline.css": "/static/media/reddot icon.dcff1605.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0b6585aa.js",
     "static/js/3.4139d09c.chunk.js",
     "static/css/main.c7dc9168.chunk.css",
-    "static/js/main.5a517ca3.chunk.js"
+    "static/js/main.a605cd11.chunk.js"
   ]
 }
