@@ -6,6 +6,7 @@ var projectTitle = document.querySelectorAll(".project-title");
 var projects2 = document.querySelectorAll(".projectCard-2");
 var arrows = document.querySelectorAll(".arrow");
 var arrows2 = document.querySelectorAll(".arrow-2");
+var resume = document.querySelectorAll("#resume");
 
 for (let i=0; i < projects.length-1; i++){
 	projects[i].addEventListener("mouseover", function(){
@@ -38,6 +39,22 @@ for (let i=0; i < projects2.length; i++){
 	projects2[i].addEventListener("mouseout", function(){
 		// projects2[i].classList.remove("shadow");
 		arrows2[i].classList.remove("arrow-animation");
+
+	});
+}
+
+for (let i=0; i< resume.length; i++){
+	resume[i].addEventListener("mouseover", function(){
+		resume[i].classList.add("button-animation");
+		console.log("mouse hover");
+	});
+}
+
+
+for (let i=0; i< resume.length; i++){
+	resume[i].addEventListener("mouseout", function(){
+		resume[i].classList.remove("button-animation");
+		console.log("mouse out");
 
 	});
 }
