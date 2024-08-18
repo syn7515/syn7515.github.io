@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d1a72d9.chunk.css",
-    "main.js": "/static/js/main.06b0b45a.chunk.js",
-    "main.js.map": "/static/js/main.06b0b45a.chunk.js.map",
+    "main.css": "/static/css/main.000341f6.chunk.css",
+    "main.js": "/static/js/main.83a84b1e.chunk.js",
+    "main.js.map": "/static/js/main.83a84b1e.chunk.js.map",
     "reactPlayerPreview.js": "/static/js/reactPlayerPreview.b8620714.chunk.js",
     "reactPlayerPreview.js.map": "/static/js/reactPlayerPreview.b8620714.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0b6585aa.js",
@@ -12,7 +12,7 @@
     "static/js/4.1f72df6b.chunk.js": "/static/js/4.1f72df6b.chunk.js",
     "static/js/4.1f72df6b.chunk.js.map": "/static/js/4.1f72df6b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.0d1a72d9.chunk.css.map": "/static/css/main.0d1a72d9.chunk.css.map",
+    "static/css/main.000341f6.chunk.css.map": "/static/css/main.000341f6.chunk.css.map",
     "static/js/3.29f03402.chunk.js.LICENSE.txt": "/static/js/3.29f03402.chunk.js.LICENSE.txt",
     "static/media/Hugo.css": "/static/media/CamptonSemiBold.91dd62c2.woff",
     "static/media/Home.css": "/static/media/TWKLausannePan-450.48a9d46c.ttf",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.0b6585aa.js",
     "static/js/3.29f03402.chunk.js",
-    "static/css/main.0d1a72d9.chunk.css",
-    "static/js/main.06b0b45a.chunk.js"
+    "static/css/main.000341f6.chunk.css",
+    "static/js/main.83a84b1e.chunk.js"
   ]
 }
